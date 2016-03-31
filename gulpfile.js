@@ -90,10 +90,10 @@ gulp.task('browser-sync', ['build'], function() {
 
   browserSync.init(files, {
     // Proxy address
-    proxy: URL,
+    proxy: "http://house-advantage.dev",
 
     // Port #
-    // port: PORT
+    port: 3001
   });
 });
 

@@ -75,17 +75,6 @@
   Add your scss files below to structure your project styles
 */
 
-// Modules
-@import "modules/navigation";
-@import "modules/footer";
-@import "modules/sidebar";
-
-// Components
-@import "components/buttons";
-@import "components/featured-image";
-@import "components/dividers";
-@import "components/links";
-
 // Templates
 @import "templates/front";
 @import "templates/kitchen-sink";
@@ -93,3 +82,38 @@
 @import "templates/page-sidebar-left";
 @import "templates/page-full-width";
 @import "templates/single-post";
+
+
+// Settings: Global variables, config switches.
+
+// Tools: Default mixins and functions. [aliases, mixins]
+@import "tools.aliases";
+@import "tools.functions";
+@import "tools.mixins";
+
+// Generic: Ground-zero styles [Normalize.css, resets, box-sizing].
+
+// Base: Unclassed HTML elements [type selectors].
+@import "base.quotes";
+@import "base.type";
+// @import "base.headings";
+
+// Objects: Cosmetic-free design patterns. [wrappers]
+
+// Components: Designed components, chunks of UI. [page-foot, page-head, boxes, buttons, dividers]
+@import "components.bands";
+@import "components.buttons";
+@import "components.dividers";
+@import "components.lists";
+@import "components.quotes";
+@import "components.featured-image";
+@import "components.links";
+@import "components.masthead";
+@import "components.page-foot";
+@import "components.site-nav";
+@import "components.sidebar";
+@import "components.pull-quotes";
+@import "components.nuggets";
+
+// Trumps: Helpers and overrides.
+// @import "trumps.headings";

@@ -1,3 +1,7 @@
+/*------------------------------------*\
+   #SITE-NAV
+\*------------------------------------*/
+
 /* Navigation breakpoints */
 
 .desktop-menu, .top-bar-left {
@@ -35,24 +39,27 @@
   .menu a {
     height: 45px;
     line-height: 45px;
-    color: #e6e6e6;
+    // color: #e6e6e6;
+    color: $color-grey-dark;
     padding-top: 0;
     padding-bottom: 0;
     font-weight: bold;
-    font-size: 0.8rem;
+    // font-size: 0.8rem;
+    font-size: rem-calc(18);
     line-height: 1;
+    text-transform: uppercase;
 
     &:hover:not(.button) {
-      background-color: #2a2a2a;
+      // background-color: #2a2a2a;
     }
   }
 
   .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  // .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
-    color: #e6e6e6;
+    background-color: $color-white;
+    color: $color-grey-dark;
     border: 0;
   }
 

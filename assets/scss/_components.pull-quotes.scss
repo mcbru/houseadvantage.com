@@ -1,0 +1,95 @@
+/*------------------------------------*\
+  #PULL-QUOTES
+\*------------------------------------*/
+
+.pull-quote {
+  /**
+   * .4em is roughly equal to the width of the opening “ that we wish to hang.
+   */
+
+// text-indent:-0.41em;
+
+// @include font-size(26px);
+// color: $color-quote;
+// padding-left: 0.5 * $spacing-unit;
+// padding-top: $spacing-unit;
+// padding-bottom: $spacing-unit;
+  color: $color-gold-alt;
+  text-transform: uppercase;
+  padding: $spacing-unit;
+  font-size: rem-calc(24);
+  font-weight: bold;
+// border-left: 0.5 * $spacing-unit solid $color-tint;
+// border-top: 2px solid $color-blue-brand-accent-light;
+// border-bottom: 2px solid $color-blue-brand-accent-light;
+// margin-right: 0;
+// margin-left:  0;
+
+// @include media-query(lap-and-up) {
+//   // margin-left: -$spacing-unit;
+//   @include font-size(28px);
+//   padding-left: quadruple($spacing-unit);
+//   padding-right: quadruple($spacing-unit);
+// }
+
+}
+
+.pull-quote__source {
+  // display:block;
+  text-indent:0;
+  font-style: normal;
+
+  &:before{
+    content:"\2014";
+  }
+}
+
+.pull-quote--vanilla {
+  border-left: 1px solid $color-red;
+  border-right: 1px solid $color-red;
+}
+
+/**
+ * Banner-style quotes, used primarily in the homepage carousel. Unfortunately
+ * we need to undo a few things that we’d already set previously.
+ */
+.pull-quote--banner {
+  // max-width: 26em;
+  // padding: 0 $spacing-unit--small;
+  text-indent: 0;
+  // min-height: 288px;
+  // border-color: $color-gray-dark;
+  border: none;
+  // border-left: none;
+  margin: 0 auto;
+  // // color: $color-quote--banner;
+  // font-style: normal;
+  //
+  // @include media-query(lap-and-up) {
+    //     @include font-size(32px, false);
+    //     line-height: 1.4;
+  // }
+}
+
+/**
+ * Pull quotes that sit within the context of their surrounding copy.
+ */
+// .pull-quote--context {
+//
+//     @include media-query(lap-and-up) {
+//         width: 50%;
+//         float: left;
+//         margin-right: $spacing-unit;
+//     }
+//
+// }
+//
+// .pull-quote--context-alt {
+//
+//     @include media-query(lap-and-up) {
+//         width: 50%;
+//         float: right;
+//         margin-left: $spacing-unit;
+//     }
+//
+// }

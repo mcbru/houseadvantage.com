@@ -1,0 +1,45 @@
+/*------------------------------------*\
+  #BUTTONS
+\*------------------------------------*/
+
+// .sites-button {
+//   background: #FF6908;
+//   font-size: 1.25rem;
+//   font-weight: bold;
+//   box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+//   border-radius: 3px;
+//   border: none;
+// }
+
+.button {
+  border-radius: $global-radius;
+  text-transform: uppercase;
+}
+
+.button--hero {
+  background-color: $white;
+  border-radius: 3px;
+  color: $black;
+  font-weight: bold;
+  font-size: rem-calc(17);
+  position: relative;
+  margin-top: $spacing-unit;
+  > .fa {
+    margin-right: $spacing-unit;
+  }
+}
+
+// http://stackoverflow.com/questions/19463904/css-double-border-with-different-color
+.button--hero:before {
+  background: none;
+  border: 1px solid $color-gold-alt;
+  border-radius: $global-radius;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}

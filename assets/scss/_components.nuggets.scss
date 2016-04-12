@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  #NUGGETS
+\*------------------------------------*/
+
+.nugget-group {
+  .nugget__item {
+    h3 {
+      // color: #0a0a0a;
+      font-weight: bold;
+      // font-size: 1.75rem;
+      font-size: rem-calc(22);
+    }
+
+    p {
+      font-family: Raleway, Helvetica, Roboto, Arial, sans-serif;
+    }
+  }
+}
+

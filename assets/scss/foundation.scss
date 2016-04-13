@@ -76,7 +76,7 @@
 */
 
 // Templates
-@import "templates/front";
+// @import "templates/front";
 @import "templates/kitchen-sink";
 @import "templates/page-default";
 @import "templates/page-sidebar-left";
@@ -114,6 +114,7 @@
 @import "components.sidebar";
 @import "components.pull-quotes";
 @import "components.nuggets";
+@import "components.hero";
 
 // Trumps: Helpers and overrides.
-// @import "trumps.headings";
+@import "trumps.headings";

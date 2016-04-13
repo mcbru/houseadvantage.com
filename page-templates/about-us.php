@@ -4,7 +4,7 @@ Template Name: About Us
 */
 get_header(); ?>
 
-<header id="front-hero" role="banner">
+<div id="front-hero" role="banner">
   <div class="marketing">
     <h1>House Advantage is a loyalty strategy company with deep operational and strategic expertise in managing enterprise-level loyalty marketing programs.</h1>
     <?php /*
@@ -22,7 +22,7 @@ get_header(); ?>
     <!-- </div> -->
   </div>
 
-</header>
+</div>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php /*

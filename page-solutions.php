@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * The template for displaying the Home page
+ * The template for displaying the Solutions page
  *
  */
 
@@ -9,11 +9,12 @@ get_header(); ?>
 
 <header class="hero  hero--abstract-1" role="banner">
   <div class="row  column">
-    <h1 class="hero__text">House Advantage is a loyalty strategy company with deep operational and strategic expertise in managing enterprise-level loyalty marketing programs.</h1>
-    <?php /*
-    <h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-     */ ?>
-    <a role="button" class="large  button  button--hero" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
+    <h1 class="hero__text">Pick a Winner</h1>
+    <p class="hero__text">House Advantage loyalty marketing solutions provide the world’s largest and most innovative leading resort, leisure and entertainment companies with the tools to increase customer engagement, drive revenue, and gain competitive advantage in fast-moving, highly competitive markets.
+    <br>
+    <strong>At House Advantage, we deliver value.</strong>
+    </p>
+    <a role="button" class="large  button  button--hero" href="#"><i class="fa  fa-lightbulb-o"></i>CTA</a>
 
     <!-- <div id="watch"> -->
     <!--   <section id="stargazers"> -->
@@ -57,13 +58,12 @@ get_header(); ?>
 <!-- </div> -->
 
 
-<section class="[ band  band--special ]  text-center">
-  <div class="row">
-    <!-- <header> -->
-      <h2 class="slashes">What We Do</h2>
-      <p>In today’s highly dynamic resort, leisure and entertainment markets, operators like you are looking for meaningful ways to build stronger customer bonds and drive revenue profitably. Enhancing the customer experience through a comprehensive loyalty proposition is a proven way of ensuring you gain that competitive edge and deliver bottom line results.</p>
-      <!-- <h4>Foundation is the professional choice for designers, developers and teams. <br /> WordPress is by far, <a href="http://trends.builtwith.com/cms">the world's most popular CMS</a> (currently powering 38% of the web).</h4> -->
-    <!-- </header> -->
+<section class="band">
+  <div class="row  column">
+      <h2 id="products">Loyalty Software Solutions</h2>
+      <p><strong>HALo</strong> is a suite of centrally managed loyalty solutions that enable delivery of tailored programs and incentives across multiple platforms to directly reach targeted customer segments and drive successful promotions in real time, without the need to standardize on single a system or platform. HALo is a proven solution with huge geographic and transactional scale, whose equivalents are only seen in the largest global financial networks.</p>
+      <p><strong><a href="halo-core.html">HALo CORE</a></strong> is the heart of the solution, delivering the fundamental tools to elevate loyalty marketing from existing transactional and management systems. It enables a highly configurable, coherent, and centrally managed loyalty platform that allows customers to earn and redeem rewards across single or multiple properties. HALo CORE provides the tools to execute and manage promotions that engage customers in dynamic ways and create a universal loyalty experience.  HALo CORE is licensed across a geographically diverse set of markets via state and local regulatory bodies.</p>
+      <p>Additional capabilities and products extend the power of the HALo loyalty technologies.</p>
 
   <div class="small-12  medium-4  column">
     <div class="nugget-group  text-left">

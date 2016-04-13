@@ -2,6 +2,12 @@
     #HEADINGS
 \*------------------------------------*/
 
+.slashes {
+  display: inline-block;
+  padding: 0 60px;
+  background: url('../images/red-line-diagonal.svg') bottom left no-repeat;
+}
+
 /**
  * Headings 1–6’s corresponding Greek-alphabet abstract classes for double-
  * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
@@ -13,32 +19,32 @@
  *
  */
 
-.#{$inuit-namespace}alpha,
-%#{$inuit-namespace}alpha {
-    @include inuit-font-size($inuit-heading-size-1);
-}
-
-.#{$inuit-namespace}beta,
-%#{$inuit-namespace}beta {
-    @include inuit-font-size($inuit-heading-size-2);
-}
-
-.#{$inuit-namespace}gamma,
-%#{$inuit-namespace}gamma {
-    @include inuit-font-size($inuit-heading-size-3);
-}
-
-.#{$inuit-namespace}delta,
-%#{$inuit-namespace}delta {
-    @include inuit-font-size($inuit-heading-size-4);
-}
-
-.#{$inuit-namespace}epsilon,
-%#{$inuit-namespace}epsilon {
-    @include inuit-font-size($inuit-heading-size-5);
-}
-
-.#{$inuit-namespace}zeta,
-%#{$inuit-namespace}zeta {
-    @include inuit-font-size($inuit-heading-size-6);
-}
+// .#{$inuit-namespace}alpha,
+// %#{$inuit-namespace}alpha {
+//     @include inuit-font-size($inuit-heading-size-1);
+// }
+//
+// .#{$inuit-namespace}beta,
+// %#{$inuit-namespace}beta {
+//     @include inuit-font-size($inuit-heading-size-2);
+// }
+//
+// .#{$inuit-namespace}gamma,
+// %#{$inuit-namespace}gamma {
+//     @include inuit-font-size($inuit-heading-size-3);
+// }
+//
+// .#{$inuit-namespace}delta,
+// %#{$inuit-namespace}delta {
+//     @include inuit-font-size($inuit-heading-size-4);
+// }
+//
+// .#{$inuit-namespace}epsilon,
+// %#{$inuit-namespace}epsilon {
+//     @include inuit-font-size($inuit-heading-size-5);
+// }
+//
+// .#{$inuit-namespace}zeta,
+// %#{$inuit-namespace}zeta {
+//     @include inuit-font-size($inuit-heading-size-6);
+// }

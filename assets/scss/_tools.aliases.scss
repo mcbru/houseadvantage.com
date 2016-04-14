@@ -8,6 +8,6 @@ $spacing-unit--large:   $inuit-base-spacing-unit--large;
 
 
 
-// @mixin font-size($args...) {
-//     @include inuit-font-size($args...);
-// }
+@mixin font-size($args...) {
+    @include inuit-font-size($args...);
+}

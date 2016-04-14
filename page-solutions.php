@@ -64,79 +64,102 @@ get_header(); ?>
       <p><strong>HALo</strong> is a suite of centrally managed loyalty solutions that enable delivery of tailored programs and incentives across multiple platforms to directly reach targeted customer segments and drive successful promotions in real time, without the need to standardize on single a system or platform. HALo is a proven solution with huge geographic and transactional scale, whose equivalents are only seen in the largest global financial networks.</p>
       <p><strong><a href="halo-core.html">HALo CORE</a></strong> is the heart of the solution, delivering the fundamental tools to elevate loyalty marketing from existing transactional and management systems. It enables a highly configurable, coherent, and centrally managed loyalty platform that allows customers to earn and redeem rewards across single or multiple properties. HALo CORE provides the tools to execute and manage promotions that engage customers in dynamic ways and create a universal loyalty experience.  HALo CORE is licensed across a geographically diverse set of markets via state and local regulatory bodies.</p>
       <p>Additional capabilities and products extend the power of the HALo loyalty technologies.</p>
-
-  <div class="small-12  medium-4  column">
-    <div class="nugget-group  text-left">
-      <div class="nugget__item">
-        <h3>Seamless Integration</h3>
-        <p>Extend the value of your current systems by seamlessly integrating HALo loyalty solutions with existing management systems.</p>
-      </div>
-
-      <div class="nugget__item">
-        <h3>Real-Time</h3>
-        <p>Incorporate patron data in real-time across all existing transactional systems to provide a consistent, universal loyalty experience.</p>
-      </div>
-
-      <div class="nugget__item">
-        <h3>Expand Value</h3>
-        <p>Expand the value proposition of your program by engaging your members across all amenities and touch points, in real time.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="small-12  medium-4  column">
-    <div class="pull-quote  pull-quote--vanilla">
-      <p>Differentiate your loyalty program with the power and flexibility of HALo, an advanced loyalty solution that can help you boost customer engagement and gain competitive advantage in highly dynamic markets.</p>
-    </div>
-  </div>
-
-  <div class="small-12  medium-4  column">
-    <div class="nugget-group  text-left">
-      <div class="nugget__item">
-        <h3>On-Demand</h3>
-        <p>Empower customers to redeem offers and rewards and manage their own experiences through a variety of self-service interfaces.</p>
-      </div>
-
-      <div class="nugget__item">
-        <h3>Advanced Capabilities</h3>
-        <p>Enable the creation and execution of promotions, events and campaigns through a suite of advanced loyalty marketing capabilities.</p>
-      </div>
-
-      <div>
-        <h3>Large CTA Here</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="nugget-group">
+        <div class="row">
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Promotions</h3>
+            <p class="nugget--text__medium">HALo Promotions automates the creation, execution and management of promotional campaigns.</p>
+            <a href="halo-promotions.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Offers</h3>
+            <p class="nugget--text__medium">Halo Offers allows marketing teams to publish targeted offers directly into HALo, allowing customers to view and redeem their offers wherever and whenever they need.</p>
+            <a href="halo-offer-management.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Mobile</h3>
+            <p class="nugget--text__medium">HALo Mobile provides mobile access to all player management functions – securely, enterprise-wide – on iOS and Android.</p>
+            <a href="halo-mobile.html" class="button">CTA</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-4  column  medium-offset-2  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Kiosk</h3>
+            <p class="nugget--text__medium">HALo Kiosk empowers member self-service at kiosks, or via mobile apps and secure web portals.</p>
+            <a href="halo-kiosk.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center  end" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Event Management</h3>
+            <p class="nugget--text__medium">HALo Event Management allows local promotions and events teams to schedule events, and add customers to these events, either through lists or criteria.</p>
+            <a href="halo-kiosk.html" class="button">CTA</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-    <!-- <div class="why&#45;foundation"> -->
-    <!--   <a href="/kitchen&#45;sink">See what's in Foundation out of the box →</a> -->
-    <!-- </div> -->
-
-  </div>
-</section>
-
-<section class="[ band  band--special-dark ]  text-center">
-  <div class="row">
-    <div class="nugget-group">
-      <div class="nugget__item  small-12  medium-4  column">
-        <h3>Advanced Loyalty Strategy Services</h3>
-        <p>House Advantage offers deep-bench strength in loyalty marketing and technology consulting services to support your loyalty programs with the latest in best practices, IT support, and strategic perspectives.</p>
-        <a role="button" class="hollow  large  button" href="#">learn more</a>
-      </div>
-      <div class="nugget__item  small-12  medium-4  column">
-        <h3>Loyalty Software Solutions</h3>
-        <p>HALo is a suite of centrally managed loyalty solutions that integrate hotel, restaurant, point of sale, food and beverage, and entertain systems in service of a coherent, enterprise-wide customer experience.</p>
-        <a role="button" class="hollow  large  button" href="#">learn more</a>
-      </div>
-      <div class="nugget__item  small-12  medium-4  column">
-        <h3>System Interface and Integration Technologies</h3>
-        <p>House Advantage offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
-        <a role="button" class="hollow  large  button" href="#">learn more</a>
+  <section class="band  band--tint">
+    <div class="row  column">
+      <h2 id="integrations">System Interface and Integration Technologies</h2>
+      <p>HALo integrates with existing technology platforms -- from casino to hotel to point of sale -- using third-party certified gateways, without a rip-and-replace scenario or the need to consolidate on a single transactional or management system. The House Advantage team has deep integration expertise and can successfully implement cutting-edge HALo solutions on legacy infrastructures.</p>
+      <p>The HALo solution includes the following integration tools:</p>
+      <div class="nugget-group  nugget-group--justify">
+        <div class="row">
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Open Gateway</h3>
+            <p class="nugget--text__short">HALo Open Gateway provides a simplified API for third-party access to player information and transactional data.</p>
+            <a href="halo-open-gateway.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo CRMX Gateway</h3>
+            <p class="nugget--text__short">HALo CRMX Gateway allows HALo to issue awards in response to triggered promotions or redeemed offers.</p>
+            <a href="halo-crmx-gateway.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Mesh</h3>
+            <p class="nugget--text__short">HALo Mesh enables information bus platforms such as TIBCO and MULE to directly integrate with HALo Core.</p>
+            <a href="halo-mesh.html" class="button">CTA</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HAS2S Gateway</h3>
+            <p class="nugget--text__short">The HAS2S Gateway is the primary integration point for ACSC systems without the Bally Universal Gateway.</p>
+            <a href="has2s-gateway.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Cloud</h3>
+            <p class="nugget--text__short">HALo Cloud enables deployed of HALo in a cloud-based environment such as Microsoft Azure or Amazon EC2.</p>
+            <a href="halo-cloud.html" class="button">CTA</a>
+          </div>
+          <div class="medium-4  column  text-center" data-equalizer-watch>
+            <img class="thumbnail" src="http://placehold.it/250x150">
+            <h3>HALo Web</h3>
+            <p class="nugget--text__short">HALo Web allows you to add secure customer loyalty program portals to your existing web properties.</p>
+            <a href="halo-web.html" class="button">CTA</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="band">
+    <div class="row column">
+      <h2 id="services">Advanced Loyalty Consulting Services</h2>
+      <p>With a full range of training, professional, and consulting services, House Advantage is your strategic partner for ongoing excellence in loyalty marketing. We have over a century of combined experience implementing, managing, and optimizing loyalty solutions, with the expertise to deploy and customize your HALo solution to meet your specific requirements. House Advantage offers the latest in thought leadership, best practices, and strategic perspectives to support the success of your loyalty marketing and campaign activities. Find out how our customized professional services can address your technical, business, and strategic needs.</p>
+      <a href="#" class="button large">CTA</a>
+    </div>
+  </section>
 
 
 

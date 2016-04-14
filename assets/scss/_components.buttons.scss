@@ -21,7 +21,8 @@
   border-radius: 3px;
   color: $black;
   font-weight: bold;
-  font-size: rem-calc(17);
+  // @include font-size(17px);
+  // font-size: rem-calc(17);
   position: relative;
   margin-top: $spacing-unit;
   > .fa {

@@ -70,10 +70,27 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+
 /*
   My custom styles:
   Add your scss files below to structure your project styles
 */
+
+/* Let's spice this up with some inuit */
+@import "../components/inuit-defaults/settings.defaults";
+
+@import "../components/inuit-functions/tools.functions";
+@import "../components/inuit-mixins/tools.mixins";
+
+// @import "../components/inuit-normalize/generic.normalize";
+@import "../components/inuit-box-sizing/generic.box-sizing";
+
+@import "../components/inuit-page/base.page";
+
+
+
+
 
 // Templates
 // @import "templates/front";
@@ -115,6 +132,7 @@
 @import "components.pull-quotes";
 @import "components.nuggets";
 @import "components.hero";
+@import "components.feature-icons";
 
 // Trumps: Helpers and overrides.
 @import "trumps.headings";

@@ -37,8 +37,8 @@
   }
 
   .menu a {
-    height: 45px;
-    line-height: 45px;
+    // height: 45px;
+    // line-height: 45px;
     // color: #e6e6e6;
     color: $color-grey-dark;
     padding-top: 0;
@@ -72,4 +72,13 @@
       display: none;
     }
 
+}
+
+.top-bar-right {
+  padding-top: rem-calc(54);
+}
+
+.site-nav__logo {
+  display: block;
+  width: 196px;
 }

@@ -57,8 +57,6 @@
 
 
 
-
-
 // High-level base settings.
 $inuit-base-font-size:          16px !default;
 $inuit-base-font-size:          18px;
@@ -66,8 +64,6 @@ $inuit-base-line-height:        24px !default;
 $inuit-base-line-height:        28px;
 // $inuit-base-text-color:         #333 !default;
 // $inuit-base-background-color:   #fff !default;
-
-
 
 
 
@@ -94,9 +90,9 @@ $inuit-base-spacing-unit--large:    round($inuit-base-spacing-unit * 2);
 // ---------
 
 // $global-font-size: 100%;
-$global-font-size: 20px;
+$global-font-size: $inuit-base-font-size;
 $global-width: rem-calc(1140);
-$global-lineheight: 1.5;
+$global-lineheight: $inuit-base-line-height;
 $foundation-palette: (
   primary: #d0b962,
   secondary: #d14e52,
@@ -111,7 +107,7 @@ $color-gold-alt: #dfca76;
 $color-gold-dark: #af9642;
 $color-gold-light: #f1e19e;
 $color-red: #d14e52;
-$color-red-dark: #aa5152;
+$color-red-dark: #82131a;
 $color-red-light: #af9642;
 $color-grey: #686766;
 $color-grey-light: #af9642;

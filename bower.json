@@ -9,7 +9,11 @@
     "foundation-sites": "~6.2.0",
     "motion-ui": "~1.2.0",
     "fontawesome": "~4.5.0",
-    "inuit-starter-kit": "^0.2.9"
+    "inuit-starter-kit": "^0.2.9",
+    "hover": "Hover#^2.0.2",
+    "jquery-animateNumber": "jquery-animatenumber#^0.0.13",
+    "waypoints": "^4.0.0",
+    "jquery.easing": "^1.3.1"
   },
   "resolutions": {
     "jquery": "~2.2.0"

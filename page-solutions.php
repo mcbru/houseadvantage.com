@@ -7,14 +7,26 @@
 
 get_header(); ?>
 
-<header class="hero  hero--abstract-1" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
-    <h1 class="hero__text">Pick a Winner</h1>
-    <p class="hero__text">House Advantage loyalty marketing solutions provide the world’s largest and most innovative leading resort, leisure and entertainment companies with the tools to increase customer engagement, drive revenue, and gain competitive advantage in fast-moving, highly competitive markets.
-    <br>
-    <strong>At House Advantage, we deliver value.</strong>
-    </p>
-    <a role="button" class="large  button  button--hero" href="#"><i class="fa  fa-lightbulb-o"></i>CTA</a>
+    <?php if ( get_field('hero_head') ) : ?>
+      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+    <?php endif; ?>
+    <?php if ( get_field('hero_subhead') ) : ?>
+      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+      <a role="button" class="large  button  button--hero" href="#"><i class="fa  fa-lightbulb-o"></i>CTA</a>
+    <?php endif; ?>
+  </div>
+</header>
+
+<!-- <header class="hero  hero&#45;&#45;abstract&#45;1" role="banner"> -->
+<!--   <div class="row  column"> -->
+<!--     <h1 class="hero__text">Pick a Winner</h1> -->
+<!--     <p class="hero__text">House Advantage loyalty marketing solutions provide the world’s largest and most innovative leading resort, leisure and entertainment companies with the tools to increase customer engagement, drive revenue, and gain competitive advantage in fast&#45;moving, highly competitive markets. -->
+<!--     <br> -->
+<!--     <strong>At House Advantage, we deliver value.</strong> -->
+<!--     </p> -->
+<!--     <a role="button" class="large  button  button&#45;&#45;hero" href="#"><i class="fa  fa&#45;lightbulb&#45;o"></i>CTA</a> -->
 
     <!-- <div id="watch"> -->
     <!--   <section id="stargazers"> -->
@@ -24,9 +36,9 @@ get_header(); ?>
     <!--     <a href="https://twitter.com/olefredrik">@olefredrik</a> -->
     <!--   </section> -->
     <!-- </div> -->
-  </div>
-
-</header>
+<!--   </div> -->
+<!--  -->
+<!-- </header> -->
 
 <?php /*
 <?php while ( have_posts() ) : the_post(); ?>
@@ -57,7 +69,13 @@ get_header(); ?>
 <!--   <hr /> -->
 <!-- </div> -->
 
-
+<section class="band">
+  <div class="row column">
+    <h2 id="services">Advanced Loyalty Strategy Services</h2>
+    <p>With a full range of training, professional, and consulting services, House Advantage is your strategic partner for ongoing excellence in loyalty marketing. We have over a century of combined experience implementing, managing, and optimizing loyalty solutions, with the expertise to deploy and customize your HALo solution to meet your specific requirements. House Advantage offers the latest in thought leadership, best practices, and strategic perspectives to support the success of your loyalty marketing and campaign activities. Find out how our customized professional services can address your technical, business, and strategic needs.</p>
+    <a href="#" class="button large">CTA</a>
+  </div>
+</section>
 <section class="band">
   <div class="row  column">
       <h2 id="products">Loyalty Software Solutions</h2>
@@ -153,13 +171,6 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="band">
-    <div class="row column">
-      <h2 id="services">Advanced Loyalty Consulting Services</h2>
-      <p>With a full range of training, professional, and consulting services, House Advantage is your strategic partner for ongoing excellence in loyalty marketing. We have over a century of combined experience implementing, managing, and optimizing loyalty solutions, with the expertise to deploy and customize your HALo solution to meet your specific requirements. House Advantage offers the latest in thought leadership, best practices, and strategic perspectives to support the success of your loyalty marketing and campaign activities. Find out how our customized professional services can address your technical, business, and strategic needs.</p>
-      <a href="#" class="button large">CTA</a>
-    </div>
-  </section>
 
 
 

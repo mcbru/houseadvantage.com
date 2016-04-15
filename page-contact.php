@@ -7,20 +7,14 @@
 
 get_header(); ?>
 
-<header class="hero  hero--abstract-1" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
-    <h1 class="hero__text">Contact House Advantage</h1>
-    <p class="hero__text">We want to hear from you!</p>
-    <!-- <a role="button" class="large  button  button&#45;&#45;hero" href="#"><i class="fa  fa&#45;lightbulb&#45;o"></i>CTA</a> -->
-
-    <!-- <div id="watch"> -->
-    <!--   <section id="stargazers"> -->
-    <!--     <a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a> -->
-    <!--   </section> -->
-    <!--   <section id="twitter"> -->
-    <!--     <a href="https://twitter.com/olefredrik">@olefredrik</a> -->
-    <!--   </section> -->
-    <!-- </div> -->
+    <?php if ( get_field('hero_head') ) : ?>
+      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+    <?php endif; ?>
+    <?php if ( get_field('hero_subhead') ) : ?>
+      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+    <?php endif; ?>
   </div>
 </header>
 
@@ -66,9 +60,9 @@ get_header(); ?>
         <li>http://www.houseadv.com</li>
         <li><a href="mailto:sales@houseadv.com">Sales@houseadv.com</a></li>
         <br>
-        <ul class="menu">
-          <li><a href="#"><i class="fi-social-linkedin  size-24"></i></a></li>
-          <li><a href="#"><i class="fi-social-twitter  size-24"></i></a></li>
+        <ul class="menu  simple">
+          <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square  fa-2x"></i></a></li>
+          <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter-square  fa-2x"></i></a></li>
         </ul>
       </ul>
     </div>
@@ -95,9 +89,8 @@ get_header(); ?>
           <textarea rows="7" placeholder="Message*" aria-describedby="exampleHelpText" required></textarea>
           <span class="form-error">Please enter a message for us</span>
         </label>
-        <!-- <input type="submit" class="button" value="Submit"> -->
         <fieldset>
-          <button class="button" type="submit" value="Submit">Submit</button>
+          <button class="button  hvr-sweep-to-right" type="submit" value="Submit">Submit</button>
         </fieldset>
       </form>
     </div>
@@ -105,7 +98,6 @@ get_header(); ?>
 </section>
 <div>
   <div class="row  expanded">
-    <!-- <img src="http://placehold.it/2000x800?text=Live Google Map location"> -->
     <div id="map"></div>
   </div>
 </div>

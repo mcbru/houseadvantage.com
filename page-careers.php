@@ -20,12 +20,23 @@ Inquire about joining the House Advantage team at talent@houseadv.com.
 
 get_header(); ?>
 
-<header class="hero  hero--abstract-1" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
-    <h1 class="hero__text">Careers at House Advantage</h1>
-    <p class="hero__text">Grow your skills and expand your horizons at House Advantage.</p>
+    <?php if ( get_field('hero_head') ) : ?>
+      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+    <?php endif; ?>
+    <?php if ( get_field('hero_subhead') ) : ?>
+      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+    <?php endif; ?>
   </div>
 </header>
+
+<!-- <header class="hero  hero&#45;&#45;abstract&#45;1" role="banner"> -->
+<!--   <div class="row  column"> -->
+<!--     <h1 class="hero__text">Careers at House Advantage</h1> -->
+<!--     <p class="hero__text">Grow your skills and expand your horizons at House Advantage.</p> -->
+<!--   </div> -->
+<!-- </header> -->
 
 <?php /*
 <?php while ( have_posts() ) : the_post(); ?>

@@ -59,6 +59,9 @@ var PATHS = {
 
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',
+    'assets/components/jquery-animateNumber/jquery.animateNumber.js',
+    'assets/components/waypoints/lib/jquery.waypoints.js',
+    'assets/components/jquery.easing/js/jquery.easing.js',
   ],
   phpcs: [
     '**/*.php',
@@ -172,11 +175,21 @@ gulp.task('copy', function() {
       .pipe($.flatten())
       .pipe(gulp.dest('assets/javascript/vendor/what-input'));
 
+  // jQuery Animate Number
+  var animateNumber = gulp.src('assets/components/jquery-animateNumber/**/*.*')
+      .pipe($.flatten())
+      .pipe(gulp.dest('assets/javascript/vendor/jquery-animateNumber'));
+
+  // Waypoints
+  var waypoints = gulp.src('assets/components/waypoints/**/*.*')
+      .pipe($.flatten())
+      .pipe(gulp.dest('assets/javascript/vendor/waypoints'));
+
   // Font Awesome
   var fontAwesome = gulp.src('assets/components/fontawesome/fonts/**/*.*')
       .pipe(gulp.dest('assets/fonts'));
 
-  return merge(motionUi, whatInput, fontAwesome);
+  return merge(motionUi, whatInput, fontAwesome, animateNumber, waypoints);
 });
 
 // Package task

@@ -8,14 +8,10 @@
 */
 
 //  Settings
-@import "global/settings"; // Foundation settings file.
+@import "settings"; // Foundation settings file.
 
 // Foundation mixins & browser resets
 @import '../components/foundation-sites/scss/foundation';
-
-// WP overrides
-@import "global/wp-admin"; // Fix issues with wp-admin bar positioning
-@import "global/wp-overrides"; // Override the default WordPress styling for some elements
 
 // Third-party libraries
 @import 'font-awesome';
@@ -137,3 +133,6 @@
 
 // Trumps: Helpers and overrides.
 @import "trumps.headings";
+// WP overrides
+@import "trumps.wp-admin"; // Fix issues with wp-admin bar positioning
+@import "trumps.wp-overrides"; // Override the default WordPress styling for some elements

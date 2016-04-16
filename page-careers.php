@@ -20,7 +20,7 @@ Inquire about joining the House Advantage team at talent@houseadv.com.
 
 get_header(); ?>
 
-<header class="hero" role="banner">
+<header class="hero  hero--hands-coding" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -72,7 +72,11 @@ get_header(); ?>
       <a href="#" class="button">CTA</a>
     </div>
     <div class="large-6  column">
-      <img class="thumbnail" src="http://placehold.it/500x500">
+    <?php /*
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/abstract-48322126.jpg" alt="" />
+     */ ?>
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/hands-coding-1.jpg" alt="" />
+      <!-- <img class="thumbnail" src="http://placehold.it/500x500"> -->
     </div>
   </div>
 </section>

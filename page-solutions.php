@@ -76,6 +76,7 @@ get_header(); ?>
     <a href="#" class="button large">CTA</a>
   </div>
 </section>
+
 <section class="band">
   <div class="row  column">
       <h2 id="products">Loyalty Software Solutions</h2>

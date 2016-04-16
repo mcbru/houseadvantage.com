@@ -7,6 +7,7 @@ function initMap() {
   var mapOptions = {
     center: location,
     zoom: 13,
+    scrollwheel: false,
     disableDefaultUI: true,
   };
   var styles = [

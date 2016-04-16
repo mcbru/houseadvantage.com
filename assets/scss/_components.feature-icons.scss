@@ -35,7 +35,26 @@
     // top: 50%;
     // left: 50%;
     fill: $color-gold;
+
   }
+
+  // .animate-spin {
+  //   @include mui-animation(spin(in, 1440deg));
+  //   animation-duration: 5s;
+  // }
+
+  @include mui-series {
+    .icon-1 {
+      @include mui-queue(1s, -.7s, spin);
+    }
+    .icon-2 {
+      @include mui-queue(1s, -.7s, spin);
+    }
+    .icon-3 {
+      @include mui-queue(1s, -.7s, spin);
+    }
+  }
+
 
   .feature-icon:before {
     content: '';

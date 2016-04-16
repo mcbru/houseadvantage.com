@@ -3,6 +3,18 @@
  */
 
 $(function(){
+
+  $('.animation-wrapper').waypoint(function(direction) {
+    if(direction === 'down') {
+      $('.animation-wrapper').addClass('is-animating');
+      console.log(this);
+    }
+  },
+  {
+    context:"document.body",
+    offset: '70%'
+  });
+
 // var waypoints = $('#test').waypoint({
 //   handler: function(direction) {
 //     alert('scrolled!');

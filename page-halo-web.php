@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * The template for displaying the HALo Core page
+ * The template for displaying the HALo Web page
  *
  */
 
@@ -46,14 +46,8 @@ get_header(); ?>
 <section class="band">
   <div class="row">
     <div class="large-6  column">
-      <p>HALo Core offers great flexibility for managing your patron loyalty program. It allows operators to manage a unified card-based loyalty program across the enterprise, integrating transactional data across multiple systems. HALo Core works with your management systems to enhance, augment or replace your current marketing functionality for increased brand awareness and revenue growth. In addition, it can be decoupled from your existing management system, enabling you to manage individual programs across gaming and non-gaming areas of your business.</p>
-      <p>HALo CORE is licensed for use in gaming loyalty programs across a geographically diverse set of markets via state and local regulatory bodies.</p>
-      <p>HALo allows operators to:</p>
-      <ul>
-      <li>Operate a single card loyalty program locally or enterprise wide.</li>
-      <li>Centralize all patron data from the enterprise in real-time, determining how rewards are earned and by whom</li>
-      <li>Extend brand loyalty across the enterprise by capturing and managing data in real-time, including spend, promotions and complimentaries.</li>
-      <li>Influence patron behavior by managing tiers based on spend across the entire organization, not just gaming.</li>
+      <p>Leverage your existing web presence by deploying secure patron portals to your existing web sites. HALo Web allows real-time access to member data and extends the reach of loyalty programs to wherever and whenever the patron wishes. HALo Web allows operators to integrate web portals in HALO CORE or their casino management system, enabling patrons to access information about their loyalty program, profile, tier, balances and offers.</p>
+      <p>Access to this data is secured through the same security credentials loyalty members use to access the casino management system: Member ID and PIN.</p>
     </div>
     <div class="large-6  column">
     <?php foundationpress_product_nav(); ?>

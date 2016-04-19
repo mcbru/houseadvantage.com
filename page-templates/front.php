@@ -128,7 +128,7 @@ get_header(); ?>
         </span>
         <h3 class="min-height-small">Advanced Loyalty Strategy Services</h3>
         <p>House Advantage offers deep-bench strength in loyalty marketing and technology consulting services to support your loyalty programs with the latest in best practices, IT support, and strategic perspectives.</p>
-        <a role="button" class="hollow  large  button  hvr-sweep-to-right" href="#">learn more</a>
+        <a role="button" class="hollow  large  button  hvr-sweep-to-right" href="solutions#services">learn more</a>
       </div>
       <div class="nugget__item  small-12  medium-4  column">
         <span class="feature-icon">
@@ -138,7 +138,7 @@ get_header(); ?>
         </span>
         <h3 class="min-height-small">Loyalty Software Solutions</h3>
         <p>HALo is a suite of centrally managed loyalty solutions that integrate hotel, restaurant, point of sale, food and beverage, and entertain systems in service of a coherent, enterprise-wide customer experience.</p>
-        <a role="button" class="hollow  large  button hvr-sweep-to-right" href="#">learn more</a>
+        <a role="button" class="hollow  large  button hvr-sweep-to-right" href="solutions#products">learn more</a>
       </div>
       <div class="nugget__item  small-12  medium-4  column">
         <span class="feature-icon">
@@ -148,7 +148,7 @@ get_header(); ?>
         </span>
         <h3 class="min-height-small">System Interface and Integration Technologies</h3>
         <p>House Advantage offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
-        <a role="button" class="hollow  large  button hvr-sweep-to-right" href="#">learn more</a>
+        <a role="button" class="hollow  large  button hvr-sweep-to-right" href="solutions#integrations">learn more</a>
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ get_header(); ?>
   <div class="row">
     <h2>Client Testimonials</h2>
     <p class="lede">Hear from our customers how a House Advantage partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
-    <a role="button" class="large  button  button--dark hvr-sweep-to-right" href="the-house-advantage">the house advantage</a>
+    <a role="button" class="large  button  button--dark  hvr-sweep-to-right" href="the-house-advantage">the house advantage</a>
   </div>
 </section>
 

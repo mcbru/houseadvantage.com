@@ -81,7 +81,7 @@ get_header(); ?>
   <div class="row  column">
       <h2 id="products">Loyalty Software Solutions</h2>
       <p><strong>HALo</strong> is a suite of centrally managed loyalty solutions that enable delivery of tailored programs and incentives across multiple platforms to directly reach targeted customer segments and drive successful promotions in real time, without the need to standardize on single a system or platform. HALo is a proven solution with huge geographic and transactional scale, whose equivalents are only seen in the largest global financial networks.</p>
-      <p><strong><a href="halo-core.html">HALo CORE</a></strong> is the heart of the solution, delivering the fundamental tools to elevate loyalty marketing from existing transactional and management systems. It enables a highly configurable, coherent, and centrally managed loyalty platform that allows customers to earn and redeem rewards across single or multiple properties. HALo CORE provides the tools to execute and manage promotions that engage customers in dynamic ways and create a universal loyalty experience.  HALo CORE is licensed across a geographically diverse set of markets via state and local regulatory bodies.</p>
+      <p><strong><a href="halo-core">HALo CORE</a></strong> is the heart of the solution, delivering the fundamental tools to elevate loyalty marketing from existing transactional and management systems. It enables a highly configurable, coherent, and centrally managed loyalty platform that allows customers to earn and redeem rewards across single or multiple properties. HALo CORE provides the tools to execute and manage promotions that engage customers in dynamic ways and create a universal loyalty experience.  HALo CORE is licensed across a geographically diverse set of markets via state and local regulatory bodies.</p>
       <p>Additional capabilities and products extend the power of the HALo loyalty technologies.</p>
       <div class="nugget-group">
         <div class="row">
@@ -89,19 +89,19 @@ get_header(); ?>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Promotions</h3>
             <p class="nugget--text__medium">HALo Promotions automates the creation, execution and management of promotional campaigns.</p>
-            <a href="halo-promotions.html" class="button">CTA</a>
+            <a href="halo-promotions" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Offers</h3>
             <p class="nugget--text__medium">Halo Offers allows marketing teams to publish targeted offers directly into HALo, allowing customers to view and redeem their offers wherever and whenever they need.</p>
-            <a href="halo-offer-management.html" class="button">CTA</a>
+            <a href="halo-offers" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Mobile</h3>
             <p class="nugget--text__medium">HALo Mobile provides mobile access to all player management functions – securely, enterprise-wide – on iOS and Android.</p>
-            <a href="halo-mobile.html" class="button">CTA</a>
+            <a href="halo-mobile" class="button  hvr-sweep-to-right">CTA</a>
           </div>
         </div>
         <div class="row">
@@ -109,13 +109,13 @@ get_header(); ?>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Kiosk</h3>
             <p class="nugget--text__medium">HALo Kiosk empowers member self-service at kiosks, or via mobile apps and secure web portals.</p>
-            <a href="halo-kiosk.html" class="button">CTA</a>
+            <a href="halo-kiosk" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center  end" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Event Management</h3>
             <p class="nugget--text__medium">HALo Event Management allows local promotions and events teams to schedule events, and add customers to these events, either through lists or criteria.</p>
-            <a href="halo-kiosk.html" class="button">CTA</a>
+            <a href="halo-event-management" class="button  hvr-sweep-to-right">CTA</a>
           </div>
         </div>
       </div>
@@ -133,19 +133,19 @@ get_header(); ?>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Open Gateway</h3>
             <p class="nugget--text__short">HALo Open Gateway provides a simplified API for third-party access to player information and transactional data.</p>
-            <a href="halo-open-gateway.html" class="button">CTA</a>
+            <a href="halo-open-gateway" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo CRMX Gateway</h3>
             <p class="nugget--text__short">HALo CRMX Gateway allows HALo to issue awards in response to triggered promotions or redeemed offers.</p>
-            <a href="halo-crmx-gateway.html" class="button">CTA</a>
+            <a href="halo-crmx-gateway" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Mesh</h3>
             <p class="nugget--text__short">HALo Mesh enables information bus platforms such as TIBCO and MULE to directly integrate with HALo Core.</p>
-            <a href="halo-mesh.html" class="button">CTA</a>
+            <a href="halo-mesh" class="button  hvr-sweep-to-right">CTA</a>
           </div>
         </div>
         <div class="row">
@@ -153,19 +153,19 @@ get_header(); ?>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HAS2S Gateway</h3>
             <p class="nugget--text__short">The HAS2S Gateway is the primary integration point for ACSC systems without the Bally Universal Gateway.</p>
-            <a href="has2s-gateway.html" class="button">CTA</a>
+            <a href="has2s-gateway" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Cloud</h3>
             <p class="nugget--text__short">HALo Cloud enables deployed of HALo in a cloud-based environment such as Microsoft Azure or Amazon EC2.</p>
-            <a href="halo-cloud.html" class="button">CTA</a>
+            <a href="halo-cloud" class="button  hvr-sweep-to-right">CTA</a>
           </div>
           <div class="medium-4  column  text-center" data-equalizer-watch>
             <img class="thumbnail" src="http://placehold.it/250x150">
             <h3>HALo Web</h3>
             <p class="nugget--text__short">HALo Web allows you to add secure customer loyalty program portals to your existing web properties.</p>
-            <a href="halo-web.html" class="button">CTA</a>
+            <a href="halo-web" class="button  hvr-sweep-to-right">CTA</a>
           </div>
         </div>
       </div>

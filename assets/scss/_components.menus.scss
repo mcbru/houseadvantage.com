@@ -8,3 +8,13 @@
     margin: 0;
   }
 }
+
+.product-menu {
+  .menu-text {
+    padding: 0;
+    a {
+      color: $color-gray;
+      cursor: default;
+    }
+  }
+}

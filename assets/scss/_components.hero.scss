@@ -30,6 +30,12 @@
 }
 
 .hero--front {
+  h1.hero__text {
+    color: $color-gray-dark;
+    text-transform: uppercase;
+    // font-weight: bold;
+    @include font-size(56px, 2);
+  }
   border-bottom: 18px solid $color-red-dark;
   padding-top: quadruple($spacing-unit);
   padding-bottom: sextuple($spacing-unit);

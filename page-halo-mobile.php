@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * The template for displaying the HALo Core page
+ * The template for displaying the HALo Mobile page
  *
  */
 
@@ -46,14 +46,18 @@ get_header(); ?>
 <section class="band">
   <div class="row">
     <div class="large-9  column">
-      <p>HALo Core offers great flexibility for managing your patron loyalty program. It allows operators to manage a unified card-based loyalty program across the enterprise, integrating transactional data across multiple systems. HALo Core works with your management systems to enhance, augment or replace your current marketing functionality for increased brand awareness and revenue growth. In addition, it can be decoupled from your existing management system, enabling you to manage individual programs across gaming and non-gaming areas of your business.</p>
-      <p>HALo CORE is licensed for use in gaming loyalty programs across a geographically diverse set of markets via state and local regulatory bodies.</p>
-      <p>HALo allows operators to:</p>
+      <p>HALo Mobile enables your employees to more easily manage patron enrollment and access patron data directly on iOS and Android mobile devices. The app provides secure mobile access to all loyalty program management transactions and functionality across the enterprise.</p>
+      <p>With HALo Mobile, your frontline employees can provide better and more immediate patron support by:</p>
       <ul>
-      <li>Operate a single card loyalty program locally or enterprise wide.</li>
-      <li>Centralize all patron data from the enterprise in real-time, determining how rewards are earned and by whom</li>
-      <li>Extend brand loyalty across the enterprise by capturing and managing data in real-time, including spend, promotions and complimentaries.</li>
-      <li>Influence patron behavior by managing tiers based on spend across the entire organization, not just gaming.</li>
+        <li>Enrolling new members into your loyalty club right on the floor</li>
+        <li>Verifying legal age by scanning driver’s license bar codes</li>
+        <li>Viewing, updating, and adjusting patron profiles, buckets and tiers</li>
+        <li>Developing patrons through issuing comps and incentives</li>
+        <li>Performing enterprise member searches</li>
+        <li>Accessing account history and member club functions</li>
+        <li>Contact management</li>
+      </ul>
+      <p>HALo Mobile puts the patron, program and performance data necessary to serve your members directly in the hands of the employees empowered to support your operations.</p>
     </div>
     <div class="large-3  column">
     <?php foundationpress_product_nav(); ?>

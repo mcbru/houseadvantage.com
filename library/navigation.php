@@ -20,7 +20,7 @@ if ( ! function_exists( 'foundationpress_product_nav' ) ) {
   function foundationpress_product_nav() {
     wp_nav_menu( array(
       'container'      => false,                         // Remove nav container
-      'menu_class'     => 'vertical menu',
+      'menu_class'     => 'vertical  menu  product-menu',
       'theme_location' => 'product-nav',
       'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
       'fallback_cb'    => false,

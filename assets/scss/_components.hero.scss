@@ -20,6 +20,20 @@
   }
 }
 
+.hero--front {
+  h1.hero__text {
+    color: $color-gray-dark;
+    text-transform: uppercase;
+    font-weight: bold;
+    @include breakpoint(medium) {
+      @include font-size(56px, 2);
+    }
+  }
+  border-bottom: 18px solid $color-red-dark;
+  padding-top: quadruple($spacing-unit);
+  padding-bottom: sextuple($spacing-unit);
+}
+
 .hero--dark {
   h1.hero__text {
     color: $color-white;
@@ -27,18 +41,6 @@
   p.hero__text {
     color: $color-white;
   }
-}
-
-.hero--front {
-  h1.hero__text {
-    color: $color-gray-dark;
-    text-transform: uppercase;
-    // font-weight: bold;
-    @include font-size(56px, 2);
-  }
-  border-bottom: 18px solid $color-red-dark;
-  padding-top: quadruple($spacing-unit);
-  padding-bottom: sextuple($spacing-unit);
 }
 
 .hero--abstract-1 {

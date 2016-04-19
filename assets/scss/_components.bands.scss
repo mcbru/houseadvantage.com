@@ -41,6 +41,10 @@
   background-color: $color-gold-alt;
 }
 
+.band--tint {
+  background-color: tint($color-gray-light, 80%);
+}
+
 .band--large {
   padding-top: quadruple($spacing-unit);
   padding-bottom: quadruple($spacing-unit);
@@ -68,9 +72,6 @@
 //   background-color: $light-gray;
 // }
 //
-// .band--tint {
-//   background-color: $light-gray;
-// }
 //
 // .band--dark {
 //   background-color: $dark-gray;

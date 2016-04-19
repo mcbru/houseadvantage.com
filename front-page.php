@@ -9,22 +9,16 @@ get_header(); ?>
 
 <header class="hero  hero--front  hero--abstract-1" role="banner">
   <div class="row  column">
-    <h1 class="hero__text">Pick a Winner – A Comprehensive Loyalty Solution</h1>
-    <?php /*
-    <h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-     */ ?>
-    <a role="button" class="large  button  button--hero" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
-
-    <!-- <div id="watch"> -->
-    <!--   <section id="stargazers"> -->
-    <!--     <a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a> -->
-    <!--   </section> -->
-    <!--   <section id="twitter"> -->
-    <!--     <a href="https://twitter.com/olefredrik">@olefredrik</a> -->
-    <!--   </section> -->
-    <!-- </div> -->
+    <?php if ( get_field('hero_head') ) : ?>
+      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+    <?php endif; ?>
+    <?php if ( get_field('hero_subhead') ) : ?>
+      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+    <?php endif; ?>
+      <a role="button" class="large  button  button--hero" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
   </div>
 </header>
+
 
 <?php /*
 <?php while ( have_posts() ) : the_post(); ?>

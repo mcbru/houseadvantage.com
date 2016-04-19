@@ -32,8 +32,9 @@
     ); // END $args
     $teammates_query = new WP_Query($team_args);
     if($teammates_query->have_posts()) {
+      $count = 0;
       while ($teammates_query->have_posts()) : $teammates_query->the_post(); $c++; ?>
-      <section class="[ band ]">
+      <section class="[ band <?php if ($c % 2 == 0) echo 'band--tint'; ?> ]">
         <div id="post-<?php the_ID(); ?>" <?php post_class('teammate  row'); ?>>
           <div class="small-12  medium-2  column">
             <?php if(has_post_thumbnail()) :
@@ -43,9 +44,9 @@
             <?php endif; ?>
           </div>
           <div class="small-12  medium-10  column">
-            <h2 class="gamma"><?php the_title(); ?></h2>
+            <h2><?php the_title(); ?></h2>
             <?php if ( get_field('role') ) : ?>
-              <h3 class="gamma"><strong><?php the_field('role'); ?></strong></h3>
+              <h3><strong><?php the_field('role'); ?></strong></h3>
             <?php endif; ?>
             <?php the_content(); ?>
             <ul class="menu  icon-menu">

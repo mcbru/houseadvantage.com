@@ -7,14 +7,14 @@
 
 get_header(); ?>
 
-<header class="hero" role="banner">
-  <div class="row  column">
+<header class="hero  hero--pattern-1" role="banner">
+  <div class="row  column  text-left">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>
     <?php if ( get_field('hero_subhead') ) : ?>
       <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
-      <a role="button" class="large  button  button--hero" href="#"><i class="fa  fa-lightbulb-o"></i>CTA</a>
+      <!-- <a role="button" class="large  button" href="#">CTA</a> -->
     <?php endif; ?>
   </div>
 </header>
@@ -73,7 +73,7 @@ get_header(); ?>
   <div class="row column">
     <h2 id="services">Advanced Loyalty Strategy Services</h2>
     <p>With a full range of training, professional, and consulting services, House Advantage is your strategic partner for ongoing excellence in loyalty marketing. We have over a century of combined experience implementing, managing, and optimizing loyalty solutions, with the expertise to deploy and customize your HALo solution to meet your specific requirements. House Advantage offers the latest in thought leadership, best practices, and strategic perspectives to support the success of your loyalty marketing and campaign activities. Find out how our customized professional services can address your technical, business, and strategic needs.</p>
-    <a href="#" class="button large">CTA</a>
+    <a href="#" class="button  large  hvr-sweep-to-right">CTA</a>
   </div>
 </section>
 

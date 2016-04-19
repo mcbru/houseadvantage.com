@@ -31,6 +31,10 @@
   background-image: linear-gradient( 135deg, rgb(62,62,64) 0%, rgb(75,77,82) 23%, rgb(41,43,48) 100%);
   color: $color-white;
   padding-top: quadruple($spacing-unit);
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $color-white;
+  }
 }
 
 .band--gold {

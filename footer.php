@@ -11,7 +11,7 @@
 ?>
 
     </section>
-    <div id="footer-container">
+    <div id="footer-container" class="[ band  band--special-dark ]">
       <footer id="footer">
         <?php do_action( 'foundationpress_before_footer' ); ?>
         <?php dynamic_sidebar( 'footer-widgets' ); ?>

@@ -20,7 +20,7 @@ Inquire about joining the House Advantage team at talent@houseadv.com.
 
 get_header(); ?>
 
-<header class="hero  hero--hands-coding" role="banner">
+<header class="hero  hero--desert-bike" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -68,8 +68,8 @@ get_header(); ?>
     <div class="large-6  column">
       <p>Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?</p>
       <p>House Advantage is an international company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies. We offer challenging, high-profile development opportunities for candidates looking to be part of something great.</p>
-      <p>Inquire about joining the House Advantage team at <a href="mailto:talent@houseadv.com">talent@houseadv.com</a>.</p>
-      <a href="#" class="button">CTA</a>
+      <!-- <p>Inquire about joining the House Advantage team at <a href="mailto:talent@houseadv.com">talent@houseadv.com</a>.</p> -->
+      <a href="mailto:talent@houseadv.com" class="button  hvr-sweep-to-right">Inquire Today</a>
     </div>
     <div class="large-6  column">
     <?php /*

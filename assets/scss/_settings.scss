@@ -109,14 +109,14 @@ $color-gold-light: #f1e19e;
 $color-red: #d14e52;
 $color-red-dark: #82131a;
 $color-red-light: #af9642;
-$color-grey: #686766;
-$color-grey-light: #af9642;
-$color-grey-dark: #333333;
+$color-gray: #686766;
+$color-gray-light: #afb3b6;
+$color-gray-dark: #333333;
 
 // Brand Secondary
-$color-blue: #d0b962;
-$color-green: #af9642;
-$color-purple: #dfca76;
+$color-blue: #2b6774;
+$color-green: #159182;
+$color-purple: #8e7288;
 
 // Custom
 
@@ -125,12 +125,16 @@ $color-black: #0a0a0a;
 $color-white: #fefefe;
 $white: $color-white;
 $black: $color-black;
+$color-light-gray: $color-gray-light;
+$color-medium-gray: $color-gray;
+$color-dark-gray: $color-gray-dark;
 
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$medium-gray: $color-gray;
+$light-gray: $color-gray-light;
+$dark-gray: $color-gray-dark;
+
 $body-background: $color-white;
-$body-font-color: $color-black;
+$body-font-color: $color-gray;
 $body-font-family: Lato, Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -196,6 +200,7 @@ $header-sizes: (
 $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
+// $header-margin-bottom: 1.5rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
@@ -242,7 +247,7 @@ $abbr-underline: 1px dotted $color-black;
 $lead-font-size: $global-font-size * 1.25;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
-$subheader-color: $dark-gray;
+$subheader-color: $color-gray-dark;
 $subheader-font-weight: $global-weight-normal;
 $subheader-margin-top: 0.2rem;
 $subheader-margin-bottom: 0.5rem;

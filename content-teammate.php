@@ -5,7 +5,7 @@
 ?>
 
 <section class="[ band ]">
-  <div id="post-<?php the_ID(); ?>" <?php post_class('teammate, row'); ?>>
+  <div id="post-<?php the_ID(); ?>" <?php post_class('teammate  row'); ?>>
     <div class="small-12  medium-2  column">
       <?php if(has_post_thumbnail()) :
         the_post_thumbnail();
@@ -14,11 +14,15 @@
       <?php endif; ?>
     </div>
     <div class="small-12  medium-10  column">
-      <h2><?php the_title(); ?></h2>
+      <h2 class="gamma"><?php the_title(); ?></h2>
       <?php if ( get_field('role') ) : ?>
-        <h3><?php the_field('role'); ?></h3>
+        <h3 class="gamma"><strong><?php the_field('role'); ?></strong></h3>
       <?php endif; ?>
       <?php the_content(); ?>
+      <ul class="menu  icon-menu">
+        <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square"></i></a></li>
+        <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter-square"></i></a></li>
+      </ul>
     </div>
   </div>
 </section>

@@ -16,6 +16,7 @@
 // Third-party libraries
 @import 'font-awesome';
 @import 'motion-ui';
+@import '../components/animate-sass/animate';
 
 // Foundation global styles
 @include foundation-global-styles;
@@ -109,7 +110,7 @@
 // Base: Unclassed HTML elements [type selectors].
 @import "base.quotes";
 @import "base.type";
-// @import "base.headings";
+@import "base.headings";
 
 // Objects: Cosmetic-free design patterns. [wrappers]
 
@@ -130,9 +131,13 @@
 @import "components.hero";
 @import "components.feature-icons";
 @import "components.map";
+@import "components.menus";
+@import "components.team-members";
 
 // Trumps: Helpers and overrides.
 @import "trumps.headings";
+@import "trumps.stats";
+
 // WP overrides
 @import "trumps.wp-admin"; // Fix issues with wp-admin bar positioning
 @import "trumps.wp-overrides"; // Override the default WordPress styling for some elements

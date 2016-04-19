@@ -25,6 +25,11 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
   // It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
   wp_enqueue_script( 'foundation', get_template_directory_uri() . '/assets/javascript/foundation.js', array('jquery'), '2.6.1', true );
 
+  // Make our theme path available as a JavaScript variable
+  // http://wordpress.stackexchange.com/questions/89791/theme-path-in-javascript-file
+  $translation_array = array('templateUrl' => get_stylesheet_directory_uri());
+  wp_localize_script('foundation', 'object_name', $translation_array);
+
   // Add the comment-reply library on pages where it is necessary
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
@@ -36,6 +41,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 endif;
 
 // Conditionally add Google Maps scripts
+// TODO: Add Google Maps API key
 if ( ! function_exists( 'map_scripts' ) ) :
   function map_scripts() {
     if(is_page('contact')) {

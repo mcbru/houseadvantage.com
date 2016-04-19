@@ -2,15 +2,27 @@
     #HEADINGS
 \*------------------------------------*/
 
+.lede {
+  @include font-size(26px, 1.5);
+  margin-bottom: triple($spacing-unit);
+  // font-weight: 300;
+}
+
 .slashes {
   background-image: url('../images/red-line-diagonal.svg'), url('../images/red-line-diagonal.svg');
   background-repeat: no-repeat, no-repeat;
-  background-position: top left, top right;
+  background-position: 10% 0, top right;
   display: block;
   width: 500px;
   height: 100px;
   padding-top: 50px;
-  margin: -28px auto 0 auto;
+  margin-top: -56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.min-height-small {
+  min-height: triple($spacing-unit);
 }
 
 /**
@@ -24,32 +36,32 @@
  *
  */
 
-// .#{$inuit-namespace}alpha,
-// %#{$inuit-namespace}alpha {
-//     @include inuit-font-size($inuit-heading-size-1);
-// }
-//
-// .#{$inuit-namespace}beta,
-// %#{$inuit-namespace}beta {
-//     @include inuit-font-size($inuit-heading-size-2);
-// }
-//
-// .#{$inuit-namespace}gamma,
-// %#{$inuit-namespace}gamma {
-//     @include inuit-font-size($inuit-heading-size-3);
-// }
-//
-// .#{$inuit-namespace}delta,
-// %#{$inuit-namespace}delta {
-//     @include inuit-font-size($inuit-heading-size-4);
-// }
-//
-// .#{$inuit-namespace}epsilon,
-// %#{$inuit-namespace}epsilon {
-//     @include inuit-font-size($inuit-heading-size-5);
-// }
-//
-// .#{$inuit-namespace}zeta,
-// %#{$inuit-namespace}zeta {
-//     @include inuit-font-size($inuit-heading-size-6);
-// }
+.#{$inuit-namespace}alpha,
+%#{$inuit-namespace}alpha {
+    @include inuit-font-size($inuit-heading-size-1);
+}
+
+.#{$inuit-namespace}beta,
+%#{$inuit-namespace}beta {
+    @include inuit-font-size($inuit-heading-size-2);
+}
+
+.#{$inuit-namespace}gamma,
+%#{$inuit-namespace}gamma {
+    @include inuit-font-size($inuit-heading-size-3);
+}
+
+.#{$inuit-namespace}delta,
+%#{$inuit-namespace}delta {
+    @include inuit-font-size($inuit-heading-size-4);
+}
+
+.#{$inuit-namespace}epsilon,
+%#{$inuit-namespace}epsilon {
+    @include inuit-font-size($inuit-heading-size-5);
+}
+
+.#{$inuit-namespace}zeta,
+%#{$inuit-namespace}zeta {
+    @include inuit-font-size($inuit-heading-size-6);
+}

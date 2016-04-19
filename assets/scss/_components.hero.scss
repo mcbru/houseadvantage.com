@@ -4,7 +4,6 @@
 
 .hero {
   background-color: $color-gold-alt;
-  border-bottom: 18px solid $color-red-dark;
 
   @include breakpoint(small) {
     // background: url('http://fakeimg.pl/1000/') bottom center;
@@ -12,7 +11,8 @@
     // background-size: cover;
     // background-position: bottom;
     // padding: rem-calc(65%) 0;
-    padding: quadruple($spacing-unit) 0;
+    padding-top: triple($spacing-unit);
+    padding-bottom: triple($spacing-unit);
     // margin: 0 0 rem-calc(32);
     height: auto;
     position: relative;
@@ -20,15 +20,38 @@
   }
 }
 
+.hero--dark {
+  h1.hero__text {
+    color: $color-white;
+  }
+  p.hero__text {
+    color: $color-white;
+  }
+}
+
+.hero--front {
+  border-bottom: 18px solid $color-red-dark;
+  padding-top: quadruple($spacing-unit);
+  padding-bottom: sextuple($spacing-unit);
+}
+
 .hero--abstract-1 {
   background-image: url('../images/abstract-1.gif');
   background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
-// .hero--abstract-2 {
-//   background-image: url('../images/abstract-48322126.jpg');
-//   background-position: bottom center;
-// }
+.hero--abstract-2 {
+  background-image: url('../images/abstract-44304419-3.jpg');
+  // background-position: bottom center;
+  // background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero--pattern-1 {
+  background-image: url('../images/pattern-1.jpg');
+  background-size: cover;
+}
 
 .hero--hands-coding {
   background-image: url('../images/hands-coding-1.jpg');
@@ -37,21 +60,35 @@
   background-size: cover;
 }
 
+.hero--desert-bike {
+  background-image: url('../images/500px-70243939-2.jpg');
+  // background-position: bottom center;
+  background-size: cover;
+  text-align: left;
+}
+
 h1.hero__text {
-  color: $color-grey-dark;
+  .animate {
+    @include mui-animation(fade, slide($direction: down));
+    animation-duration: 1s;
+  }
+  color: $color-gray-dark;
   font-weight: normal;
 
   @include breakpoint(small) {
-    font-size: rem-calc(30);
+    @include font-size(28px, 1.5);
   }
 
   @include breakpoint(medium) {
-    font-size: rem-calc(49);
+    @include font-size(48px, 1.4);
   }
+  padding-bottom: $spacing-unit;
 }
 
 p.hero__text {
-  font-size: rem-calc(24);
+  @include font-size(28px, 1.5);
+  color: $color-black;
+  // font-size: rem-calc(24);
 }
 
 // $hero-border-width:   50px;

@@ -16,11 +16,16 @@
   text-transform: uppercase;
 }
 
+.button--dark {
+  border-color: $color-gray-dark;
+  color: $color-gray-dark;
+}
+
 .button--hero {
   background-color: $white;
   border-radius: 3px;
   color: $black;
-  font-weight: bold;
+  // font-weight: bold;
   // @include font-size(17px);
   // font-size: rem-calc(17);
   position: relative;

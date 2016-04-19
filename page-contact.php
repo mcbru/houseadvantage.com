@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<header class="hero" role="banner">
+<header class="hero  hero--pattern-1" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -60,7 +60,7 @@ get_header(); ?>
         <li>http://www.houseadv.com</li>
         <li><a href="mailto:sales@houseadv.com">Sales@houseadv.com</a></li>
         <br>
-        <ul class="menu  simple">
+        <ul class="menu  icon-menu">
           <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square  fa-2x"></i></a></li>
           <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter-square  fa-2x"></i></a></li>
         </ul>

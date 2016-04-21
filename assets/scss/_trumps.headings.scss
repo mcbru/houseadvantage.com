@@ -25,6 +25,10 @@
   min-height: triple($spacing-unit);
 }
 
+.red {
+  color: $color-red-dark;
+}
+
 /**
  * Headings 1–6’s corresponding Greek-alphabet abstract classes for double-
  * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css

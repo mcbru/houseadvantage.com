@@ -277,3 +277,5 @@ gulp.task('default', ['build', 'browser-sync'], function() {
       logFileChange(event);
     });
 });
+
+// TODO: Add image optimization

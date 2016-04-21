@@ -20,7 +20,7 @@ Inquire about joining the House Advantage team at talent@houseadv.com.
 
 get_header(); ?>
 
-<header class="hero  hero--desert-bike" role="banner">
+<header class="hero  hero--biker" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>

@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<header class="hero  hero--pattern-1" role="banner">
+<header class="hero  hero--gray-2" role="banner">
   <div class="row  column  text-left">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>

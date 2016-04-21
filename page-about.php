@@ -10,7 +10,7 @@
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 
-<header class="hero  hero--dark  hero--abstract-2" role="banner">
+<header class="hero  hero--dark  hero--red-1" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -20,6 +20,7 @@
     <?php endif; ?>
   </div>
 </header>
+
 
 <div role="main">
   <?php
@@ -35,26 +36,7 @@
       $count = 0;
       while ($teammates_query->have_posts()) : $teammates_query->the_post(); $c++; ?>
       <section class="[ band <?php if ($c % 2 == 0) echo 'band--tint'; ?> ]">
-        <div id="post-<?php the_ID(); ?>" <?php post_class('teammate  row'); ?>>
-          <div class="small-12  medium-2  column">
-            <?php if(has_post_thumbnail()) :
-              the_post_thumbnail('post_thumbnail', array('data-os-animation' => 'fadeIn', 'data-os-animation-delay' => '0s'));
-            else : ?>
-              <img alt="" class="thumbnail" src="http://fakeimg.pl/500x500">
-            <?php endif; ?>
-          </div>
-          <div class="small-12  medium-10  column">
-            <h2><?php the_title(); ?></h2>
-            <?php if ( get_field('role') ) : ?>
-              <h3><strong><?php the_field('role'); ?></strong></h3>
-            <?php endif; ?>
-            <?php the_content(); ?>
-            <ul class="menu  icon-menu">
-              <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square"></i></a></li>
-              <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter-square"></i></a></li>
-            </ul>
-          </div>
-        </div>
+        <?php get_template_part( 'content', 'teammate' ); ?>
       </section>
       <?php
       endwhile;

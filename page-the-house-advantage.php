@@ -7,7 +7,7 @@
 
  get_header(); ?>
  <?php get_template_part( 'template-parts/featured-image' ); ?>
-<header class="hero  hero--pattern-1" role="banner">
+<header class="hero  hero--gold-2" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -66,7 +66,7 @@
     </div>
     <div class="medium-6  columns" data-equalizer-watch>
       <blockquote>
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+        Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.
         <cite>Magna Malesuada</cite>
       </blockquote>
     </div>
@@ -74,7 +74,7 @@
   <div class="row">
     <div class="medium-6  columns" data-equalizer-watch>
       <blockquote>
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
         <cite>Nibh Mollis</cite>
       </blockquote>
     </div>

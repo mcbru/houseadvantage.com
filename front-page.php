@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<header class="hero  hero--front  hero--abstract-1" role="banner">
+<header class="hero  hero--front  hero--gold-1" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
@@ -147,7 +147,7 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="[ band  band--gold  band--large ]  text-center">
+<section class="[ band  band--gold  band--large  triple-border ]  text-center">
   <div class="row">
     <h2>Client Testimonials</h2>
     <p class="lede">Hear from our customers how a House Advantage partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>

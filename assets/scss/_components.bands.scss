@@ -25,6 +25,7 @@
 // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#eadda8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 .band--special-dark {
+  background-color: $color-gray-dark;
   background-image: -moz-linear-gradient( 135deg, rgb(62,62,64) 0%, rgb(75,77,82) 23%, rgb(41,43,48) 100%);
   background-image: -webkit-linear-gradient( 135deg, rgb(62,62,64) 0%, rgb(75,77,82) 23%, rgb(41,43,48) 100%);
   background-image: -ms-linear-gradient( 135deg, rgb(62,62,64) 0%, rgb(75,77,82) 23%, rgb(41,43,48) 100%);
@@ -39,6 +40,37 @@
 
 .band--gold {
   background-color: $color-gold-alt;
+}
+
+// A special triple border to ease transitions between bands
+// http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/demo/borders.html
+.band--gold.triple-border {
+  position: relative;
+  border-top: 5px solid $color-gold-alt;
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    border-top: 1px solid $color-gray-dark;
+    // border-bottom: 5px solid $color-gold-alt;
+    // background: #ff9600;
+    height: 1px;
+  }
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top: 3px solid $color-gray-dark;
+    border-bottom: 2px solid $color-gray-dark;
+    background: $color-gold-alt;
+    height: 10px;
+  }
 }
 
 .band--tint {

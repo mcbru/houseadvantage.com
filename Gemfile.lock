@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dandelion (0.4.16)
+      rugged (= 0.23.3)
+    double-bag-ftps (0.1.2)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.1.1)
+    rugged (0.23.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dandelion
+  double-bag-ftps
+  net-sftp
+
+BUNDLED WITH
+   1.11.2

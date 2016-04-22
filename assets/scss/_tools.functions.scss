@@ -66,3 +66,13 @@
 @function shade($color, $percentage) {
   @return mix(black, $color, $percentage);
 }
+
+// Determine what color should be used based on given background-color
+@function set-color($background-color) {
+    @if (lightness($background-color) > 40) {
+      @return $color-gray-dark;
+    }
+    @else {
+      @return $color-gold;
+    }
+}

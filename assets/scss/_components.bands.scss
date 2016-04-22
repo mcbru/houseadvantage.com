@@ -9,9 +9,14 @@
 
 .band--special {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eadda8+0,ffffff+33&1+0,0+33 */
-  background-image: url("../images/corner-lines-top.svg"), url("../images/corner-lines-bottom.svg"), linear-gradient(135deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%), linear-gradient(135deg,  rgba(255,255,255,0) 67%,rgba(234,221,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: top left, bottom right;
+  @include breakpoint(medium) {
+    background-image: url("../images/corner-lines-top.svg"), url("../images/corner-lines-bottom.svg"), linear-gradient(135deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%), linear-gradient(135deg,  rgba(255,255,255,0) 67%,rgba(234,221,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top left, bottom right;
+  }
+    background-image: linear-gradient(135deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%), linear-gradient(135deg,  rgba(255,255,255,0) 67%,rgba(234,221,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
   // background: -moz-linear-gradient(-45deg,  rgba(234,221,168,1) 0%, rgba(255,255,255,0) 33%); /* FF3.6-15 */
   // background: -webkit-linear-gradient(-45deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%); /* Chrome10-25,Safari5.1-6 */
   // background: linear-gradient(135deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

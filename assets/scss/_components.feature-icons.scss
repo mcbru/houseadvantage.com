@@ -92,19 +92,19 @@
   }
 
 
-  .feature-icon:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    // bottom: 0.65em;
-    // top: -7em;
-    top: quadruple($spacing-unit)*(-1);
-    width: 5px;
-    // height: 7em;
-    height: quadruple($spacing-unit);
-    background: $color-white;
-    margin-left: -0.5px;
-  }
+  // .feature-icon:before {
+  //   content: '';
+  //   position: absolute;
+  //   left: 50%;
+  //   // bottom: 0.65em;
+  //   // top: -7em;
+  //   top: quadruple($spacing-unit)*(-1);
+  //   width: 5px;
+  //   // height: 7em;
+  //   height: quadruple($spacing-unit);
+  //   background: $color-white;
+  //   margin-left: -0.5px;
+  // }
 
   // .feature-icon:after {
   //   content: '';

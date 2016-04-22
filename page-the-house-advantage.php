@@ -19,9 +19,9 @@
 </header>
 
 <div id="stat-animate" class="[ band  band--special-dark ]">
-  <div class="row  column  text-center">
+  <div class="row  column  text-center" data-equalizer>
     <h2>The HALo Platform</h2>
-    <p class="lede">Our flagship product HALo is an always evolving, proven loyalty management platform with over 120 installations across 70 markets, including some of the largest integrated resorts in the U.S. and Asia.  It supports an aggregate database of over 100 million customer profiles.
+    <p class="lede">Our suite of loyalty software solutions, HALo, is a proven loyalty management platform with over 120 installations across 70 markets, including some of the largest integrated resorts in the U.S. and Asia.  It supports an aggregate database of over 100 million patron profiles. Today, the ever-evolving HALo platform:</p>
     <div class="medium-4  columns" data-equalizer-watch>
       <span class="feature-icon-regular">
         <span class="icon">
@@ -49,6 +49,7 @@
       <span id="number-food" class="stat">0</span>
       <p class="text-justify">Integrates over 300 food and beverage operations, allowing customers to earn and redeem rewards directly through point of sale systems.</p>
     </div>
+    <p>When your loyalty program is critical for success, trust the expertise and leadership of House Advantage.</p>
   </div>
 </div>
 

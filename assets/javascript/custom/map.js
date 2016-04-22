@@ -44,7 +44,7 @@ function initMap() {
   var map = new google.maps.Map(mapDiv, mapOptions);
   map.setOptions({styles: styles});
   var templateUrl = object_name.templateUrl;
-  var image = templateUrl+'/assets/images/map-marker.png';
+  var image = templateUrl+'/assets/images/map-marker.svg';
   var beachMarker = new google.maps.Marker({
     position: {lat: 36.1654401, lng: -115.3410981},
     map: map,

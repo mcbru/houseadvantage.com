@@ -26,6 +26,7 @@
   <?php
     $post_type = 'team';
     $team_args = array(
+      'orderby'          => 'menu_order',
       'order'            => 'ASC',
       'post_type'        => $post_type,
       'post_status'      => 'publish',

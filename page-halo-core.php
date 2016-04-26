@@ -59,9 +59,9 @@ get_header(); ?>
     <?php foundationpress_product_nav(); ?>
     <?php /*
       <img src="<?php bloginfo('template_url'); ?>/assets/images/abstract-48322126.jpg" alt="" />
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/hands-coding-1.jpg" alt="" />
+      <img class="thumbnail" src="http://placehold.it/500x500">
      */ ?>
-      <!-- <img src="<?php bloginfo('template_url'); ?>/assets/images/hands&#45;coding&#45;1.jpg" alt="" /> -->
-      <!-- <img class="thumbnail" src="http://placehold.it/500x500"> -->
     </div>
   </div>
 </section>

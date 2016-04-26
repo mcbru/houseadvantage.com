@@ -22,7 +22,7 @@ get_header(); ?>
 <section class="band" role="main">
   <div class="row">
 
-    <div <?php post_class('large-9  column') ?> id="post-<?php the_ID(); ?>">
+    <div <?php post_class('large-8  column') ?> id="post-<?php the_ID(); ?>">
       <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
       <div class="entry-content">
         <?php the_content(); ?>
@@ -35,9 +35,9 @@ get_header(); ?>
       <?php comments_template(); ?>
       <?php do_action( 'foundationpress_page_after_comments' ); ?>
     </div>
-    <div class="large-3  column">
-    <?php foundationpress_product_nav(); ?>
-
+    <div class="large-4  column">
+      <?php foundationpress_product_nav(); ?>
+    </div>
   </div>
 
 </section>

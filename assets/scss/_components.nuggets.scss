@@ -9,10 +9,24 @@
       font-weight: bold;
       // font-size: 1.75rem;
       font-size: rem-calc(22);
+      a, a:hover {
+        color: $color-red-dark;
+      }
     }
 
     p {
       font-family: Raleway, Helvetica, Roboto, Arial, sans-serif;
+    }
+  }
+}
+
+.nugget-group {
+  h3 {
+    a {
+      color: $color-red-dark;
+    }
+    a:hover {
+      color: $color-red;
     }
   }
 }

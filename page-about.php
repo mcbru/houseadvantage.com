@@ -31,7 +31,7 @@
       'post_type'        => $post_type,
       'post_status'      => 'publish',
       'caller_get_posts' => 1
-    ); // END $args
+    );
     $teammates_query = new WP_Query($team_args);
     if($teammates_query->have_posts()) {
       $count = 0;

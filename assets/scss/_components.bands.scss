@@ -7,6 +7,11 @@
   padding-bottom: double($spacing-unit);
 }
 
+.band--small {
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
 .band--special {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eadda8+0,ffffff+33&1+0,0+33 */
   @include breakpoint(medium) {

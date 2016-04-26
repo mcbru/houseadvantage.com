@@ -81,6 +81,13 @@
   border-bottom: 6px solid $color-red-dark;
 }
 
+.hero--gold-4 {
+  background-image: url('../images/header-gold-4.jpg');
+  // background-position: bottom;
+  background-size: cover;
+  border-bottom: 6px solid $color-red-dark;
+}
+
 .hero--gray-1 {
   h1.hero__text {
     color: $color-white;

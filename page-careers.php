@@ -5,17 +5,30 @@
  *
  */
 /*
-Careers at House Advantage
-
-Grow your skills and expand your horizons at House Advantage.
-
-Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?
-
-House Advantage is a global company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies.  At House Advantage, you get to work closely with key marketing leaders who provide support and consultation on loyalty strategy, new product development, programs and direct patron campaigns.  We offer challenging, high-profile development opportunities for candidates looking to be part of something great.
-
-Inquire about joining the House Advantage team at talent@houseadv.com.
-
-[CTA button].
+Software Developer
+The software engineer (developer) will be delivering software releases, which includes development of web applications, Windows thick client applications, Windows services, and Administrator clients for web and windows. 
+Requirements:
+·         5+ years using C#.NET to design, modify, and implement software
+·         Proficient with Microsoft SQL server architecture
+·         Proficient with Object Oriented programming
+·         Experience with Stored procedures, functions, and reports
+ 
+System Engineer
+The Systems Engineer will need support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.
+Requirements
+·         Expert level in Microsoft SQL Server 2008 or greater
+·         Have a solid working knowledge of XML and messaging
+·         Highly familiar with complex database and OO concepts
+·         Experienced with client/server and IIS architectures
+·         Must have a casino marketing application background; or experience working in the slot/gaming industry
+ 
+Product Manager
+The Product Manager is the product expert, knowing the HALo software inside and out in order to best support the customer’s needs. This role will regularly be planning meetings and installations, explaining functionality, managing and being the point of contact for the customer, and is technical enough to troubleshoot the product for QA testing and if something goes wrong.
+Requirements:
+·         Functional and practical knowledge of project management. 2 years of project management experience
+·         Demonstrated ability to train, document, troubleshoot, and describe promotions to customers
+·         Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL
+·         Must have a casino marketing application background; or experience working in the slot/gaming industry
  */
 
 get_header(); ?>
@@ -65,21 +78,56 @@ get_header(); ?>
 
 <section class="band">
   <div class="row">
-    <div class="large-6  column">
-      <p>Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?</p>
-      <p>House Advantage is a global company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies.  At House Advantage, you get to work closely with key marketing leaders who provide support and consultation on loyalty strategy, new product development, programs and direct patron campaigns.  We offer challenging, high-profile development opportunities for candidates looking to be part of something great.</p>
-      <!-- <p>Inquire about joining the House Advantage team at <a href="mailto:talent@houseadv.com">talent@houseadv.com</a>.</p> -->
-      <a href="mailto:talent@houseadv.com" class="button  hvr-sweep-to-right">Inquire Today</a>
-    </div>
-    <div class="large-6  column">
-    <?php /*
-      <img src="<?php bloginfo('template_url'); ?>/assets/images/abstract-48322126.jpg" alt="" />
-      <img src="<?php bloginfo('template_url'); ?>/assets/images/hands-coding-1.jpg" alt="" />
-     */ ?>
-      <img class="thumbnail" src="http://placehold.it/500x500">
-    </div>
+    <p>Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?</p>
+    <p>House Advantage is a global company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies.  At House Advantage, you get to work closely with key marketing leaders who provide support and consultation on loyalty strategy, new product development, programs and direct patron campaigns.  We offer challenging, high-profile development opportunities for candidates looking to be part of something great.</p>
+    <!-- <p>Inquire about joining the House Advantage team at <a href="mailto:talent@houseadv.com">talent@houseadv.com</a>.</p> -->
+    <!-- <a href="mailto:talent@houseadv.com" class="button  hvr&#45;sweep&#45;to&#45;right">Inquire Today</a> -->
   </div>
 </section>
+<h2>Open Positions</h2>
+<div class="[ band  band--small  band--tint ] ">
+  <div class="row  column">
+    <h3>Software Developer</h3>
+    <p>The software engineer (developer) will be delivering software releases, which includes development of web applications, Windows thick client applications, Windows services, and Administrator clients for web and windows.</p>
+    <h4>Requirements</h4>
+    <ul>
+      <li>5+ years using C#.NET to design, modify, and implement software</li>
+      <li>Proficient with Microsoft SQL server architecture</li>
+      <li>Proficient with Object Oriented programming</li>
+      <li>Experience with Stored procedures, functions, and reports</li>
+    </ul>
+    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+  </div>
+</div>
+<div class="[ band  band--small ]">
+  <div class="row  column">
+    <h3>System Engineer</h3>
+    <p>The Systems Engineer will need support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.</p>
+    <h4>Requirements</h4>
+    <ul>
+      <li>Expert level in Microsoft SQL Server 2008 or greater</li>
+      <li>Have a solid working knowledge of XML and messaging</li>
+      <li>Highly familiar with complex database and OO concepts</li>
+      <li>Experienced with client/server and IIS architectures</li>
+      <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
+    </ul>
+    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+  </div>
+</div>
+<div class="[ band  band--small  band--tint ]">
+  <div class="row  column">
+    <h3>Product Manager</h3>
+    <p>The Product Manager is the product expert, knowing the HALo software inside and out in order to best support the customer’s needs. This role will regularly be planning meetings and installations, explaining functionality, managing and being the point of contact for the customer, and is technical enough to troubleshoot the product for QA testing and if something goes wrong.</p>
+    <h4>Requirements</h4>
+    <ul>
+      <li>Functional and practical knowledge of project management. 2 years of project management experience</li>
+      <li>Demonstrated ability to train, document, troubleshoot, and describe promotions to customers</li>
+      <li>Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL</li>
+      <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
+    </ul>
+    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+  </div>
+</div>
 
 
 <?php get_footer();

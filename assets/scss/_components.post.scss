@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  #POST
+\*------------------------------------*/
+
+.post-list {
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: double($spacing-unit);
+}
+
+.post-list__item {
+  padding: 0 $spacing-unit;
+
+  h2 {
+    @include font-size(30px, none);
+    font-weight: 300;
+    margin-bottom: $spacing-unit;
+    a {
+      color: $color-red-dark;
+    }
+  }
+}
+
+.byline {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.byline__category {
+  color: $color-black;
+  margin-right: $spacing-unit;
+}
+
+.byline__date {
+}

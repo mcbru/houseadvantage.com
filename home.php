@@ -12,14 +12,6 @@ get_header(); ?>
     <h1 class="hero__text">
       <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
     </h1>
-        <?php /*
-    <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
-    <?php endif; ?>
-    <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
-    <?php endif; ?>
-         */ ?>
   </div>
 </header>
 

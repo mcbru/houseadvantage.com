@@ -17,6 +17,9 @@
     a {
       color: $color-red-dark;
     }
+    a:hover {
+      color: $color-red;
+    }
   }
 }
 
@@ -31,4 +34,5 @@
 }
 
 .byline__date {
+  font-weight: 200;
 }

@@ -10,6 +10,10 @@
 .hero {
   // background-color: $color-gold-alt;
 
+  h1 a {
+    color: $color-white;
+  }
+
   @include breakpoint(small) {
     // background: url('http://fakeimg.pl/1000/') bottom center;
     // background: url('../images/demo/hero-bg-foundation-6-small.svg') bottom center;

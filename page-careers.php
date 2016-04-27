@@ -4,32 +4,6 @@
  * The template for displaying the Careers page
  *
  */
-/*
-Software Developer
-The software engineer (developer) will be delivering software releases, which includes development of web applications, Windows thick client applications, Windows services, and Administrator clients for web and windows. 
-Requirements:
-·         5+ years using C#.NET to design, modify, and implement software
-·         Proficient with Microsoft SQL server architecture
-·         Proficient with Object Oriented programming
-·         Experience with Stored procedures, functions, and reports
- 
-System Engineer
-The Systems Engineer will need support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.
-Requirements
-·         Expert level in Microsoft SQL Server 2008 or greater
-·         Have a solid working knowledge of XML and messaging
-·         Highly familiar with complex database and OO concepts
-·         Experienced with client/server and IIS architectures
-·         Must have a casino marketing application background; or experience working in the slot/gaming industry
- 
-Product Manager
-The Product Manager is the product expert, knowing the HALo software inside and out in order to best support the customer’s needs. This role will regularly be planning meetings and installations, explaining functionality, managing and being the point of contact for the customer, and is technical enough to troubleshoot the product for QA testing and if something goes wrong.
-Requirements:
-·         Functional and practical knowledge of project management. 2 years of project management experience
-·         Demonstrated ability to train, document, troubleshoot, and describe promotions to customers
-·         Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL
-·         Must have a casino marketing application background; or experience working in the slot/gaming industry
- */
 
 get_header(); ?>
 
@@ -43,13 +17,6 @@ get_header(); ?>
     <?php endif; ?>
   </div>
 </header>
-
-<!-- <header class="hero  hero&#45;&#45;abstract&#45;1" role="banner"> -->
-<!--   <div class="row  column"> -->
-<!--     <h1 class="hero__text">Careers at House Advantage</h1> -->
-<!--     <p class="hero__text">Grow your skills and expand your horizons at House Advantage.</p> -->
-<!--   </div> -->
-<!-- </header> -->
 
 <?php /*
 <?php while ( have_posts() ) : the_post(); ?>
@@ -96,7 +63,7 @@ get_header(); ?>
       <li>Proficient with Object Oriented programming</li>
       <li>Experience with Stored procedures, functions, and reports</li>
     </ul>
-    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right">Submit Resumé</a>
   </div>
 </div>
 <div class="[ band  band--small ]">
@@ -111,7 +78,7 @@ get_header(); ?>
       <li>Experienced with client/server and IIS architectures</li>
       <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
     </ul>
-    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right">Submit Resumé</a>
   </div>
 </div>
 <div class="[ band  band--small  band--tint ]">
@@ -125,7 +92,7 @@ get_header(); ?>
       <li>Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL</li>
       <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
     </ul>
-    <a href="mailto:talent@houseadv.com" class="small  button  hvr-sweep-to-right">Inquire Today</a>
+    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right">Submit Resumé</a>
   </div>
 </div>
 

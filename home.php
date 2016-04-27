@@ -19,12 +19,16 @@ get_header(); ?>
   <!-- <div class="row"> -->
     <!-- <div class="medium&#45;9  column"> -->
       <!-- <article class="main&#45;content"> -->
-      <?php if ( have_posts() ) : ?>
+      <?php
+        $loop = new WP_Query(array(
+          'offset' => 1,
+        ));
+      if ( $loop->have_posts() ) : ?>
 
       <div class="row  small-up-1  medium-up-2" data-equalizer data-equalize-by-row="true">
 
         <?php /* Start the Loop */ ?>
-        <?php while ( have_posts() ) : the_post(); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
         <div class="column">
           <!-- <article class="main&#45;content"> -->
@@ -59,7 +63,7 @@ get_header(); ?>
         <?php else : ?>
           <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-        <?php endif; // End have_posts() check. ?>
+        <?php endif; // End $loop->have_posts() check. ?>
 
         <?php /* Display navigation to next/previous pages when applicable */ ?>
         <?php if ( function_exists( 'foundationpress_pagination' ) ) { foundationpress_pagination(); } else if ( is_paged() ) { ?>

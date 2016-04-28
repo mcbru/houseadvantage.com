@@ -31,6 +31,10 @@
 /* Tablet and desktop menu */
 .top-bar {
 
+  .menu .active a {
+    color: $color-red-dark;
+  }
+
   .menu .home a {
     font-size: 1rem;
     color: #B9B9B9;

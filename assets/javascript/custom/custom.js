@@ -64,7 +64,7 @@ $(function(){
       $('#number-games').animateNumber(
       {
         number: 100000,
-        'font-size': '70px',
+        // 'font-size': '40px',
         easing: 'easeOutExpo',
         numberStep: comma_separator_number_step
       },
@@ -74,7 +74,7 @@ $(function(){
       $('#number-hotels').animateNumber(
       {
         number: 50000,
-        'font-size': '70px',
+        // 'font-size': '40px',
         easing: 'easeOutExpo',
         numberStep: comma_separator_number_step
       },
@@ -85,13 +85,24 @@ $(function(){
       $('#number-food').animateNumber(
       {
         number: 300,
-        'font-size': '70px',
+        // 'font-size': '40px',
         easing: 'easeOutExpo',
         numberStep: comma_separator_number_step
       },
       6000
     );
     }, 1000);
+    setTimeout(function() {
+      $('#number-profiles').animateNumber(
+      {
+        number: 100000000,
+        // 'font-size': '40px',
+        easing: 'easeOutExpo',
+        numberStep: comma_separator_number_step
+      },
+      6000
+    );
+    }, 500);
       return false;
   }
 });

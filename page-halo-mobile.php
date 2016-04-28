@@ -9,9 +9,7 @@ get_header(); ?>
 
 <header class="hero  hero--gray-2" role="banner">
   <div class="row  column">
-    <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
-    <?php endif; ?>
+    <h1 class="hero__text"><?php wp_title(''); ?></h1>
     <?php if ( get_field('hero_subhead') ) : ?>
       <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>

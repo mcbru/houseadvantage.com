@@ -50,10 +50,11 @@ get_header(); ?>
       <p>HALo CORE is licensed for use in gaming loyalty programs across a geographically diverse set of markets via state and local regulatory bodies.</p>
       <p>HALo allows operators to:</p>
       <ul>
-      <li>Operate a single card loyalty program locally or enterprise wide.</li>
-      <li>Centralize all patron data from the enterprise in real-time, determining how rewards are earned and by whom</li>
-      <li>Extend brand loyalty across the enterprise by capturing and managing data in real-time, including spend, promotions and complimentaries.</li>
-      <li>Influence patron behavior by managing tiers based on spend across the entire organization, not just gaming.</li>
+        <li>Operate a single card loyalty program locally or enterprise wide.</li>
+        <li>Centralize all patron data from the enterprise in real-time, determining how rewards are earned and by whom</li>
+        <li>Extend brand loyalty across the enterprise by capturing and managing data in real-time, including spend, promotions and complimentaries.</li>
+        <li>Influence patron behavior by managing tiers based on spend across the entire organization, not just gaming.</li>
+      </ul>
     </div>
     <div class="large-3  column">
     <?php foundationpress_product_nav(); ?>

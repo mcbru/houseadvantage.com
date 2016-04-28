@@ -9,19 +9,14 @@ get_header(); ?>
 
 <header class="hero  hero--gray-2" role="banner">
   <div class="row  column">
-    <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
-    <?php endif; ?>
-    <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
-    <?php endif; ?>
+    <h1 class="hero__text"><?php wp_title(''); ?></h1>
+    <p class="hero__text"><?php echo get_post_meta($post->ID, 'hero_subhead', true); ?></p>
   </div>
 </header>
 
 <?php while ( have_posts() ) : the_post(); ?>
 <section class="band" role="main">
   <div class="row">
-
     <div <?php post_class('large-8  column') ?> id="post-<?php the_ID(); ?>">
       <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
       <div class="entry-content">

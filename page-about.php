@@ -12,6 +12,10 @@
 
 <header class="hero  hero--dark  hero--red-1" role="banner">
   <div class="row  column">
+  <?php /*
+    <h1 class="hero__text"><?php wp_title(''); ?></h1>
+   */ ?>
+
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>

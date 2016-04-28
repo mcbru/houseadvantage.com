@@ -56,7 +56,7 @@ if(isset($_POST['submitted'])) {
 
 <?php get_header(); ?>
 
-<header class="hero  hero--gray-1" role="banner">
+<header class="hero  hero--gold-5" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
       <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>

@@ -6,9 +6,6 @@
   @include grid-row();
 }
 
-// #menu-item-21 a {
-// }
-
 /* Underline From Left */
 .hvr-underline-from-left a {
   display: inline-block;
@@ -22,7 +19,7 @@
   position: relative;
   overflow: hidden;
 }
-.hvr-underline-from-left a:before {
+.hvr-underline-from-left:not(.active) a:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -38,6 +35,23 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left a:hover:before, .hvr-underline-from-left a:focus:before, .hvr-underline-from-left a:active:before {
+
+.hvr-underline-from-left a:hover:before,
+.hvr-underline-from-left a:focus:before,
+.hvr-underline-from-left a:active:before {
   right: 0;
+}
+
+.hvr-underline-from-left.active a:before,
+.hvr-underline-from-left.active a:active:before,
+.hvr-underline-from-left.active a:focus:before,
+.hvr-underline-from-left.active a:hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $color-red-dark;
+  height: 4px;
 }

@@ -43,8 +43,8 @@
       @include font-size(40px);
     }
   }
-  padding-top: quadruple($spacing-unit);
-  padding-bottom: sextuple($spacing-unit);
+  // padding-top: quadruple($spacing-unit);
+  // padding-bottom: sextuple($spacing-unit);
 }
 
 .hero--dark {
@@ -87,6 +87,13 @@
 
 .hero--gold-4 {
   background-image: url('../images/header-gold-4.jpg');
+  // background-position: bottom;
+  background-size: cover;
+  border-bottom: 6px solid $color-red-dark;
+}
+
+.hero--gold-5 {
+  background-image: url('../images/header-gold-5.jpg');
   // background-position: bottom;
   background-size: cover;
   border-bottom: 6px solid $color-red-dark;
@@ -137,6 +144,12 @@
   background-size: cover;
   // text-align: left;
   border-bottom: 6px solid $color-red-dark;
+  h1.hero__text {
+    color: $color-white;
+  }
+  p.hero__text {
+    color: $color-white;
+  }
 }
 
 h1.hero__text {

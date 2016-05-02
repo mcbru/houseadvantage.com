@@ -89,9 +89,9 @@ get_header(); ?>
 <section class="band  band--tint">
   <div class="row  column">
     <h2 id="products">HALo Loyalty Software Solutions</h2>
-    <p><strong>HALo</strong> is a suite of centrally managed loyalty solutions that enable delivery of highly tailored programs and incentives across multiple systems. HALo is a proven solution with huge transactional scale typically seen only in global financial networks.</p>
-    <p>The following management tools and user interfaces extend the power of the HALo loyalty platform.</p>
+    <p>HALo is a suite of centrally managed loyalty solutions that enable delivery of highly tailored programs and incentives across multiple systems. HALo is a proven solution with huge transactional scale typically seen only in global financial networks. Orchestrating those programs and their vast stores of data is HALo Core, the central component of the HALo Loyalty Management Solution. The following management tools and user interfaces extend the power of the HALo platform.</p>
 
+    <h2 id="products">Core Loyalty Management</h2>
     <div class="nugget-group">
       <div class="row">
         <div class="medium-6  column">
@@ -101,14 +101,14 @@ get_header(); ?>
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-core">HALo Core</a></h3>
-              <p>HALo Core is the central component of the HALo Loyalty Management Solution, allowing users to centralize all patron data for the enterprise, determining how rewards are earned and by whom.</p>
+              <p>Deploy the fundamental tools necessary to configure and manage the enterprise loyalty program. Define program characteristics such as customer tiers, a variety of loyalty currencies which can be earned or gifted, and the operations which participate in the program.</p>
             </div>
           </div>
         </div>
         <div class="medium-6  column">
           <div class="media-object">
             <div class="media-object-section">
-              <img class="thumbnail" src="http://placehold.it/60x60">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-offers.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-offers">HALo Offers</a></h3>
@@ -119,7 +119,7 @@ get_header(); ?>
         <div class="medium-6  column">
           <div class="media-object">
             <div class="media-object-section">
-              <img class="thumbnail" src="http://placehold.it/60x60">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-event-management">HALo Event Management</a></h3>
@@ -137,25 +137,14 @@ get_header(); ?>
     <h2>HALo Mobile Solutions</h2>
     <div class="nugget-group">
       <div class="row">
-        <div class="medium-6  column">
+        <div class="column">
           <div class="media-object">
             <div class="media-object-section">
               <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-mobile.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-mobile">HALo Mobile</a></h3>
-              <p>HALo Mobile provides mobile access to all your internal patron management functions – securely, enterprise-wide – on both iOS and Android. Mobile Enrollment lets patrons easily enroll into loyalty programs simply by scanning a drivers’ license, minimizing data entry.</p>
-            </div>
-          </div>
-        </div>
-        <div class="medium-6  column">
-          <div class="media-object">
-            <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-mobile.png">
-            </div>
-            <div class="media-object-section">
-              <h3 class="delta"><a href="halo-mobile-enrollment">HALo Mobile Enrollment</a></h3>
-              <p>HALo Mobile Enrollment lets patrons easily enroll into loyalty programs simply by scanning a drivers’ license, minimizing data entry.</p>
+              <p>HALo Mobile provides mobile access to all your internal patron management functions – securely, enterprise-wide – on both iOS and Android. With HALo Mobile Enrollment, patrons easily enroll into loyalty programs simply by scanning a drivers’ license, minimizing data entry.</p>
             </div>
           </div>
         </div>
@@ -166,7 +155,7 @@ get_header(); ?>
 
 <section class="band">
   <div class="row  column">
-    <h2>Promotions and Self Service</h2>
+    <h2>Promotions and Self-service</h2>
     <div class="nugget-group">
       <div class="row">
         <div class="medium-6  column" data-equalizer-watch>
@@ -262,6 +251,17 @@ get_header(); ?>
             <div class="media-object-section">
               <h3 class="delta"><a href="has2s-gateway">HAS2S Gateway</a></h3>
               <p>The HAS2S Gateway is the primary integration point for ACSC systems without the Bally Universal Gateway (for use with casino loyalty solutions).</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-cloud.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="halo-cloud">HALo Cloud</a></h3>
+              <p>HALo Cloud enables deployment of HALo in a cloud-based environment such as Microsoft Azure or Amazon EC2.</p>
             </div>
           </div>
         </div>

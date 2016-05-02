@@ -85,6 +85,7 @@ get_header(); ?>
 
   <div class="small-12  medium-6  column">
     <div class="nugget-group  text-left">
+      <p>Differentiate your loyalty program with the power and flexibility of HALo – an advanced loyalty solution that can help you boost customer engagement and gain competitive advantage.</p>
       <div class="nugget__item">
         <h3>Empower patrons to redeem offers and rewards when they want</h3>
         <p>Let customers manage experiences through a variety of self-service interfaces.</p>
@@ -118,7 +119,7 @@ get_header(); ?>
           </span>
         </span>
         <h3 class="min-height-small">Strategy Services</h3>
-        <p class="text-justify" data-equalizer-watch>With a full range of training, strategy, and consulting services, House Advantage is your “always-on” partner in every aspect of loyalty and customer engagement. We apply more than a century of combined experience implementing, managing, and optimizing loyalty solutions to meet your exact requirements and support your ongoing success.</p>
+        <p data-equalizer-watch>House Advantage is your “always-on” partner in every aspect of loyalty and customer engagement, applying more than a century of combined experience implementing, managing, and optimizing loyalty solutions to meet your requirements.</p>
         <a role="button" class="hollow  large  button hvr-sweep-to-right" href="solutions#products">learn more</a>
       </div>
 
@@ -129,7 +130,7 @@ get_header(); ?>
           </span>
         </span>
         <h3 class="min-height-small">Integrated Software Solutions</h3>
-        <p class="text-justify" data-equalizer-watch>HALo is a suite of centrally managed loyalty solutions. It has the power to integrate your loyalty program across hotel, restaurant, point of sale, food and beverage, spa and entertainment systems in service of a coherent, enterprise-wide customer experience.</p>
+        <p data-equalizer-watch>HALo is a suite of centrally managed loyalty solutions. It has the power to integrate your loyalty program across hotel, restaurant, point of sale, food and beverage, spa and entertainment systems in service of a coherent, enterprise-wide customer experience.</p>
         <a role="button" class="hollow  large  button  hvr-sweep-to-right" href="solutions#services">learn more</a>
       </div>
 
@@ -140,7 +141,7 @@ get_header(); ?>
           </span>
         </span>
         <h3 class="min-height-small">System Interface and Integration Technologies</h3>
-        <p class="text-justify" data-equalizer-watch><strong>House Advantage</strong> offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
+        <p data-equalizer-watch><strong>House Advantage</strong> offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
         <a role="button" class="hollow  large  button hvr-sweep-to-right" href="solutions#integrations">learn more</a>
       </div>
 

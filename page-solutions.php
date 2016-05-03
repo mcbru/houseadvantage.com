@@ -7,15 +7,17 @@
 
 get_header(); ?>
 
-<header class="hero  hero--gray-2" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+      <h1 class="hero__head"><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>
     <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+      <p class="hero__subhead"><?php the_field('hero_subhead'); ?></p>
       <!-- <a role="button" class="large  button" href="#">CTA</a> -->
     <?php endif; ?>
+  </div>
+  <div class="hero__image  hero__image--solutions">
   </div>
 </header>
 

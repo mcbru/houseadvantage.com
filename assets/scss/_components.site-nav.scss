@@ -31,6 +31,9 @@
 /* Tablet and desktop menu */
 .top-bar {
 
+  font-family: $header-font-family;
+  letter-spacing: 1px;
+
   .menu .active a {
     color: $color-red-dark;
   }
@@ -49,7 +52,7 @@
     padding-bottom: 0;
     font-weight: bold;
     // font-size: 0.8rem;
-    font-size: rem-calc(18);
+    font-size: rem-calc(16);
     line-height: 1;
     text-transform: uppercase;
 

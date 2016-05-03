@@ -104,9 +104,11 @@ $foundation-palette: (
 // Brand primary
 $color-gold: #d0b962;
 $color-gold-alt: #dfca77;
-$color-gold-dark: #af9642;
+$color-gold-dark: #846900;
+// $color-gold-dark: #af9642;
 $color-gold-light: #f1e19e;
-$color-red: #d14e52;
+$color-red-light: #d14e52;
+$color-red: #a22331;
 $color-red-dark: #82131a;
 $color-red-light: #af9642;
 $color-gray: #686766;
@@ -136,7 +138,7 @@ $dark-gray: $color-gray-dark;
 
 $body-background: $color-white;
 $body-font-color: $color-gray;
-$body-font-family: Lato, Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: Raleway, Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -176,7 +178,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: Lato, Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;

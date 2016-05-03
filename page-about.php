@@ -10,23 +10,32 @@
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 
-<header class="hero  hero--dark  hero--red-1" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
   <?php /*
     <h1 class="hero__text"><?php wp_title(''); ?></h1>
    */ ?>
 
     <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+      <h1><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>
     <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+      <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
+  </div>
+  <div class="hero__image  hero__image--team">
   </div>
 </header>
 
 
 <div role="main">
+
+<div class="band">
+  <div class="row  column">
+    <p class="lede">Your loyalty program is critical to the success of your business. Put your trust in the expertise and leadership of the House Advantage team.  We are a loyalty strategy company with deep strategic and operational experience across loyalty marketing, business management, finance and operations. Count on House Advantage as your strategy and technology partner to help you optimize your loyalty program platform.</p>
+  </div>
+</div>
+
   <?php
     $post_type = 'team';
     $team_args = array(

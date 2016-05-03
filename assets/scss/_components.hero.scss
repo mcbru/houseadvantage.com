@@ -8,43 +8,56 @@
 // }
 
 .hero {
-  // background-color: $color-gold-alt;
+
+  padding-top: double($spacing-unit);
+  position: relative;
+
+  h1 {
+    color: $color-red;
+    @include font-size(56px);
+    font-weight: 300;
+    margin-bottom: double($spacing-unit);
+  }
+
+  p {
+    color: $color-gold-dark;
+    font-family: $header-font-family;
+    font-weight: 500;
+    @include font-size(27px, 1.5)
+    margin-bottom: double($spacing-unit);
+  }
 
   h1 a {
     color: $color-white;
   }
 
-  @include breakpoint(small) {
-    // background: url('http://fakeimg.pl/1000/') bottom center;
-    // background: url('../images/demo/hero-bg-foundation-6-small.svg') bottom center;
-    // background-size: cover;
-    // background-position: bottom;
-    // padding: rem-calc(65%) 0;
-    padding-top: triple($spacing-unit);
-    padding-bottom: triple($spacing-unit);
-    // margin: 0 0 rem-calc(32);
-    height: auto;
-    position: relative;
-    text-align: center;
-  }
 }
 
 .hero--front {
-  h1.hero__text {
-    color: $color-gray-dark;
-    text-transform: uppercase;
-    font-weight: bold;
-    @include breakpoint(medium) {
-      @include font-size(70px);
-    }
+    background-image: url('../images/digital-honeycomb-3.jpg');
+    background-repeat: no-repeat;
+    background-position: -700px 0;
+  .diagonals {
+    padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
+    // background-image: url('../images/hero-diagonal-bars.png');
+    // background-repeat: no-repeat;
+    // background-position: -10px 0;
   }
-  p.hero__text {
-    @include breakpoint(medium) {
-      @include font-size(40px);
-    }
+  // background-color: $color-gold-alt;
+  // background-image: url('../images/digital-honeycomb.jpg');
+  // background-position: bottom center;
+  // background-repeat: no-repeat;
+  // background-position: -650px 0;
+  // background-position: 8% 0, -1000% 0;
+  text-align: right;
+  border-bottom: 10px solid $color-red-dark;
+  h1 {
+    margin-bottom: double($spacing-unit);
+    @include font-size(80px);
   }
-  // padding-top: quadruple($spacing-unit);
-  // padding-bottom: sextuple($spacing-unit);
+  p {
+    @include font-size(32px, 1.5);
+  }
 }
 
 .hero--dark {
@@ -99,31 +112,31 @@
   border-bottom: 6px solid $color-red-dark;
 }
 
-.hero--gray-1 {
-  h1.hero__text {
-    color: $color-white;
-  }
-  p.hero__text {
-    color: $color-white;
-  }
-  background-image: url('../images/header-gray-1.jpg');
-  background-position: bottom;
-  background-size: cover;
-  border-bottom: 6px solid $color-gold;
-}
-
-.hero--gray-2 {
-  h1.hero__text {
-    color: $color-white;
-  }
-  p.hero__text {
-    color: $color-white;
-  }
-  background-image: url('../images/header-gray-2.jpg');
-  // background-position: bottom;
-  background-size: cover;
-  border-bottom: 6px solid $color-gold;
-}
+// .hero--gray-1 {
+//   h1.hero__text {
+//     color: $color-white;
+//   }
+//   p.hero__text {
+//     color: $color-white;
+//   }
+//   background-image: url('../images/header-gray-1.jpg');
+//   background-position: bottom;
+//   background-size: cover;
+//   border-bottom: 6px solid $color-gold;
+// }
+//
+// .hero--gray-2 {
+//   h1.hero__text {
+//     color: $color-white;
+//   }
+//   p.hero__text {
+//     color: $color-white;
+//   }
+//   background-image: url('../images/header-gray-2.jpg');
+//   // background-position: bottom;
+//   background-size: cover;
+//   border-bottom: 6px solid $color-gold;
+// }
 
 .hero--red-1 {
   background-image: url('../images/header-red-1.jpg');
@@ -150,6 +163,40 @@
   p.hero__text {
     color: $color-white;
   }
+}
+
+.hero__image:after {
+  display:    block;
+  content:    '';
+  position:   absolute;
+  width:      100%;
+  height:     6px;
+  bottom:     0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+.hero__image--careers {
+  min-height: 430px;
+  background-image: url('../images/triple-border-red.png'), url('../images/header-biker-2.jpg');
+  background-position: center top, center top;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+}
+
+.hero__image--team {
+  min-height: 430px;
+  background-image: url('../images/triple-border-red.png'), url('../images/header-gold-6.jpg');
+  background-position: center top, center bottom;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+}
+
+.hero__image--solutions {
+  min-height: 430px;
+  background-image: url('../images/triple-border-red.png'), url('../images/header-gold-7.jpg');
+  background-position: center top, center center;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
 }
 
 h1.hero__text {

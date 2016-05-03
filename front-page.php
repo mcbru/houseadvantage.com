@@ -7,15 +7,19 @@
 
 get_header(); ?>
 
-<header class="hero  hero--front  hero--gold-1" role="banner">
-  <div class="row  column">
-    <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
-    <?php endif; ?>
-    <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
-    <?php endif; ?>
-      <a role="button" class="large  button  button--hero" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
+<header class="hero  hero--front" role="banner">
+  <div class="row  collapse">
+    <div class="medium-11  medium-offset-1  column">
+      <div class="diagonals">
+        <?php if ( get_field('hero_head') ) : ?>
+          <h1><?php the_field('hero_head'); ?></h1>
+        <?php endif; ?>
+        <?php if ( get_field('hero_subhead') ) : ?>
+          <p><?php the_field('hero_subhead'); ?></p>
+        <?php endif; ?>
+          <a role="button" class="button  button--hero  hvr-sweep-to-right" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -120,7 +124,7 @@ get_header(); ?>
         </span>
         <h3 class="min-height-small">Strategy Services</h3>
         <p data-equalizer-watch>House Advantage is your “always-on” partner in every aspect of loyalty and customer engagement, applying more than a century of combined experience implementing, managing, and optimizing loyalty solutions to meet your requirements.</p>
-        <a role="button" class="hollow  large  button hvr-sweep-to-right" href="solutions#products">learn more</a>
+        <a role="button" class="hollow  large  button  hvr-sweep-to-right" href="solutions#products">learn more</a>
       </div>
 
       <div class="nugget__item  column">

@@ -7,10 +7,12 @@
 
 get_header(); ?>
 
-<header class="hero  hero--gray-2" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
-    <h1 class="hero__text"><?php wp_title(''); ?></h1>
-    <p class="hero__text"><?php echo get_post_meta($post->ID, 'hero_subhead', true); ?></p>
+    <h1><?php wp_title(''); ?></h1>
+    <p><?php echo get_post_meta($post->ID, 'hero_subhead', true); ?></p>
+  </div>
+  <div class="hero__image  hero__image--team">
   </div>
 </header>
 

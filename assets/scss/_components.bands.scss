@@ -12,6 +12,10 @@
   padding-bottom: $spacing-unit;
 }
 
+// .band:first-of-type:not(.band--special) {
+//   padding-top: 0;
+// }
+
 .band--special {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eadda8+0,ffffff+33&1+0,0+33 */
   @include breakpoint(medium) {
@@ -47,10 +51,12 @@
   h1, h2, h3, h4, h5, h6 {
     color: $color-white;
   }
+  // margin-top: double($spacing-unit) * -1;
 }
 
 .band--gold {
   background-color: $color-gold-alt;
+  color: shade($color-gray-dark, 20%);
 }
 
 // A special triple border to ease transitions between bands

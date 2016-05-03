@@ -17,8 +17,9 @@
   color: $color-red;
   text-transform: uppercase;
   padding: $spacing-unit;
-  font-size: rem-calc(24);
-  font-weight: bold;
+  // font-size: rem-calc(24);
+  @include font-size(22px);
+  // font-weight: bold;
 // border-left: 0.5 * $spacing-unit solid $color-tint;
 // border-top: 2px solid $color-blue-brand-accent-light;
 // border-bottom: 2px solid $color-blue-brand-accent-light;

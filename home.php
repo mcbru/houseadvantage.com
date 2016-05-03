@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<header class="hero" role="banner">
+<header class="hero  hero--red-1  text-center" role="banner">
   <div class="row  column">
       <?php foundationpress_entry_meta(); ?>
     <h1>

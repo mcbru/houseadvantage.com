@@ -6,16 +6,12 @@
   .nugget__item {
     h3 {
       // color: #0a0a0a;
-      font-weight: bold;
+      // font-weight: bold;
       // font-size: 1.75rem;
-      font-size: rem-calc(22);
+      // font-size: rem-calc(22);
       a, a:hover {
         color: $color-red-dark;
       }
-    }
-
-    p {
-      // font-family: Raleway, Helvetica, Roboto, Arial, sans-serif;
     }
   }
 }
@@ -26,7 +22,7 @@
       color: $color-red-dark;
     }
     a:hover {
-      color: $color-red;
+      color: tint($color-red, 20%);
     }
   }
 }

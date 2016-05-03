@@ -65,6 +65,8 @@ if(isset($_POST['submitted'])) {
       <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
   </div>
+  <div class="hero__image  hero__image--contact">
+  </div>
 </header>
 
 <?php /*
@@ -140,7 +142,7 @@ if(isset($_POST['submitted'])) {
           <span class="form-error">Please enter a message for us</span>
         </label>
         <fieldset>
-          <button class="button  hvr-sweep-to-right" type="submit" value="Submit">Submit</button>
+          <button class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold" type="submit" value="Submit">Submit</button>
         </fieldset>
         <input value="true" id="submitted" name="submitted" type="hidden">
       </form>

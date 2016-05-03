@@ -13,7 +13,7 @@
   <div class="small-12  medium-10  column">
     <h2 class="red"><?php the_title(); ?></h2>
     <?php if ( get_field('role') ) : ?>
-      <h3><strong><?php the_field('role'); ?></strong></h3>
+      <h3><?php the_field('role'); ?></h3>
     <?php endif; ?>
     <?php the_content(); ?>
     <ul class="menu  icon-menu">

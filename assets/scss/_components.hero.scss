@@ -11,6 +11,7 @@
 
   padding-top: double($spacing-unit);
   position: relative;
+  // margin-bottom: double($spacing-unit);
 
   h1 {
     color: $color-red;
@@ -37,6 +38,7 @@
     background-image: url('../images/digital-honeycomb-3.jpg');
     background-repeat: no-repeat;
     background-position: -700px 0;
+    // margin-bottom: 0;
   .diagonals {
     padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
     // background-image: url('../images/hero-diagonal-bars.png');
@@ -165,6 +167,13 @@
   }
 }
 
+
+.hero__image {
+  min-height: 300px;
+}
+
+// Give the image a bottom shadow
+// http://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element
 .hero__image:after {
   display:    block;
   content:    '';
@@ -176,7 +185,6 @@
 }
 
 .hero__image--careers {
-  min-height: 430px;
   background-image: url('../images/triple-border-red.png'), url('../images/header-biker-2.jpg');
   background-position: center top, center top;
   background-repeat: repeat-x, no-repeat;
@@ -184,7 +192,6 @@
 }
 
 .hero__image--team {
-  min-height: 430px;
   background-image: url('../images/triple-border-red.png'), url('../images/header-gold-6.jpg');
   background-position: center top, center bottom;
   background-repeat: repeat-x, no-repeat;
@@ -192,8 +199,21 @@
 }
 
 .hero__image--solutions {
-  min-height: 430px;
   background-image: url('../images/triple-border-red.png'), url('../images/header-gold-7.jpg');
+  background-position: center top, center center;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+}
+
+.hero__image--advantage {
+  background-image: url('../images/triple-border-red.png'), url('../images/header-gold-8.jpg');
+  background-position: center top, center center;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+}
+
+.hero__image--contact {
+  background-image: url('../images/triple-border-red.png'), url('../images/header-red-2.jpg');
   background-position: center top, center center;
   background-repeat: repeat-x, no-repeat;
   background-size: auto, cover;

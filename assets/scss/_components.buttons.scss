@@ -15,10 +15,10 @@
 
 // Special double-border button
 .button--hero {
-  background-color: $color-white;
+  background-color: $color-red;
   border: 4px solid $color-red;
   border-radius: 3px;
-  color: $color-black;
+  // color: $color-black;
   padding: halve($spacing-unit) $spacing-unit;
   font-weight: bold;
   font-family: Raleway;
@@ -28,6 +28,9 @@
   margin-top: $spacing-unit;
   > .fa {
     margin-right: $spacing-unit;
+  }
+  &:hover {
+    background: $color-red;
   }
 }
 

@@ -67,6 +67,8 @@ h3 {
 .#{$inuit-namespace}epsilon,
 %#{$inuit-namespace}epsilon {
     @include inuit-font-size($inuit-heading-size-5);
+    text-transform: uppercase;
+    color: shade($body-font-color, 20%);
 }
 
 .#{$inuit-namespace}zeta,

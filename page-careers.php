@@ -60,7 +60,7 @@ get_header(); ?>
     <p>The software engineer (developer) will be delivering software releases, which includes development of web applications, Windows thick client applications, Windows services, and Administrator clients for web and windows.</p>
     <h4>Requirements</h4>
     <ul>
-      <li>5+ years using C#.NET to design, modify, and implement software</li>
+      <li>5+ years using C# and .NET to design, modify, and implement software</li>
       <li>Proficient with Microsoft SQL server architecture</li>
       <li>Proficient with Object Oriented programming</li>
       <li>Experience with Stored procedures, functions, and reports</li>

@@ -109,7 +109,7 @@ if(isset($_POST['submitted'])) {
         <li>Phone: 702-240-4655</li>
         <li>Fax: 702-410-6606</li>
         <li>http://www.houseadv.com</li>
-        <li><a href="mailto:sales@houseadv.com">Sales@houseadv.com</a></li>
+        <li><a href="mailto:contact@houseadv.com">contact@houseadv.com</a></li>
         <br>
         <ul class="menu  icon-menu">
           <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square  fa-2x"></i></a></li>

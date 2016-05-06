@@ -17,9 +17,9 @@
         <?php dynamic_sidebar( 'footer-widgets' ); ?>
         <div class="menu-centered">
           <ul class="menu">
-            <li><a href="#"><i class="fa  fa-linkedin  fa-3x"></i></a></li>
-            <li><a href="#"><i class="fa  fa-twitter  fa-3x"></i></a></li>
-            <li><a href="#"><i class="fa  fa-envelope  fa-3x"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin  fa-3x"></i></a></li>
+            <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter  fa-3x"></i></a></li>
+            <li><a href="contact"><i class="fa  fa-envelope  fa-3x"></i></a></li>
           </ul>
         </div>
         <div class="menu-centered">

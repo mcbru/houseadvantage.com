@@ -65,7 +65,7 @@ get_header(); ?>
       <li>Proficient with Object Oriented programming</li>
       <li>Experience with Stored procedures, functions, and reports</li>
     </ul>
-    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
 <div class="[ band  band--small  band--tint ]">
@@ -80,7 +80,7 @@ get_header(); ?>
       <li>Experienced with client/server and IIS architectures</li>
       <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
     </ul>
-    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
 <div class="[ band  band--small ]">
@@ -94,7 +94,7 @@ get_header(); ?>
       <li>Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL</li>
       <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
     </ul>
-    <a href="mailto:brett.kline@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
 

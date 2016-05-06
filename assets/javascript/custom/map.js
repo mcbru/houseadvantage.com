@@ -3,10 +3,12 @@
  */
 
 function initMap() {
-  var location = new google.maps.LatLng(36.1654401, -115.3410981);
+  var lat = 36.1596259;
+  var long = -115.3170515;
+  var location = new google.maps.LatLng(lat, long);
   var mapOptions = {
     center: location,
-    zoom: 13,
+    zoom: 12,
     scrollwheel: false,
     disableDefaultUI: true,
   };
@@ -46,7 +48,7 @@ function initMap() {
   var templateUrl = object_name.templateUrl;
   var image = templateUrl+'/assets/images/map-marker.svg';
   var beachMarker = new google.maps.Marker({
-    position: {lat: 36.1654401, lng: -115.3410981},
+    position: {lat: lat, lng: long},
     map: map,
     icon: image
   });

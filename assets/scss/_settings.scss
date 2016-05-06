@@ -235,7 +235,8 @@ $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
 $blockquote-color: $dark-gray;
 $blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-border: 1px solid $medium-gray;
+// $blockquote-border: 1px solid $medium-gray;
+$blockquote-border: none;
 $cite-font-size: rem-calc(13);
 $cite-color: $dark-gray;
 $keystroke-font: $font-family-monospace;
@@ -313,7 +314,7 @@ $breadcrumbs-item-slash: true;
 
 $button-padding: 0.85em 2em;
 $button-margin: 0 0 $global-margin 0;
-$button-fill: hollow;
+$button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: #fff;
@@ -489,7 +490,7 @@ $maincontent-shadow: 0 0 10px rgba($color-black, 0.5);
 
 $orbit-bullet-background: $medium-gray;
 $orbit-bullet-background-active: $dark-gray;
-$orbit-bullet-diameter: 1.2rem;
+$orbit-bullet-diameter: 0.7rem;
 $orbit-bullet-margin: 0.1rem;
 $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;

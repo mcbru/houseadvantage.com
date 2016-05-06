@@ -224,7 +224,7 @@ get_header(); ?>
         </span>
       </div>
       <div class="medium-8  medium-pull-4  column">
-        <h2 id="integrations">System Interface</h2>
+        <h2 id="integrations">System Integrations</h2>
         <p>HALo is a suite of centrally managed loyalty solutions that enable delivery of highly tailored programs and incentives across multiple systems. HALo is a proven solution with huge transactional scale typically seen only in global financial networks. Orchestrating those programs and their vast stores of data is HALo Core, the central component of the HALo Loyalty Management Solution. The following management tools and user interfaces extend the power of the HALo platform.</p>
         <p>HALo integrates with all your existing transactional systems –  including gaming, hotel, dining, retail, spa and entertainment point of sale – using third-party certified gateways. No need for a high-cost rip-and-replace scenario or the limitations of a single management system. The House Advantage team can implement cutting-edge HALo solutions on your existing infrastructure.</p>
         <p>HALo system interface and integration technologies:</p>

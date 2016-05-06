@@ -53,19 +53,6 @@ get_header(); ?>
 <!--   <hr /> -->
 <!-- </div> -->
 
-<section class="band">
-  <div class="row">
-    <p class="lede"><strong>House Advantage</strong> has deep strategic and operational experience managing enterprise-level loyalty marketing programs. A powerful loyalty solution will help you increase customer engagement and generate vital business intelligence – and that's exactly what we offer. Get the House Advantage.</p>
-    <p class="lede">Better still, our technologies integrate with your existing systems. No rip and replace required. We deliver the strategy, solution set and integration tools needed to build stronger bonds with your customers.</p>
-  </div>
-</section>
-
-<section class="[ band  band--gold ]">
-  <div class="row">
-    <h2>Our Loyalty Solutions Will Boost Patron Engagement</h2>
-    <p>In today’s highly dynamic resort, leisure and entertainment markets, you need meaningful ways to differentiate your offerings and increase profitability. The best way to do this is by enhancing patron experience with a robust loyalty proposition.</p>
-  </div>
-</section>
 
 <section class="[ band  band--special ]">
   <div class="row">
@@ -140,7 +127,7 @@ get_header(); ?>
         </span>
         <h3 class="delta  min-height-small">Strategy Services</h3>
         <p data-equalizer-watch>House Advantage is your “always-on” partner in every aspect of loyalty and customer engagement, applying more than a century of combined experience implementing, managing, and optimizing loyalty solutions to meet your requirements.</p>
-        <a role="button" class="hollow  large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#services">learn more</a>
+        <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#services">learn more</a>
       </div>
 
       <div class="nugget__item  column">
@@ -151,7 +138,7 @@ get_header(); ?>
         </span>
         <h3 class="delta  min-height-small">Integrated Software Solutions</h3>
         <p data-equalizer-watch>HALo is a suite of centrally managed loyalty solutions. It has the power to integrate your loyalty program across hotel, restaurant, point of sale, food and beverage, spa and entertainment systems in service of a coherent, enterprise-wide customer experience.</p>
-        <a role="button" class="hollow  large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#products">learn more</a>
+        <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#products">learn more</a>
       </div>
 
       <div class="nugget__item  column">
@@ -162,7 +149,7 @@ get_header(); ?>
         </span>
         <h3 class="delta  min-height-small">System Interface and Integration Technologies</h3>
         <p data-equalizer-watch><strong>House Advantage</strong> offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
-        <a role="button" class="hollow  large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#integrations">learn more</a>
+        <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#integrations">learn more</a>
       </div>
 
     </div>

@@ -64,39 +64,76 @@
   </div>
 </div>
 
-<div class="band  band--tint  text-center">
+
+
+<div class="band  band--special  text-center">
   <div class="row  column">
     <h2>Don’t take our word for it.</h2>
-    <p class="lead"> Here’s what our customers say about House Advantage.</p>
+    <p class="lead">Here’s what our customers say about House Advantage.</p>
   </div>
   <div class="row">
-    <div class="medium-6  columns" data-equalizer-watch>
-      <blockquote>
-        After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!
-        <cite>Senior International Loyalty Marketing Executive</cite>
-      </blockquote>
-    </div>
-    <div class="medium-6  columns" data-equalizer-watch>
-      <blockquote>
-        Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities.
-        <cite>CEO, top US destination resort operator</cite>
-      </blockquote>
+    <div class="column">
+      <div class="orbit" role="region" aria-label="Client Testimonials" data-orbit data-options="timerDelay:12000; animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <ul class="orbit-container">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+          <li class="is-active orbit-slide">
+            <blockquote>
+              After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!
+              <cite>Senior International Loyalty Marketing Executive</cite>
+            </blockquote>
+          </li>
+          <li class="orbit-slide">
+            <blockquote>
+              Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities.
+              <cite>CEO, top US destination resort operator</cite>
+            </blockquote>
+          </li>
+          <li class="orbit-slide">
+            <blockquote>
+              House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands-on approach has been critical to our success.
+              <cite>CIO, international hotel group</cite>
+            </blockquote>
+          </li>
+        </ul>
+        <!-- <nav class="orbit&#45;bullets"> -->
+        <!--   <button class="is&#45;active" data&#45;slide="0"><span class="show&#45;for&#45;sr">First slide details.</span><span class="show&#45;for&#45;sr">Current Slide</span></button> -->
+        <!--   <button data&#45;slide="1"><span class="show&#45;for&#45;sr">Second slide details.</span></button> -->
+        <!--   <button data&#45;slide="2"><span class="show&#45;for&#45;sr">Third slide details.</span></button> -->
+        <!--   <button data&#45;slide="3"><span class="show&#45;for&#45;sr">Fourth slide details.</span></button> -->
+        <!-- </nav> -->
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="medium-6  columns" data-equalizer-watch>
-      <blockquote>
-        House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands-on approach has been critical to our success.
-        <cite>CIO, international hotel group</cite>
-      </blockquote>
-    </div>
-    <div class="medium-6  columns" data-equalizer-watch>
-      <blockquote>
-        Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-        <cite>Venenatis Egestas</cite>
-      </blockquote>
-    </div>
-</div>
+
+  <!-- <div class="row"> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business! -->
+  <!--       <cite>Senior International Loyalty Marketing Executive</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities. -->
+  <!--       <cite>CEO, top US destination resort operator</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class="row"> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands&#45;on approach has been critical to our success. -->
+  <!--       <cite>CIO, international hotel group</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. -->
+  <!--       <cite>Venenatis Egestas</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!-- </div> -->
 </div>
  <?php /*
  <?php while ( have_posts() ) : the_post(); ?>

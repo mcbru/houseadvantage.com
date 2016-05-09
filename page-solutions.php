@@ -119,22 +119,34 @@ get_header(); ?>
 
     <h3>Core Loyalty Management</h3>
     <div class="nugget-group">
-      <div class="row">
-        <div class="medium-6  column">
-          <div class="media-object">
-            <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-core.png">
-            </div>
-            <div class="media-object-section">
-              <h3 class="delta"><a href="halo-core">HALo Core</a></h3>
-              <p>Deploy the fundamental tools necessary to configure and manage the enterprise loyalty program. Define program characteristics such as customer tiers, a variety of loyalty currencies which can be earned or gifted, and the operations which participate in the program.</p>
-            </div>
+      <div class="row  column">
+        <div class="media-object">
+          <div class="media-object-section">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-core.png">
+          </div>
+          <div class="media-object-section">
+            <h3 class="delta"><a href="halo-core">HALo Core</a></h3>
+            <p>Deploy the fundamental tools necessary to configure and manage the enterprise loyalty program. Define program characteristics such as customer tiers, a variety of loyalty currencies which can be earned or gifted, and the operations which participate in the program.</p>
           </div>
         </div>
-        <div class="medium-6  column">
+      </div>
+    <div class="nugget-group">
+      <div class="row  small-up-1  medium-up-2">
+        <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
               <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-offers.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo Core Advanced Marketing Solutions</a></h3>
+              <p>The Advanced Marketing Solutions suite extends the functionality of HALo Core to give marketing teams powerful tools to manage earnings, trigger-based offers and messaging via direct mail, email and SMS, as well as a variety of system-managed loyalty capabilities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-offers">HALo Offers</a></h3>
@@ -142,7 +154,62 @@ get_header(); ?>
             </div>
           </div>
         </div>
-        <div class="medium-6  column">
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="halo-promotions">HALo Promotions</a></h3>
+              <p>HALo Promotions allows property level Promotions and Events teams to directly manage their promotions calendar. Manage Achievers, or “Spend X, Get Y” style promotions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
+              <p>HALo Retail Connect provides a point-of-sale interface for patron lookup, balance lookup, and offer lookup and redemption, as well as giving employees access to comp buckets and discretionary comp lookup and redemption. In addition, it offers the integrated resort a POS tool to issue trigger awards based on retail transactions for food and beverage, hotel, spa, or events and shows.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo Awards</a></h3>
+              <p>HALo Awards provides awards management for patrons who satisfy user-configurable redemption criteria. It allows management of award inventory by location, limits award availability by on-site and drop-shippable inventory, and caps award availability based on event budget.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo Lounge</a></h3>
+              <p>HALo Lounge allows users to define locations within an enterprise or integrated resort which may be accessed either by patrons who qualify based on their status or by redeeming a HALo Core managed currency, such as points, comp value or credits. Employees may manage access via PC, laptop or tablet, granting access to patrons through prequalification or redemption.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo DocStore</a></h3>
+              <p>HALo DocStore allows users to associate patron photos, signatures and scanned document images to patron profiles, along with other documents such as images, PDFs and spreadsheets in support of patron enrollment, documentation for reimbursements and program management.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
               <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
@@ -150,6 +217,28 @@ get_header(); ?>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-event-management">HALo Event Management</a></h3>
               <p>HALo Event Management allows local promotions and events teams to schedule events, and add customers to those events either through lists or criteria.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo Expedition</a></h3>
+              <p>HALo Expedition is a game engine primarily focused primarily on high-frequency patrons, with components for destination players. Patrons progress across a board, and win awards when they land on a board space, as well as an additional award for traversing the entire board.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta"><a href="">HALo SportPix</a></h3>
+              <p>The HALo SportPix module works with the Promotion Manager System. With a SportPix promotion, a property can set up a sporting event or season, using the Kiosk system to allow patrons to directly and interactively participate in the SportPIX promotions.</p>
             </div>
           </div>
         </div>
@@ -184,7 +273,7 @@ get_header(); ?>
       </div>
     </div>
 
-    <h3>Promotions and Self-service</h3>
+    <h3>Self-service</h3>
     <div class="nugget-group">
       <div class="row">
         <div class="medium-6  column" data-equalizer-watch>
@@ -195,17 +284,6 @@ get_header(); ?>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-kiosk">HALo Kiosk</a></h3>
               <p>HALo Kiosk allows businesses to deploy remote or onsite secure customer touchpoints where customers can view and manage their personal profiles, promotions, offers, events and rewards, as well as print contest entries, award vouchers and more.</p>
-            </div>
-          </div>
-        </div>
-        <div class="medium-6  column" data-equalizer-watch>
-          <div class="media-object">
-            <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-promotions.png">
-            </div>
-            <div class="media-object-section">
-              <h3 class="delta"><a href="halo-promotions">HALo Promotions</a></h3>
-              <p>HALo Promotions allows property level Promotions and Events teams to directly manage their promotions calendar. Manage Achievers, or “Spend X, Get Y” style promotions.</p>
             </div>
           </div>
         </div>
@@ -238,7 +316,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="nugget-group">
-      <div class="row  small-up-1  medium-up-2  large-up-3">
+      <div class="row  small-up-1  medium-up-2">
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
@@ -301,7 +379,7 @@ get_header(); ?>
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-cloud">HALo Cloud</a></h3>
-              <p>HALo Cloud enables deployment of HALo in a cloud-based environment such as Microsoft Azure or Amazon EC2.</p>
+              <p>HALo Cloud allows you to launch HALo in the cloud for rapid deployment opportunities and reduced infrastructure costs.</p>
             </div>
           </div>
         </div>

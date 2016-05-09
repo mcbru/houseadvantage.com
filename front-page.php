@@ -157,7 +157,7 @@ get_header(); ?>
   <div class="row">
     <h2>Client Testimonials</h2>
     <p class="lede">Hear from our customers how a <strong>House Advantage</strong> partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
-    <a role="button" class="large  button  button--dark  hvr-sweep-to-right  hvr-sweep-to-right--gray" href="the-house-advantage">the house advantage</a>
+    <a role="button" class="large  button  button--dark  hvr-sweep-to-right  hvr-sweep-to-right--gray" href="the-house-advantage#testimonials">the house advantage</a>
   </div>
 </section>
 

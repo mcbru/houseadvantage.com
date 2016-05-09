@@ -66,7 +66,7 @@
 
 
 
-<div class="band  band--special  text-center">
+<div id="testimonials" class="[ band  band--special ] text-center">
   <div class="row  column">
     <h2>Don’t take our word for it.</h2>
     <p class="lead">Here’s what our customers say about House Advantage.</p>
@@ -79,19 +79,19 @@
           <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
           <li class="is-active orbit-slide">
             <blockquote>
-              After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!
+              <p>After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!</p>
               <cite>Senior loyalty marketing executive</cite>
             </blockquote>
           </li>
           <li class="orbit-slide">
             <blockquote>
-              Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities.
+              <p>Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities.</p>
               <cite>CEO, top US destination resort operator</cite>
             </blockquote>
           </li>
           <li class="orbit-slide">
             <blockquote>
-              House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands-on approach has been critical to our success.
+              <p>House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands-on approach has been critical to our success.</p>
               <cite>CIO, international hotel group</cite>
             </blockquote>
           </li>

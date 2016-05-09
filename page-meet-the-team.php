@@ -32,7 +32,7 @@
 
 <div class="band  pb0">
   <div class="row  column">
-    <p class="mb0 pb0 lede">Your loyalty program is critical to the success of your business. Put your trust in the expertise and leadership of the House Advantage team.  We are a loyalty strategy company with deep strategic and operational experience across loyalty marketing, business management, finance and operations. Count on House Advantage as your strategy and technology partner to help you optimize your loyalty program platform.</p>
+    <p class="u-mb0  u-pb0  lede">Your loyalty program is critical to the success of your business. Put your trust in the expertise and leadership of the House Advantage team.  We are a loyalty strategy company with deep strategic and operational experience across loyalty marketing, business management, finance and operations. Count on House Advantage as your strategy and technology partner to help you optimize your loyalty program platform.</p>
   </div>
 </div>
 

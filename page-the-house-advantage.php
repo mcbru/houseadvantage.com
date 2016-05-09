@@ -73,14 +73,14 @@
   </div>
   <div class="row">
     <div class="column">
-      <div class="orbit" role="region" aria-label="Client Testimonials" data-orbit data-options="timerDelay:12000; animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+      <div class="orbit" role="region" aria-label="Client Testimonials" data-orbit data-options="timerDelay:10000; animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
         <ul class="orbit-container">
           <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
           <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
           <li class="is-active orbit-slide">
             <blockquote>
               After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!
-              <cite>Senior International Loyalty Marketing Executive</cite>
+              <cite>Senior loyalty marketing executive</cite>
             </blockquote>
           </li>
           <li class="orbit-slide">

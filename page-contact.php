@@ -6,53 +6,6 @@
  */
 ?>
 
-<?php
-if(isset($_POST['submitted'])) {
-  if(trim($_POST['contact_name']) === '') {
-    $nameError = 'Please enter your name.';
-    $hasError = true;
-  } else {
-    $name = trim($_POST['contact_name']);
-  }
-
-  if(trim($_POST['contact_email']) === '')  {
-    $emailError = 'Please enter an email address.';
-    $hasError = true;
-  } else if (!preg_match("/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i", trim($_POST['contact_email']))) {
-    $emailError = 'You entered an invalid email address.';
-    $hasError = true;
-  } else {
-    $email = trim($_POST['contact_email']);
-  }
-
-  if(trim($_POST['contact_message']) === '') {
-    $messageError = 'Please enter a message for us.';
-    $hasError = true;
-  } else {
-    if(function_exists('stripslashes')) {
-      $message = stripslashes(trim($_POST['contact_message']));
-    } else {
-      $message = trim($_POST['contact_message']);
-    }
-  }
-
-  if(!isset($hasError)) {
-    $emailTo = get_option('tz_email');
-    if (!isset($emailTo) || ($emailTo == '') ){
-      $emailTo = get_option('admin_email');
-    }
-    $subject = '[PHP Snippets] From '.$name;
-    $body = "Name: $name \n\nEmail: $email \n\nMessage: $message";
-    $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
-
-    if (wp_mail($emailTo, $subject, $body, $headers)) {
-      $emailSent = true;
-      echo 'EMAIL SENT!';
-    }
-  }
-
-}
-?>
 
 <?php get_header(); ?>
 
@@ -118,8 +71,9 @@ if(isset($_POST['submitted'])) {
       </ul>
     </div>
     <div class="large-8  column">
-    <!-- TODO: Complete ARIA form help text -->
-    <form action="<?php the_permalink(); ?>" id="contact-form" method="post" data-abide novalidate>
+      <!-- TODO: Complete ARIA form help text -->
+      <form action="<?php bloginfo('template_directory'); ?>/mailer.php" id="contact-form" method="post" data-abide novalidate>
+        <div id="form-messages" class="callout" style="display: none;"></div>
         <!-- <label>Input Label -->
         <!--   <input type="text" placeholder=".large&#45;8.column"> -->
         <!-- </label> -->
@@ -127,24 +81,24 @@ if(isset($_POST['submitted'])) {
           <p><i class="fi-alert"></i>We need a little more information in order to best serve you. Please fill out the highlighted fields below.</p>
         </div>
         <label>
-          <input name="contact_name" type="text" placeholder="Name*" aria-describedby="exampleHelpText" required>
+          <input name="contact_name" id="contact_name" type="text" placeholder="Name*" aria-describedby="exampleHelpText" required>
           <span class="form-error">Please enter your name</span>
         </label>
         <label>
-          <input name="contact_email" type="text" placeholder="Email*" aria-describedby="exampleHelpText" required>
+          <input name="contact_email" id="contact_email" type="text" placeholder="Email*" aria-describedby="exampleHelpText" required>
           <span class="form-error">Please enter an email address</span>
         </label>
         <label>
-          <input name="contact_subject" type="text" placeholder="Subject" aria-describedby="exampleHelpText">
+          <input name="contact_subject" id="contact_subject" type="text" placeholder="Subject" aria-describedby="exampleHelpText">
         </label>
         <label>
-          <textarea name="contact_message" rows="7" placeholder="Message*" aria-describedby="exampleHelpText" required></textarea>
+          <textarea name="contact_message" id="contact_message" rows="7" placeholder="Message*" aria-describedby="exampleHelpText" required></textarea>
           <span class="form-error">Please enter a message for us</span>
         </label>
         <fieldset>
           <button class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold" type="submit" value="Submit">Submit</button>
         </fieldset>
-        <input value="true" id="submitted" name="submitted" type="hidden">
+        <!-- <input value="true" id="submitted" name="submitted" type="hidden"> -->
       </form>
     </div>
   </div>

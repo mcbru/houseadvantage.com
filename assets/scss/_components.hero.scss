@@ -34,6 +34,12 @@
 
 }
 
+.single-post {
+  h1.hero__text {
+    color: $color-white;
+  }
+}
+
 .hero--front {
     background-image: url('../images/digital-honeycomb-3.jpg');
     background-repeat: no-repeat;

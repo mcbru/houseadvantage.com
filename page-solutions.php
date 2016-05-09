@@ -135,7 +135,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-offers.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;offers.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Core Advanced Marketing Solutions</a></h3>
@@ -146,7 +147,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;offers.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-offers">HALo Offers</a></h3>
@@ -157,7 +159,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-promotions.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-promotions">HALo Promotions</a></h3>
@@ -168,7 +170,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
@@ -179,7 +182,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-awards.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Awards</a></h3>
@@ -190,7 +193,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Lounge</a></h3>
@@ -201,7 +205,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo DocStore</a></h3>
@@ -223,7 +228,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Expedition</a></h3>
@@ -234,7 +240,8 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="http://placehold.it/60x60" alt="" />
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo SportPix</a></h3>

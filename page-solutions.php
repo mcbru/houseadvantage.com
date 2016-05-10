@@ -17,7 +17,7 @@ get_header(); ?>
       <!-- <a role="button" class="large  button" href="#">CTA</a> -->
     <?php endif; ?>
   </div>
-  <div class="hero__image  hero__image--solutions">
+  <div class="hero__image  hero__image--red-1">
   </div>
 </header>
 

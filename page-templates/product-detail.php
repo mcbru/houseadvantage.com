@@ -12,7 +12,7 @@ get_header(); ?>
     <h1><?php wp_title(''); ?></h1>
     <p><?php echo get_post_meta($post->ID, 'hero_subhead', true); ?></p>
   </div>
-  <div class="hero__image  hero__image--team">
+  <div class="hero__image  hero__image--red-1">
   </div>
 </header>
 

@@ -65,7 +65,9 @@ $(function(){
       {
         number: 100000,
         // 'font-size': '40px',
-        easing: 'easeOutExpo',
+        // easing: 'easeOutExpo',
+        color: 'white',
+        easing: 'easeInQuad',
         numberStep: comma_separator_number_step
       },
       6000
@@ -75,6 +77,7 @@ $(function(){
       {
         number: 50000,
         // 'font-size': '40px',
+        color: 'white',
         easing: 'easeOutExpo',
         numberStep: comma_separator_number_step
       },
@@ -86,6 +89,7 @@ $(function(){
       {
         number: 300,
         // 'font-size': '40px',
+        color: 'white',
         easing: 'easeOutExpo',
         numberStep: comma_separator_number_step
       },
@@ -97,7 +101,9 @@ $(function(){
       {
         number: 100000000,
         // 'font-size': '40px',
-        easing: 'easeOutExpo',
+        // easing: 'easeOutExpo',
+        color: 'white',
+        easing: 'easeInExpo',
         numberStep: comma_separator_number_step
       },
       6000

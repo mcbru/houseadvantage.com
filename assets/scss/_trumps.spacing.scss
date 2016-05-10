@@ -38,10 +38,10 @@ $inuit-enable-margins--negative-huge:   false !default;
 
 $inuit-enable-margins--none:            true;
 
-$inuit-enable-paddings:                 false !default;
+$inuit-enable-paddings:                 true;
 $inuit-enable-paddings--tiny:           false !default;
 $inuit-enable-paddings--small:          false !default;
 $inuit-enable-paddings--large:          false !default;
-$inuit-enable-paddings--huge:           false !default;
+$inuit-enable-paddings--huge:           true;
 
 $inuit-enable-paddings--none:           true;

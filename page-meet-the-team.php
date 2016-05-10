@@ -12,10 +12,6 @@
 
 <header class="hero" role="banner">
   <div class="row  column">
-  <?php /*
-    <h1 class="hero__text"><?php wp_title(''); ?></h1>
-   */ ?>
-
     <?php if ( get_field('hero_head') ) : ?>
       <h1><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>
@@ -23,7 +19,7 @@
       <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
   </div>
-  <div class="hero__image  hero__image--team">
+  <div class="hero__image  hero__image--gray-2">
   </div>
 </header>
 

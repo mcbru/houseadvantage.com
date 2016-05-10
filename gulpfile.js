@@ -62,6 +62,7 @@ var PATHS = {
     'assets/components/jquery-animateNumber/jquery.animateNumber.js',
     'assets/components/waypoints/lib/jquery.waypoints.js',
     'assets/components/jquery.easing/js/jquery.easing.js',
+    'assets/components/jquery-color/jquery.color.js',
   ],
   phpcs: [
     '**/*.php',

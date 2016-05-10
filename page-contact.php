@@ -18,7 +18,7 @@
       <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
   </div>
-  <div class="hero__image  hero__image--contact">
+  <div class="hero__image  hero__image--gold-1">
   </div>
 </header>
 

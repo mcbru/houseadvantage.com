@@ -26,7 +26,7 @@
           <ul class="menu  vertical  large-horizontal">
             <li>&copy; <?php echo date( "Y" ); ?> House Advantage, LLC&nbsp;</li>
             <li>10100 W. Charleston Blvd., Ste. 130, Las Vegas, NV 89135</li>
-            <li><a href="#">Privacy Policy</a></li>
+            <!-- <li><a href="#">Privacy Policy</a></li> -->
           </ul>
         </div>
         <?php do_action( 'foundationpress_after_footer' ); ?>

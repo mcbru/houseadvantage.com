@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<header class="hero  hero__image  hero__image--red-2  text-center  u-pt++" role="banner">
+<header class="hero  hero__image  hero__image--red-1  text-center  u-pt++" role="banner">
   <div class="row  column">
     <?php foundationpress_entry_meta(); ?>
     <h1 class="hero__text"><?php the_title(); ?></h1>

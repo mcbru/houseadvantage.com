@@ -19,7 +19,7 @@
       <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
   </div>
-  <div class="hero__image  hero__image--gray-2">
+  <div class="hero__image  hero__image--gray-3">
   </div>
 </header>
 

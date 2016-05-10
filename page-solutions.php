@@ -140,7 +140,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-core.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo Core Advanced Marketing Solutions</a></h3>
+                <h3 class="delta  red">HALo Core Advanced Marketing Solutions</h3>
                 <p>The Advanced Marketing Solutions suite extends the functionality of HALo Core to give marketing teams powerful tools to manage earnings, trigger-based offers and messaging via direct mail, email and SMS, as well as a variety of system-managed loyalty capabilities.</p>
               </div>
             </div>
@@ -184,7 +184,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-awards.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo Awards</a></h3>
+                <h3 class="delta  red">HALo Awards</h3>
                 <p>HALo Awards provides awards management for patrons who satisfy user-configurable redemption criteria. It allows management of award inventory by location, limits award availability by on-site and drop-shippable inventory, and caps award availability based on event budget.</p>
               </div>
             </div>
@@ -195,7 +195,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-lounge.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo Lounge</a></h3>
+                <h3 class="delta  red">HALo Lounge</h3>
                 <p>HALo Lounge allows users to define locations within an enterprise or integrated resort which may be accessed either by patrons who qualify based on their status or by redeeming a HALo Core managed currency, such as points, comp value or credits. Employees may manage access via PC, laptop or tablet, granting access to patrons through prequalification or redemption.</p>
               </div>
             </div>
@@ -206,7 +206,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-docstore.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo DocStore</a></h3>
+                <h3 class="delta  red">HALo DocStore</h3>
                 <p>HALo DocStore allows users to associate patron photos, signatures and scanned document images to patron profiles, along with other documents such as images, PDFs and spreadsheets in support of patron enrollment, documentation for reimbursements and program management.</p>
               </div>
             </div>
@@ -217,7 +217,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-retail-connect.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
+                <h3 class="delta  red">HALo Retail Connect</h3>
                 <p>HALo Retail Connect provides a point-of-sale interface for patron lookup, balance lookup, and offer lookup and redemption, as well as giving employees access to comp buckets and discretionary comp lookup and redemption. In addition, it offers the integrated resort a POS tool to issue trigger awards based on retail transactions for food and beverage, hotel, spa, or events and shows.</p>
               </div>
             </div>
@@ -229,7 +229,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-expedition.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo Expedition</a></h3>
+                <h3 class="delta  red">HALo Expedition</h3>
                 <p>HALo Expedition is a game engine primarily focused primarily on high-frequency patrons, with components for destination players. Patrons progress across a board, and win awards when they land on a board space, as well as an additional award for traversing the entire board.</p>
               </div>
             </div>
@@ -240,7 +240,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-sportpix.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="">HALo SportPix</a></h3>
+                <h3 class="delta  red">HALo SportPix</h3>
                 <p>The HALo SportPix module works with the Promotion Manager System. With a SportPix promotion, a property can set up a sporting event or season, using the Kiosk system to allow patrons to directly and interactively participate in the SportPIX promotions.</p>
               </div>
             </div>
@@ -270,7 +270,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-mobile.png">
               </div>
               <div class="media-object-section">
-                <h3 class="delta"><a href="#">HALo Mobile Enrollment</a></h3>
+                <h3 class="delta  red">HALo Mobile Enrollment</h3>
                 <p>With HALo Mobile Enrollment, patrons easily enroll into loyalty programs simply by scanning a drivers’ license, minimizing data entry.</p>
               </div>
             </div>

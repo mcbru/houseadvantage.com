@@ -45,10 +45,10 @@ get_header(); ?>
 <?php endwhile;?>
  */ ?>
 
-<section class="band">
+<section class="band  u-pb0">
   <div class="row  column">
-    <p>Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?</p>
-    <p>House Advantage is a global company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies.  At House Advantage, you get to work closely with key marketing leaders who provide support and consultation on loyalty strategy, new product development, programs and direct patron campaigns.  We offer challenging, high-profile development opportunities for candidates looking to be part of something great.</p>
+    <p class="lede">Are you looking for a job with high impact? Work that’s relevant, stimulating and meaningful, where you can learn new, marketable skills and expand your professional growth across a variety of disciplines?</p>
+    <p class="lede">House Advantage is a global company based in Las Vegas that develops leading edge loyalty program software that serves some of the world’s largest gaming and entertainment companies.  At House Advantage, you get to work closely with key marketing leaders who provide support and consultation on loyalty strategy, new product development, programs and direct patron campaigns.  We offer challenging, high-profile development opportunities for candidates looking to be part of something great.</p>
     <!-- <p>Inquire about joining the House Advantage team at <a href="mailto:talent@houseadv.com">talent@houseadv.com</a>.</p> -->
     <!-- <a href="mailto:talent@houseadv.com" class="button  hvr&#45;sweep&#45;to&#45;right">Inquire Today</a> -->
   </div>

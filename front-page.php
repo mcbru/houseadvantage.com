@@ -62,7 +62,7 @@ get_header(); ?>
     <p class="lede">In today’s highly dynamic resort, leisure and entertainment markets, operators like you are looking for meaningful ways to build stronger customer bonds and drive revenue profitably. Enhancing the customer experience through a comprehensive loyalty proposition is a proven way of ensuring you gain that competitive edge and deliver bottom line results.</p>
 -->
     <h2>Supercharge Your Programs With The Power And Flexibility of HALo.</h2>
-    <p class="lede">HALo is a comprehensive suite of loyalty solutions that will help you differentiate and extend your offerings to gain competitive advantage in highly dynamic markets.</p>
+    <p class="subhead">HALo is a comprehensive suite of loyalty solutions that will help you differentiate and extend your offerings to gain competitive advantage in highly dynamic markets.</p>
 
   </div>
   <div class="row">
@@ -113,7 +113,7 @@ get_header(); ?>
 <section class="[ band  band--special-dark  band--large ]  text-center">
   <div class="row">
     <h2>Finally A Loyalty Platform That Works The Way You Do</h2>
-    <p class="lede">House Advantage offers decades of experience in loyalty programs for the resort, leisure and entertainment markets. We bring proven technology and the strategic expertise needed to enhance your loyalty program. We offer ongoing services support after we implement your solution.</p>
+    <p class="subhead">House Advantage offers decades of experience in loyalty programs for the resort, leisure and entertainment markets. We bring proven technology and the strategic expertise needed to enhance your loyalty program. We offer ongoing services support after we implement your solution.</p>
   </div>
   <div class="nugget-group  animation-wrapper" data-equalizer  data-equalize-on="medium">
     <div class="row  small-up-1  medium-up-2  large-up-3">
@@ -156,7 +156,7 @@ get_header(); ?>
 <section class="[ band  band--gold  band--large  triple-border ]  text-center">
   <div class="row">
     <h2>Client Testimonials</h2>
-    <p class="lede">Hear from our customers how a <strong>House Advantage</strong> partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
+    <p class="subhead">Hear from our customers how a <strong>House Advantage</strong> partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
     <a role="button" class="large  button  button--dark  hvr-sweep-to-right  hvr-sweep-to-right--gray" href="the-house-advantage#testimonials">the house advantage</a>
   </div>
 </section>
@@ -164,7 +164,7 @@ get_header(); ?>
 <section class="[ band  band--large ]  text-center">
   <div class="row">
     <h2>Our Team</h2>
-    <p class="lede">The <strong>House Advantage</strong> leadership team has decades of senior-level experience operating and managing resort, leisure and entertainment companies and the technologies that serve them.</p>
+    <p class="subhead">The <strong>House Advantage</strong> leadership team has decades of senior-level experience operating and managing resort, leisure and entertainment companies and the technologies that serve them.</p>
     <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="meet-the-team">meet the ha team</a>
   </div>
 </section>

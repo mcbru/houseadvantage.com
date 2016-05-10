@@ -135,8 +135,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="http://placehold.it/60x60" alt="" />
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;offers.png"> -->
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-core.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Core Advanced Marketing Solutions</a></h3>
@@ -147,8 +146,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="http://placehold.it/60x60" alt="" />
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;offers.png"> -->
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-offers.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-offers">HALo Offers</a></h3>
@@ -170,8 +168,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="http://placehold.it/60x60" alt="" />
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-retail-connect.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
@@ -193,8 +190,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="http://placehold.it/60x60" alt="" />
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-lounge.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo Lounge</a></h3>
@@ -205,8 +201,7 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="http://placehold.it/60x60" alt="" />
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon&#45;halo&#45;event&#45;management.png"> -->
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-docstore.png">
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="">HALo DocStore</a></h3>
@@ -311,13 +306,13 @@ get_header(); ?>
       </div>
       <div class="medium-8  medium-pull-4  column">
         <h2 id="integrations">System Integrations</h2>
-        <p>HALo integrates with all your existing transactional systems –  including gaming, hotel, dining, retail, spa and entertainment point of sale – using third-party certified gateways. We extend the life of your existing technology investments. The HA team can implement cutting-edge HALo solutions on your existing infrastructure; no need for a high-cost rip-and-replace scenario or the limitations of a single management system.</p>
+        <p>HALo integrates with all your existing transactional systems – including gaming, hotel, dining, retail, spa and entertainment point of sale – using third-party certified gateways. We extend the life of your existing technology investments. The HA team can implement cutting-edge HALo solutions on your existing infrastructure; no need for a high-cost rip-and-replace scenario or the limitations of a single management system.</p>
         <p>HALo system interface and integration technologies:</p>
         <ul>
           <li>Provide third-party systems with a simple, point-to-point API solution to communicate with HALo CORE.</li>
           <li>Add secure patron portals to your existing websites, providing access to loyalty data, offers and the patron profiles.</li>
           <li>Enable companies with information-bus platform investments, such as TIBCO, MULE, BizTalk to integrate through HALo Mesh.</li>
-          <li>Can be deployed as a cloud-based solution to benefits from solutions such as Microsoft Azure and Amazon EC2.</li>
+          <li>Allow you to launch HALo in the cloud for rapid deployment opportunities and reduced infrastructure costs.</li>
         </ul>
         <p>The HALo system interface solutions include the following tools:</p>
       </div>
@@ -386,7 +381,7 @@ get_header(); ?>
             </div>
             <div class="media-object-section">
               <h3 class="delta"><a href="halo-cloud">HALo Cloud</a></h3>
-              <p>HALo Cloud allows you to launch HALo in the cloud for rapid deployment opportunities and reduced infrastructure costs.</p>
+              <p>HALo Cloud enables deployment of HALo in a cloud-based environment such as Microsoft Azure or Amazon EC2.</p>
             </div>
           </div>
         </div>

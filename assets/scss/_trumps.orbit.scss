@@ -5,3 +5,11 @@
 .orbit-previous, .orbit-next {
   color: $body-font-color;
 }
+
+.orbit blockquote {
+  border-left: none;
+  &, p {
+    font-size: rem-calc(26);
+    padding-bottom: $spacing-unit;
+  }
+}

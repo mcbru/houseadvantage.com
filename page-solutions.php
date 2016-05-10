@@ -168,11 +168,11 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-retail-connect.png">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
             </div>
             <div class="media-object-section">
-              <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
-              <p>HALo Retail Connect provides a point-of-sale interface for patron lookup, balance lookup, and offer lookup and redemption, as well as giving employees access to comp buckets and discretionary comp lookup and redemption. In addition, it offers the integrated resort a POS tool to issue trigger awards based on retail transactions for food and beverage, hotel, spa, or events and shows.</p>
+              <h3 class="delta"><a href="halo-event-management">HALo Event Management</a></h3>
+              <p>HALo Event Management allows local promotions and events teams to schedule events, and add customers to those events either through lists or criteria.</p>
             </div>
           </div>
         </div>
@@ -212,11 +212,11 @@ get_header(); ?>
         <div class="column" data-equalizer-watch>
           <div class="media-object">
             <div class="media-object-section">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-event-management.png">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-halo-retail-connect.png">
             </div>
             <div class="media-object-section">
-              <h3 class="delta"><a href="halo-event-management">HALo Event Management</a></h3>
-              <p>HALo Event Management allows local promotions and events teams to schedule events, and add customers to those events either through lists or criteria.</p>
+              <h3 class="delta"><a href="">HALo Retail Connect</a></h3>
+              <p>HALo Retail Connect provides a point-of-sale interface for patron lookup, balance lookup, and offer lookup and redemption, as well as giving employees access to comp buckets and discretionary comp lookup and redemption. In addition, it offers the integrated resort a POS tool to issue trigger awards based on retail transactions for food and beverage, hotel, spa, or events and shows.</p>
             </div>
           </div>
         </div>

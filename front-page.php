@@ -17,7 +17,7 @@ get_header(); ?>
         <?php if ( get_field('hero_subhead') ) : ?>
           <p><?php the_field('hero_subhead'); ?></p>
         <?php endif; ?>
-          <a role="button" class="button  button--hero" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
+          <a role="button" class="button  button--hero  hvr-sweep-to-right  hvr-sweep-to-right--red" href="solutions"><i class="fa  fa-lightbulb-o"></i>see our solutions</a>
       </div>
     </div>
   </div>

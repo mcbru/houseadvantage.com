@@ -67,12 +67,12 @@ p.hero__text {
 .hero--front {
     background-image: url('../images/digital-honeycomb-3.jpg');
     background-repeat: no-repeat;
-    // background-position: -700px 0;
-    background-position: -600px 0;
+    background-position: -700px 0;
+    // background-position: -600px 0;
     // margin-bottom: 0;
   .diagonals {
-    // padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
-    padding: $spacing-unit 0 85px 340px;
+    padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
+    // padding: $spacing-unit 0 85px 340px;
     // background-image: url('../images/hero-diagonal-bars.png');
     // background-repeat: no-repeat;
     // background-position: -10px 0;

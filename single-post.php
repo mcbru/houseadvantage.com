@@ -29,8 +29,13 @@ get_header(); ?>
       ?>
 
       <?php the_content(); ?>
+      <?php if ( get_field('post_reference') ) : ?>
+        <p class="post-reference"><?php the_field('post_reference'); ?></p>
+      <?php endif; ?>
       </div>
       <footer>
+      <div class="post-nav  post-nav--next"><?php next_post_link('%link', '‹'); ?></div>
+      <div class="post-nav  post-nav--previous"><?php previous_post_link('%link', '›'); ?></div>
         <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
         <p><?php the_tags(); ?></p>
       </footer>

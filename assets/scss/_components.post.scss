@@ -40,3 +40,32 @@
 .byline__date {
   font-weight: 200;
 }
+
+.post-nav {
+  position: fixed;
+  top: 50%;
+  @include font-size(50px);
+  a {
+    border-radius: $global-radius;
+    color: $color-white;
+    background-color: tint($color-gray-light, 30%);
+    padding: 0 halve($spacing-unit) quarter($spacing-unit);
+    display: block;
+  }
+  > a:hover, a:active {
+    background-color: $color-gray-light;
+  }
+}
+
+.post-nav--previous {
+  right: 2%;
+}
+
+.post-nav--next {
+  left: 2%;
+}
+
+.single-post article p.post-reference {
+  @include font-size(16px);
+  font-weight: 700;
+}

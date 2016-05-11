@@ -75,7 +75,7 @@ get_header(); ?>
   <div class="row column">
     <h2>House Advantage delivers demonstrable value.</h2>
     <p>House Advantage works with you to configure a loyalty solution that addresses your exact requirements. Depending on your needs, this tailored solution may combine all our offerings – software, strategy, implementation, training, system support and an ongoing collaborative partnership – or just one or two. We’ll partner with you to craft the mix that best suits your business.</p>
-    <ul>
+    <ul class="marker-diamond">
       <li>House Advantage offers the most advanced and comprehensive <strong>loyalty strategy platform</strong>.</li>
       <li>Our centralized platform integrates all patron spending and behavioral data across multiple touchpoints.</li>
       <li>Our <strong>loyalty software</strong> consolidates data in real time from disparate transactional and management systems</li>
@@ -312,7 +312,7 @@ get_header(); ?>
         <h2 id="integrations">System Integrations</h2>
         <p>HALo integrates with all your existing transactional systems – including gaming, hotel, dining, retail, spa and entertainment point of sale – using third-party certified gateways. We extend the life of your existing technology investments. The HA team can implement cutting-edge HALo solutions on your existing infrastructure; no need for a high-cost rip-and-replace scenario or the limitations of a single management system.</p>
         <p>HALo system interface and integration technologies:</p>
-        <ul>
+        <ul class="marker-diamond">
           <li>Provide third-party systems with a simple, point-to-point API solution to communicate with HALo CORE.</li>
           <li>Add secure patron portals to your existing websites, providing access to loyalty data, offers and the patron profiles.</li>
           <li>Enable companies with information-bus platform investments, such as TIBCO, MULE, BizTalk to integrate through HALo Mesh.</li>

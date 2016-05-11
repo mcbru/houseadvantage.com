@@ -9,16 +9,23 @@ ul.no-marker {
   }
 }
 
-// li:before {
-//   position: absolute;
-//   display: block;
-//   content: '\2022';
-//   text-indent: -999999px;
-//   left: -.75em;
-//   width: .4em;
-//   height: 1em;
-//   background-repeat: no-repeat;
-//   background-image: 
-//   background-size: .4em .7em;
-//   background-position: 0 .3em;
-// }
+ul.marker-diamond {
+  list-style: none;
+  > li {
+    position: relative;
+    font-weight: 500;
+    &:before {
+      position: absolute;
+      display: block;
+      content: '\2022';
+      text-indent: -999999px;
+      left: -1em;
+      width: .5em;
+      height: 1.3em;
+      background-repeat: no-repeat;
+      background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%204.59%206.22%22%3E%3Cpolygon%20points%3D%220%203.15%202.31%200%204.59%203.15%202.31%206.22%200%203.15%22%20fill%3D%22%23a32232%22%2F%3E%3C%2Fsvg%3E');
+      background-size: .5em 1em;
+      background-position: 0 .3em;
+    }
+  }
+}

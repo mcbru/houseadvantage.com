@@ -2,24 +2,23 @@
   #POST
 \*------------------------------------*/
 
-.post-list {
-  border-bottom: 1px solid $color-gray-light;
-  margin-bottom: double($spacing-unit);
+.single-post {
+  h1.hero__text {
+    color: $color-white;
+  }
 }
 
-.post-list__item {
-  padding: 0 $spacing-unit;
-
-  h2 {
-    @include font-size(30px, none);
-    font-weight: 300;
+.single-post article {
+  p, li {
     margin-bottom: $spacing-unit;
-    a {
-      color: $color-red-dark;
+    @include breakpoint(medium) {
+      @include font-size(22px, 1.7);
+      margin-bottom: double($spacing-unit);
     }
-    a:hover {
-      color: $color-red;
-    }
+  }
+  p.post-credit {
+    @include font-size(16px);
+    font-weight: 700;
   }
 }
 
@@ -45,6 +44,7 @@
   position: fixed;
   top: 50%;
   @include font-size(50px);
+  font-weight: 700;
   a {
     border-radius: $global-radius;
     color: $color-white;
@@ -65,7 +65,25 @@
   left: 2%;
 }
 
-.single-post article p.post-reference {
-  @include font-size(16px);
-  font-weight: 700;
+
+/* POST LISTING */
+.post-list {
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: double($spacing-unit);
+}
+
+.post-list__item {
+  padding: 0 $spacing-unit;
+
+  h2 {
+    @include font-size(30px, none);
+    font-weight: 300;
+    margin-bottom: $spacing-unit;
+    a {
+      color: $color-red-dark;
+    }
+    a:hover {
+      color: $color-red;
+    }
+  }
 }

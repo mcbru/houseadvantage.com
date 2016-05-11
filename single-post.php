@@ -29,8 +29,8 @@ get_header(); ?>
       ?>
 
       <?php the_content(); ?>
-      <?php if ( get_field('post_reference') ) : ?>
-        <p class="post-reference"><?php the_field('post_reference'); ?></p>
+      <?php if ( get_field('post_credit') ) : ?>
+        <p class="post-credit"><?php the_field('post_credit'); ?></p>
       <?php endif; ?>
       </div>
       <footer>

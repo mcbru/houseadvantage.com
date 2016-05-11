@@ -97,7 +97,7 @@
 @import "templates/page-default";
 @import "templates/page-sidebar-left";
 @import "templates/page-full-width";
-@import "templates/single-post";
+// @import "templates/single-post";
 
 
 // Settings: Global variables, config switches.
@@ -142,6 +142,7 @@
 @import "trumps.stats";
 @import "trumps.type";
 @import "trumps.orbit";
+@import "trumps.images";
 
 // WP overrides
 @import "trumps.wp-admin"; // Fix issues with wp-admin bar positioning

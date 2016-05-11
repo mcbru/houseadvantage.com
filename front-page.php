@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <header class="hero  hero--front" role="banner">
-  <div class="row  collapse">
+  <div class="row  medium-collapse">
     <div class="medium-11  medium-offset-1  column">
       <div class="diagonals">
         <?php if ( get_field('hero_head') ) : ?>

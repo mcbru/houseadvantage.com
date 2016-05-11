@@ -18,6 +18,9 @@
     @include font-size(56px);
     font-weight: 300;
     margin-bottom: double($spacing-unit);
+    a {
+      color: $color-white;
+    }
   }
 
   p {
@@ -26,10 +29,6 @@
     font-weight: 500;
     @include font-size(27px, 1.5)
     margin-bottom: double($spacing-unit);
-  }
-
-  h1 a {
-    color: $color-white;
   }
 
 }
@@ -58,32 +57,31 @@ p.hero__text {
   // font-size: rem-calc(24);
 }
 
-.single-post {
-  h1.hero__text {
-    color: $color-white;
-  }
-}
-
 .hero--front {
-    background-image: url('../images/digital-honeycomb-3.jpg');
-    background-repeat: no-repeat;
-    background-position: -700px 0;
+    // background-color: #c3af59;
+    @include breakpoint(medium) {
+      text-align: right;
+      background-image: url('../images/digital-honeycomb-4.jpg');
+      background-repeat: no-repeat;
+      background-position: -600px 0;
+      padding: 0;
+      .diagonals {
+        padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
+        // padding: $spacing-unit 0 85px 340px;
+        // background-color: $color-white;
+        background-image: url('../images/hero-diagonal-bars-new.png');
+        background-repeat: no-repeat;
+        // background-position: 0 $spacing-unit*-1;
+      }
+    }
     // background-position: -600px 0;
     // margin-bottom: 0;
-  .diagonals {
-    padding: $spacing-unit 0 quadruple($spacing-unit) 340px;
-    // padding: $spacing-unit 0 85px 340px;
-    // background-image: url('../images/hero-diagonal-bars.png');
-    // background-repeat: no-repeat;
-    // background-position: -10px 0;
-  }
   // background-color: $color-gold-alt;
   // background-image: url('../images/digital-honeycomb.jpg');
   // background-position: bottom center;
   // background-repeat: no-repeat;
   // background-position: -650px 0;
   // background-position: 8% 0, -1000% 0;
-  text-align: right;
   border-bottom: 10px solid $color-red-dark;
   h1 {
     margin-bottom: double($spacing-unit);

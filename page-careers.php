@@ -71,7 +71,7 @@ get_header(); ?>
 <div class="[ band  band--small  band--tint ]">
   <div class="row  column">
     <h3>System Engineer</h3>
-    <p>The Systems Engineer will need support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.</p>
+    <p>The Systems Engineer will support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.</p>
     <h4>Requirements</h4>
     <ul>
       <li>Expert level in Microsoft SQL Server 2008 or greater</li>

@@ -8,8 +8,8 @@
 get_header(); ?>
 
 <header class="hero  hero--front" role="banner">
-  <div class="row  medium-collapse">
-    <div class="medium-11  medium-offset-1  column">
+  <div class="row">
+    <div class="large-12  column">
       <div class="diagonals">
         <?php if ( get_field('hero_head') ) : ?>
           <h1><?php the_field('hero_head'); ?></h1>

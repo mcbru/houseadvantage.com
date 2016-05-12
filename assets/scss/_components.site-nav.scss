@@ -88,6 +88,10 @@
 
 .top-bar-right {
   padding-top: rem-calc(54);
+  @include breakpoint(medium) {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
 }
 
 .site-nav__logo {

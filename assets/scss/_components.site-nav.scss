@@ -24,7 +24,8 @@
 .title-bar-title {
   a {
     font-size: 1rem;
-    color: #B9B9B9;
+    // color: #B9B9B9;
+    color: $color-white;
   }
 }
 
@@ -34,7 +35,7 @@
   font-family: $header-font-family;
   letter-spacing: 1px;
 
-  .menu .active a {
+  .menu .active a, .menu .current_page_parent a {
     color: $color-red-dark;
   }
 
@@ -87,10 +88,10 @@
 }
 
 .top-bar-right {
-  padding-top: rem-calc(54);
-  @include breakpoint(medium) {
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  @include breakpoint(large) {
+    padding-top: rem-calc(54);
   }
 }
 

@@ -95,8 +95,10 @@
 }
 
 .band--large {
-  padding-top: quadruple($spacing-unit);
-  padding-bottom: quadruple($spacing-unit);
+  @include breakpoint(medium) {
+    padding-top: quadruple($spacing-unit);
+    padding-bottom: quadruple($spacing-unit);
+  }
 }
 
 

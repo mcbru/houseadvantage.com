@@ -11,8 +11,8 @@
   // margin-top: double($spacing-unit);
 
   #footer {
-    @include grid-row();
-    padding: $spacing-unit 0;
+    // @include grid-row();
+    // padding: $spacing-unit 0;
 
     ul {
       list-style-type: none;

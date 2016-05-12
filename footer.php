@@ -12,7 +12,8 @@
 
     </section>
     <div id="footer-container" class="[ band  band--special-dark ]">
-      <footer id="footer">
+
+      <footer class="row  column">
         <?php do_action( 'foundationpress_before_footer' ); ?>
         <?php dynamic_sidebar( 'footer-widgets' ); ?>
         <div class="menu-centered">

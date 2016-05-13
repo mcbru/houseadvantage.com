@@ -61,7 +61,7 @@ function initMap() {
   var map = new google.maps.Map(mapDiv, mapOptions);
   map.setOptions({styles: styles});
   var templateUrl = object_name.templateUrl;
-  var image = templateUrl+'/assets/images/map-marker.svg';
+  var image = templateUrl+'/assets/images/map-marker.png';
   var beachMarker = new google.maps.Marker({
     position: {lat: lat, lng: long},
     map: map,

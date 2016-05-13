@@ -90,6 +90,7 @@
 .top-bar-right {
   .menu li {
     vertical-align: bottom;
+    // white-space: nowrap;
   }
   // padding-top: rem-calc(36);
   padding-bottom: $spacing-unit;

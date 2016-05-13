@@ -2,6 +2,15 @@
  * Google Map Functions
  */
 
+function detectmob() {
+  if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
 function initMap() {
   var lat = 36.1596259;
   var long = -115.3170515;
@@ -13,6 +22,11 @@ function initMap() {
     disableDefaultUI: true,
     zoomControl: true,
   };
+  if (detectmob() == true) {
+    mapOptions.zoomControl=false;
+    mapOptions.panControl=false;
+    mapOptions.draggable=false;
+  }
   var styles = [
     {
       "featureType": "poi",

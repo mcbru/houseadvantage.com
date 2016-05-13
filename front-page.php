@@ -154,7 +154,7 @@ get_header(); ?>
 </section>
 
 <section class="[ band  band--gold  band--large  triple-border ]  text-center">
-  <div class="row">
+  <div class="row  column">
     <h2>Client Testimonials</h2>
     <p class="subhead">Hear from our customers how a <strong>House Advantage</strong> partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
     <a role="button" class="large  button  button--dark  hvr-sweep-to-right  hvr-sweep-to-right--gray" href="the-house-advantage/#testimonials">the house advantage</a>
@@ -162,7 +162,7 @@ get_header(); ?>
 </section>
 
 <section class="[ band  band--large ]  text-center">
-  <div class="row">
+  <div class="row  column">
     <h2>Our Team</h2>
     <p class="subhead">The <strong>House Advantage</strong> leadership team has decades of senior-level experience operating and managing resort, leisure and entertainment companies and the technologies that serve them.</p>
     <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="meet-the-team">meet the ha team</a>

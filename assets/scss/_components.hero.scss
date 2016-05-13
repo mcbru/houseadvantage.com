@@ -15,7 +15,7 @@
 
   h1 {
     color: $color-red;
-    @include font-size(56px);
+    // @include font-size(56px);
     font-weight: 300;
     margin-bottom: double($spacing-unit);
     a {
@@ -97,11 +97,16 @@ p.hero__text {
   // background-position: 8% 0, -1000% 0;
   border-bottom: 10px solid $color-red-dark;
   h1 {
+    @include font-size(56px);
     margin-bottom: double($spacing-unit);
-    @include font-size(80px);
+    @include breakpoint(medium) {
+      @include font-size(80px);
+    }
   }
   p {
-    @include font-size(32px, 1.5);
+    @include breakpoint(medium) {
+      @include font-size(32px, 1.5);
+    }
   }
 }
 

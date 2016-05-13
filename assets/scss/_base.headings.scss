@@ -6,12 +6,35 @@
  * Headings 1–6.
  */
 
-$inuit-heading-size-1:  48px;
-$inuit-heading-size-2:  48px;
-$inuit-heading-size-3:  31px;
-$inuit-heading-size-4:  25px;
-$inuit-heading-size-5:  20px;
-$inuit-heading-size-6:  16px;
+// $inuit-heading-size-1:  48px;
+// $inuit-heading-size-2:  48px;
+// $inuit-heading-size-3:  31px;
+// $inuit-heading-size-4:  25px;
+// $inuit-heading-size-5:  20px;
+// $inuit-heading-size-6:  16px;
+
+$inuit-heading-size-small-1: map-get-deep($header-sizes, small, h1) * 1px;
+$inuit-heading-size-small-2: map-get-deep($header-sizes, small, h2) * 1px;
+$inuit-heading-size-small-3: map-get-deep($header-sizes, small, h3) * 1px;
+$inuit-heading-size-small-4: map-get-deep($header-sizes, small, h4) * 1px;
+$inuit-heading-size-small-5: map-get-deep($header-sizes, small, h5) * 1px;
+$inuit-heading-size-small-6: map-get-deep($header-sizes, small, h6) * 1px;
+
+$inuit-heading-size-medium-1: map-get-deep($header-sizes, medium, h1) * 1px;
+$inuit-heading-size-medium-2: map-get-deep($header-sizes, medium, h2) * 1px;
+$inuit-heading-size-medium-3: map-get-deep($header-sizes, medium, h3) * 1px;
+$inuit-heading-size-medium-4: map-get-deep($header-sizes, medium, h4) * 1px;
+$inuit-heading-size-medium-5: map-get-deep($header-sizes, medium, h5) * 1px;
+$inuit-heading-size-medium-6: map-get-deep($header-sizes, medium, h6) * 1px;
+
+// @include breakpoint(medium) {
+  // $inuit-heading-size-1: map-get(map-get($header-sizes, medium), h1) * 1px;
+  // $inuit-heading-size-2: map-get(map-get($header-sizes, medium), h2) * 1px;
+  // $inuit-heading-size-3: map-get(map-get($header-sizes, medium), h3) * 1px;
+  // $inuit-heading-size-4: map-get(map-get($header-sizes, medium), h4) * 1px;
+  // $inuit-heading-size-5: map-get(map-get($header-sizes, medium), h5) * 1px;
+  // $inuit-heading-size-6: map-get(map-get($header-sizes, medium), h6) * 1px;
+// }
 
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-heading-size-1:  36px !default;
@@ -22,25 +45,43 @@ $inuit-heading-size-5:  16px !default;
 $inuit-heading-size-6:  14px !default;
 
 h1 {
-    @include inuit-font-size($inuit-heading-size-1);
+  @include inuit-font-size($inuit-heading-size-small-1);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-1);
+  }
 }
 
 h2 {
-    @include inuit-font-size($inuit-heading-size-2);
+  @include inuit-font-size($inuit-heading-size-small-2);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-2);
+  }
 }
 
 h3 {
-    @include inuit-font-size($inuit-heading-size-3);
+  @include inuit-font-size($inuit-heading-size-small-3);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-3);
+  }
 }
 
 h4 {
-    @include inuit-font-size($inuit-heading-size-4);
+  @include inuit-font-size($inuit-heading-size-small-4);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-4);
+  }
 }
 
 h5 {
-    @include inuit-font-size($inuit-heading-size-5);
+  @include inuit-font-size($inuit-heading-size-small-5);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-5);
+  }
 }
 
 h6 {
-    @include inuit-font-size($inuit-heading-size-6);
+  @include inuit-font-size($inuit-heading-size-small-6);
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-heading-size-medium-6);
+  }
 }

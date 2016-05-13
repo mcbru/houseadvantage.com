@@ -18,7 +18,7 @@
 
 .band--special {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eadda8+0,ffffff+33&1+0,0+33 */
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     background-image: url("../images/corner-lines-top.svg"), url("../images/corner-lines-bottom.svg"), linear-gradient(135deg,  rgba(234,221,168,1) 0%,rgba(255,255,255,0) 33%), linear-gradient(135deg,  rgba(255,255,255,0) 67%,rgba(234,221,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: top left, bottom right;

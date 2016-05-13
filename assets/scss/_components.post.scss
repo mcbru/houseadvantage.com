@@ -43,15 +43,19 @@
 .post-nav {
   position: fixed;
   top: 50%;
-  @include font-size(50px);
+  font-weight: 700;
+  @include font-size(26px);
   @include breakpoint(medium) {
-    font-weight: 700;
+    @include font-size(50px);
   }
   a {
     border-radius: $global-radius;
     color: $color-white;
     background-color: tint($color-gray-light, 30%);
-    padding: 0 halve($spacing-unit) quarter($spacing-unit);
+    padding: quarter($spacing-unit);
+    @include breakpoint(medium) {
+      padding: 0 halve($spacing-unit) quarter($spacing-unit);
+    }
     display: block;
   }
   > a:hover, a:active {

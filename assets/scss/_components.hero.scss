@@ -9,8 +9,8 @@
 
 .hero {
 
-  padding-top: double($spacing-unit);
   position: relative;
+  padding-top: double($spacing-unit);
   // margin-bottom: double($spacing-unit);
 
   h1 {
@@ -58,43 +58,6 @@ p.hero__text {
 }
 
 .hero--front {
-    // background-color: #c3af59;
-    @include breakpoint(medium) {
-      text-align: right;
-      background-image: url('../images/digital-honeycomb-4.jpg');
-      background-repeat: no-repeat;
-      background-position: -600px 0;
-      padding: 0;
-      .diagonals {
-        padding: $spacing-unit 0 quadruple($spacing-unit) 300px;
-        // padding: $spacing-unit 0 85px 340px;
-        // background-color: $color-white;
-        background-image: url('../images/hero-diagonal-bars-2.png');
-        background-repeat: no-repeat;
-        background-position-x: -100px;
-        p {
-          padding-left: 50px;
-        }
-        // background-position: 0 $spacing-unit*-1;
-      }
-    }
-    @include breakpoint(large) {
-      .diagonals {
-        background-position-x: 0px;
-        p {
-          padding-left: 100px;
-        }
-        // padding-left: 400px;
-      }
-    }
-    // background-position: -600px 0;
-    // margin-bottom: 0;
-  // background-color: $color-gold-alt;
-  // background-image: url('../images/digital-honeycomb.jpg');
-  // background-position: bottom center;
-  // background-repeat: no-repeat;
-  // background-position: -650px 0;
-  // background-position: 8% 0, -1000% 0;
   border-bottom: 10px solid $color-red-dark;
   h1 {
     @include font-size(56px);
@@ -108,7 +71,59 @@ p.hero__text {
       @include font-size(32px, 1.5);
     }
   }
+  // background-color: #c3af59;
+  @include breakpoint(medium) {
+    // min-height: 598px;
+    text-align: right;
+    background-image: url('../images/digital-honeycomb-4.jpg');
+    background-repeat: no-repeat;
+    background-position-x: -800px;
+    // background-position-x: 100%;
+    padding: 0;
+  }
+  @include breakpoint(large) {
+    background-position-x: -650px;
+  }
+  @include breakpoint(xlarge) {
+    background-position-x: -550px;
+  }
+  @include breakpoint(xxlarge) {
+    background-position-x: -500px;
+  }
 }
+
+.diagonals {
+  @include breakpoint(medium only) {
+    h1 {
+      @include font-size(52px);
+    }
+    p {
+      @include font-size(30px, 1.4);
+      padding-left: 50px;
+    }
+  }
+  @include breakpoint(medium) {
+    // position: absolute;
+    // position: relative;
+    padding: $spacing-unit $spacing-unit quadruple($spacing-unit) rem-calc(200);
+    // padding: $spacing-unit 0 85px 340px;
+    // background-color: $color-white;
+    background-image: url('../images/hero-diagonal-bars-2.png');
+    background-repeat: no-repeat;
+    background-position-x: -150px;
+    // background-position-y: bottom;
+  }
+  @include breakpoint(large) {
+    position: relative;
+    padding: $spacing-unit 0 quadruple($spacing-unit) rem-calc(300);
+    background-position-x: 0px;
+    p {
+      padding-left: 100px;
+    }
+    // padding-left: 400px;
+  }
+}
+
 
 .hero--dark {
   h1.hero__text {

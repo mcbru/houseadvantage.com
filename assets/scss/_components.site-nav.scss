@@ -88,10 +88,14 @@
 }
 
 .top-bar-right {
-  padding-top: $spacing-unit;
+  .menu li {
+    vertical-align: bottom;
+  }
+  // padding-top: rem-calc(36);
   padding-bottom: $spacing-unit;
+  text-align: center;
   @include breakpoint(large) {
-    padding-top: rem-calc(54);
+    padding-top: rem-calc(58);
   }
 }
 

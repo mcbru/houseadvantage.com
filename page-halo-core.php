@@ -10,10 +10,10 @@ get_header(); ?>
 <header class="hero  hero--pattern-1" role="banner">
   <div class="row  column">
     <?php if ( get_field('hero_head') ) : ?>
-      <h1 class="hero__text"><?php the_field('hero_head'); ?></h1>
+      <h1><?php the_field('hero_head'); ?></h1>
     <?php endif; ?>
     <?php if ( get_field('hero_subhead') ) : ?>
-      <p class="hero__text"><?php the_field('hero_subhead'); ?></p>
+      <p><?php the_field('hero_subhead'); ?></p>
     <?php endif; ?>
   </div>
 </header>

@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <header class="hero  hero--front" role="banner">
-  <div class="row">
+  <div class="hero--front__container  medium-collapse  large-uncollapse  row">
     <div class="large-12  column">
       <div class="diagonals">
         <?php if ( get_field('hero_head') ) : ?>
@@ -55,12 +55,8 @@ get_header(); ?>
 
 
 <section class="[ band  band--special ]">
-  <div class="row  text-center">
+  <div class="row  column  text-center">
 
-    <!-- <h2 class="slashes">What We Do</h2> -->
-<!--
-    <p class="lede">In today’s highly dynamic resort, leisure and entertainment markets, operators like you are looking for meaningful ways to build stronger customer bonds and drive revenue profitably. Enhancing the customer experience through a comprehensive loyalty proposition is a proven way of ensuring you gain that competitive edge and deliver bottom line results.</p>
--->
     <h2>Supercharge Your Programs With The Power And Flexibility of HALo.</h2>
     <p class="subhead">HALo is a comprehensive suite of loyalty solutions that will help you differentiate and extend your offerings to gain competitive advantage in highly dynamic markets.</p>
 

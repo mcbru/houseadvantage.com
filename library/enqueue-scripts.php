@@ -42,7 +42,10 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
   add_action( 'wp_enqueue_scripts', 'foundationpress_scripts' );
 endif;
 
-// Conditionally add Google Maps scripts
+
+/**
+ * Conditionally add Google Maps scripts
+ */
 // TODO: Add Google Maps API key
 if ( ! function_exists( 'map_scripts' ) ) :
   function map_scripts() {
@@ -54,3 +57,25 @@ if ( ! function_exists( 'map_scripts' ) ) :
 
   add_action('wp_enqueue_scripts', 'map_scripts');
 endif;
+
+
+/**
+ * Add sitewide Pardot tracking code
+ */
+add_action('wp_footer', 'add_pardot_tracking');
+function add_pardot_tracking() { ?>
+  <script type="text/javascript">
+    piAId = '186502';
+    piCId = '1396';
+
+    (function() {
+      function async_load(){
+        var s = document.createElement('script'); s.type = 'text/javascript';
+        s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+        var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+      }
+      if(window.attachEvent) { window.attachEvent('onload', async_load); }
+      else { window.addEventListener('load', async_load, false); }
+    })();
+  </script>
+<?php } ?>

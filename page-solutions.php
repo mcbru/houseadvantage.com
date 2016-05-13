@@ -78,7 +78,7 @@ get_header(); ?>
     <ul class="marker-diamond">
       <li>House Advantage offers the most advanced and comprehensive <strong>loyalty strategy platform</strong>.</li>
       <li>Our centralized platform integrates all patron spending and behavioral data across multiple touchpoints.</li>
-      <li>Our <strong>loyalty software</strong> consolidates data in real time from disparate transactional and management systems</li>
+      <li>Our <strong>loyalty software</strong> consolidates data in real time from disparate transactional and management systems.</li>
       <li>We stand with you through development, management and optimization of your loyalty program.  </li>
       <li>Deep <strong>system interface and integration expertise</strong> lets us deploy on legacy infrastructures to maximize value of existing systems.</li>
     </ul>
@@ -95,7 +95,7 @@ get_header(); ?>
     </div>
     <div class="medium-8  medium-pull-4  column">
       <h2 id="services">Advanced Loyalty Strategy Services</h2>
-      <p><strong>House Advantage</strong> is your “always-on” partner for excellence implementing, managing, and optimizing your loyalty program. The breadth of our expertise, allows us to deploy and configure the HALo solution to meet specific requirements and goals. Find out how <strong>House Advantage</strong> can address your technical and business needs for loyalty solutions.</p>
+      <p><strong>House Advantage</strong> is your “always-on” partner for excellence implementing, managing, and optimizing your loyalty program. The breadth of our expertise allows us to deploy and configure the HALo solution to meet specific requirements and goals. Find out how <strong>House Advantage</strong> can address your technical and business needs for loyalty solutions.</p>
       <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Contact Us</a>
     </div>
   </div>
@@ -163,7 +163,7 @@ get_header(); ?>
               </div>
               <div class="media-object-section">
                 <h3 class="delta"><a href="halo-promotions">HALo Promotions</a></h3>
-                <p>HALo Promotions allows property level Promotions and Events teams to directly manage their promotions calendar. Manage Achievers, or “Spend X, Get Y” style promotions.</p>
+                <p>HALo Promotions allows property level promotions and events teams to directly manage their promotions calendar. Manage Achievers, or “Spend X, Get Y” style promotions.</p>
               </div>
             </div>
           </div>

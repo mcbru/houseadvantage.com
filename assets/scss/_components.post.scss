@@ -44,7 +44,9 @@
   position: fixed;
   top: 50%;
   @include font-size(50px);
-  font-weight: 700;
+  @include breakpoint(medium) {
+    font-weight: 700;
+  }
   a {
     border-radius: $global-radius;
     color: $color-white;

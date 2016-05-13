@@ -11,6 +11,7 @@ function initMap() {
     zoom: 12,
     scrollwheel: false,
     disableDefaultUI: true,
+    zoomControl: true,
   };
   var styles = [
     {

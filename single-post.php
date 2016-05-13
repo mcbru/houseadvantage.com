@@ -15,7 +15,7 @@ get_header(); ?>
   </div>
 </header>
 
-<div class="band  row  column  medium-10  large-8  small-centered" role="main">
+<div class="band  row  column  small-10  large-8  small-centered" role="main">
   <?php do_action( 'foundationpress_before_content' ); ?>
   <?php while ( have_posts() ) : the_post(); ?>
     <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">

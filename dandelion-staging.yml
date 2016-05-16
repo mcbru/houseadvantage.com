@@ -1,0 +1,54 @@
+# Required
+# --------
+adapter: sftp
+host: mcbru.com
+username: <%= ENV['DANDELION_STAGING_USERNAME'] %>
+password: <%= ENV['DANDELION_STAGING_PASSWORD'] %>
+# Optional
+# --------
+# auth_tls: true
+# Remote path
+path: mcbru.com/house-advantage/wp-content/themes/FoundationPress
+# path: mcbru.com/newsie/wp-content/themes/mcb-v1
+# Remote file name in which the current revision is stored
+revision_file: .revision
+# These files (from Git) will not be uploaded during a deploy
+exclude:
+    - .gitignore
+    - .git
+    - .github
+    - .babelrc
+    - .travis.yml
+    - bower.json
+    - composer.json
+    - composer.lock
+    - front-page-bak.php
+    - gulpfile.js
+    # SASS ignore
+    - dandelion.yml
+    - dandelion-staging.yml
+    - dandelion-production.yml
+    # PSD resize batch
+    # - assets/images/gallery/resize-100px.app
+    - node_modules
+    - languages
+    - assets/components
+    - assets/javascript/vendor
+    - assets/javascript/custom
+    # dandelion seems to choke on svgs - exclude for now
+    - assets/images/**/*.svg
+    - assets/images-raw
+    - assets/scss
+    - Gemfile
+    - Gemfile.lock
+    - .ruby-version
+    - .sass-cache
+    - .jshintrc
+    - .DS_Store
+    - .bowerrc
+    - package.json
+# These files (from your working directory) will be uploaded on every deploy
+additional:
+    - assets/stylesheets/
+    - assets/javascript/foundation.js
+    # - scripts/global.js

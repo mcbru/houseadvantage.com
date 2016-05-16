@@ -10,6 +10,7 @@ var sequence    = require('run-sequence');
 var colors      = require('colors');
 var dateFormat  = require('dateformat');
 var del         = require('del');
+var imagemin    = require('gulp-imagemin');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
@@ -99,6 +100,14 @@ gulp.task('browser-sync', ['build'], function() {
     // Port #
     port: 3001
   });
+});
+
+// TODO: restrict to production only
+// Lossless minification of images in production
+gulp.task('imagemin', function() {
+  gulp.src('assets/images/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('assets/images-optimized'))
 });
 
 // Compile Sass into CSS
@@ -209,7 +218,7 @@ gulp.task('package', ['build'], function() {
 // Runs copy then runs sass & javascript in parallel
 gulp.task('build', ['clean'], function(done) {
   sequence('copy',
-          ['sass', 'javascript', 'lint'],
+          ['sass', 'javascript', 'lint', 'imagemin'],
           done);
 });
 
@@ -277,6 +286,12 @@ gulp.task('default', ['build', 'browser-sync'], function() {
     .on('change', function(event) {
       logFileChange(event);
     });
+
+  // Image Watch
+  // gulp.watch(['assets/images#<{(||)}>#'], ['imagemin'])
+  //   .on('change', function(event) {
+  //     logFileChange(event);
+  //   });
 });
 
 // TODO: Add image optimization

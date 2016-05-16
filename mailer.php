@@ -1,5 +1,5 @@
 <?php
-
+require('../../../wp-load.php');
 /*
 if(isset($_POST['submitted'])) {
   if(trim($_POST['contact_name']) === '') {
@@ -67,8 +67,8 @@ if(isset($_POST['submitted'])) {
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
-        $recipient = "sam@mcbru.com";
+        $recipient = "contact@houseadv.com";
+        //$recipient = "templeman@me.com";
 
         // Set the email subject.
         // $subject = "New contact from $name";
@@ -82,7 +82,8 @@ if(isset($_POST['submitted'])) {
         $email_headers = "From: $name <$email>";
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
+        //if (mail($recipient, $subject, $email_content, $email_headers)) {
+        if (wp_mail($recipient, $subject, $email_content)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";

@@ -67,6 +67,7 @@ function initMap() {
   var beachMarker = new google.maps.Marker({
     position: {lat: lat, lng: long},
     map: map,
-    icon: image
+    icon: image,
+    title: 'House Advantage, LLC'
   });
 }

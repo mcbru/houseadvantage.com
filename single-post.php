@@ -34,8 +34,11 @@ get_header(); ?>
       <?php endif; ?>
       </div>
       <footer>
-      <div class="post-nav  post-nav--next"><?php next_post_link('%link', '‹'); ?></div>
-      <div class="post-nav  post-nav--previous"><?php previous_post_link('%link', '›'); ?></div>
+      <?php next_post_link('<div class="post-nav  post-nav--next">%link</div>', '‹'); ?>
+      <?php if(!get_adjacent_post(false,'',false)) {
+        echo '<div class="post-nav  post-nav--next"><a href="news">‹</a></div>';
+      } ?>
+      <?php previous_post_link('<div class="post-nav  post-nav--previous">%link</div>', '›'); ?>
         <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
         <p><?php the_tags(); ?></p>
       </footer>

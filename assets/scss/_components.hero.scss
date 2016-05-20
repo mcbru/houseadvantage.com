@@ -77,18 +77,18 @@ p.hero__text {
     text-align: right;
     background-image: url('../images/digital-honeycomb-4.jpg');
     background-repeat: no-repeat;
-    background-position-x: -800px;
+    background-position: -800px 0;
     // background-position-x: 100%;
     padding: 0;
   }
   @include breakpoint(large) {
-    background-position-x: -650px;
+    background-position: -650px 0;
   }
   @include breakpoint(xlarge) {
-    background-position-x: -550px;
+    background-position: -550px 0;
   }
   @include breakpoint(xxlarge) {
-    background-position-x: -500px;
+    background-position: -500px 0;
   }
 }
 
@@ -110,13 +110,13 @@ p.hero__text {
     // background-color: $color-white;
     background-image: url('../images/hero-diagonal-bars-2.png');
     background-repeat: no-repeat;
-    background-position-x: -150px;
+    background-position: -150px 0;
     // background-position-y: bottom;
   }
   @include breakpoint(large) {
     position: relative;
     padding: $spacing-unit 0 quadruple($spacing-unit) rem-calc(300);
-    background-position-x: 0px;
+    background-position: 0 0;
     p {
       padding-left: 100px;
     }

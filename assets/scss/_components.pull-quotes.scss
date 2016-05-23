@@ -17,6 +17,7 @@
   color: $color-red;
   text-transform: uppercase;
   padding: $spacing-unit;
+  margin-bottom: double($spacing-unit);
   // font-size: rem-calc(24);
   @include font-size(22px);
   // font-weight: bold;

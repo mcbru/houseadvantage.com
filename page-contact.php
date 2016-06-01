@@ -72,7 +72,7 @@
     </div>
     <div class="large-8  column">
       <!-- TODO: Complete ARIA form help text -->
-      <form action="<?php bloginfo('template_directory'); ?>/mailer.php" id="contact-form" method="post" data-abide novalidate>
+      <form action="http://go.pardot.com/l/185502/2016-05-24/2bm" id="contact-form" method="post" data-abide novalidate>
         <div id="form-messages" class="callout" style="display: none;"></div>
         <!-- <label>Input Label -->
         <!--   <input type="text" placeholder=".large&#45;8.column"> -->
@@ -81,18 +81,19 @@
           <p><i class="fi-alert"></i>We need a little more information in order to best serve you. Please fill out the highlighted fields below.</p>
         </div>
         <label>
-          <input name="contact_name" id="contact_name" type="text" placeholder="Name*" aria-describedby="exampleHelpText" required>
-          <span class="form-error">Please enter your name</span>
+          <input name="first_name" id="first_name" type="text" placeholder="First Name*" aria-describedby="exampleHelpText" required>
+          <span class="form-error">Please enter your first name</span>
         </label>
         <label>
-          <input name="contact_email" id="contact_email" type="text" placeholder="Email*" aria-describedby="exampleHelpText" required>
+          <input name="last_name" id="last_name" type="text" placeholder="Last Name*" aria-describedby="exampleHelpText" required>
+          <span class="form-error">Please enter your last name</span>
+        </label>
+        <label>
+          <input name="email" id="email" type="email" placeholder="Email*" aria-describedby="exampleHelpText" required>
           <span class="form-error">Please enter an email address</span>
         </label>
         <label>
-          <input name="contact_subject" id="contact_subject" type="text" placeholder="Subject" aria-describedby="exampleHelpText">
-        </label>
-        <label>
-          <textarea name="contact_message" id="contact_message" rows="7" placeholder="Message*" aria-describedby="exampleHelpText" required></textarea>
+          <textarea name="message" id="message" rows="7" placeholder="Message*" aria-describedby="exampleHelpText" required></textarea>
           <span class="form-error">Please enter a message for us</span>
         </label>
         <fieldset>

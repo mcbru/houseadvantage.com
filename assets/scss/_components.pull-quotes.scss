@@ -15,7 +15,7 @@
 // padding-top: $spacing-unit;
 // padding-bottom: $spacing-unit;
   color: $color-red;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   padding: $spacing-unit;
   margin-bottom: double($spacing-unit);
   // font-size: rem-calc(24);
@@ -39,7 +39,9 @@
 .pull-quote__source {
   // display:block;
   text-indent:0;
-  font-style: normal;
+  // font-style: bold;
+  font-weight: bold;
+  @include font-size(14px);
 
   &:before{
     content:"\2014";

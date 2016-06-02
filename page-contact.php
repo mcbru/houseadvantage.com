@@ -59,16 +59,21 @@
         <li>10100 W. Charleston Blvd., Ste. 130</li>
         <li>Las Vegas, NV 89135</li>
         <br>
-        <li>Phone: 702-240-4655</li>
-        <li>Fax: 702-410-6606</li>
-        <li>http://www.houseadv.com</li>
-        <li><a href="mailto:contact@houseadv.com">contact@houseadv.com</a></li>
+        <li><strong>Phone:</strong> 702-240-4655</li>
+        <li><strong>Fax:</strong> 702-410-6606</li>
+        <li><strong>Web:</strong> http://www.houseadv.com</li>
+        <li><strong>Email:</strong> <a href="mailto:contact@houseadv.com">contact@houseadv.com</a></li>
         <br>
         <ul class="menu  icon-menu">
           <li><a href="https://www.linkedin.com/company/house-advantage-llc"><i class="fa  fa-linkedin-square  fa-2x"></i></a></li>
           <li><a href="https://twitter.com/houseadv"><i class="fa  fa-twitter-square  fa-2x"></i></a></li>
         </ul>
       </ul>
+      <h3 class="delta">Customer Support</h3>
+        <ul class="no-marker">
+          <li><strong>Online:</strong> <a href="http://support.houseadv.com">support.houseadv.com</a></li>
+          <li><strong>Phone:</strong> 866-216-4077</li>
+        </ul>
     </div>
     <div class="large-8  column">
       <!-- TODO: Complete ARIA form help text -->

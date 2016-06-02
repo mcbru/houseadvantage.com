@@ -54,10 +54,54 @@ get_header(); ?>
 <!-- </div> -->
 
 
+<div id="stat-animate" class="[ band  band--special  band--special-dark ]">
+  <div class="row  column  text-center" data-equalizer>
+    <h2>We Put a HALo Over 100 Million Loyal Customers</h2>
+    <p class="subhead">Our suite of loyalty software solutions, HALo, is a proven loyalty management platform with over 120 installations across 70 markets worldwide. It supports over 100 million patron profiles. Today, the ever-evolving HALo platform:</p>
+    <div class="medium-6  large-3  column" data-equalizer-watch>
+      <span class="feature-icon  feature-icon--stat">
+        <span class="icon">
+          <svg class="icon__item--purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M99.54,83.87A43.76,43.76,0,0,1,93.1,94.55a6.39,6.39,0,0,0-3.41-1.2c-2.1-.59-3.12-2-4.19-2.37-1.34-.45-2.7,0-4.06,0a1.27,1.27,0,0,1-1.24-.48c-0.25-.5-5.7-4.19-5.86-5.51s-1-2.13-1.64-3.16V75.62c0-.26.77-0.11,1.41-1.85a8.52,8.52,0,0,0,.59-1.21,2.54,2.54,0,0,0,.21-1.6,0.91,0.91,0,0,0,.67.38c0.47,0,1.25-.51,2.26-2.71,0.63-1.61.47-2.28,0.82-2.91,0,0,1.85-3,1.31-5.38S78.29,58.58,78,58.58h0a31,31,0,0,1-.4-3.32c0-1.27-.24-4.11-0.28-5.69A18.3,18.3,0,0,0,75.09,43a25.27,25.27,0,0,0-2.89-3.28c-0.91-.63-0.83-1.54-2.06-2.33a16.71,16.71,0,0,0-2.37-1.6,10.24,10.24,0,0,1-2-1.12c-1-.63-0.36-1.63-1.9-1.82-0.88-.11-1.27-0.21-1.66-0.21-0.84,0-1.6.45-2.45,0.45-1,0-2-.22-3-0.22a6.92,6.92,0,0,0-3.45,1c-0.87.51-1.66,1.5-3.24,2.49a7.41,7.41,0,0,0-2.53,2.06c-1.11,1.23-1.58,1.62-2.65,2.81a12.22,12.22,0,0,0-3,6.49A10.86,10.86,0,0,0,41.69,51a14.71,14.71,0,0,1,.26,2.72c0,0.91-.08,5.22-0.08,5.22a1.85,1.85,0,0,0-.46-0.06c-0.65,0-1.72.34-1.24,2.71,0.26,1.23.79,2.93,1,3.64a8.93,8.93,0,0,1,.32,2.06,3,3,0,0,0,2.89,3,25.07,25.07,0,0,0,1,3.27,15,15,0,0,0,2.06,3.6c0.48,2.38,0,4.84,0,7.24a3.37,3.37,0,0,0-1,0,1.24,1.24,0,0,0-1.09.78,27.31,27.31,0,0,1-3,5.06c-0.71.91-9.33,1.67-13.33,3.29a33.67,33.67,0,0,0-3.65,1.78A44,44,0,1,1,99.54,83.87Z"/></svg>
+        </span>
+      </span>
+      <span id="number-profiles" class="stat">0</span>
+      <p>Manages over 100 million patron profiles on behalf of their customers.</p>
+    </div>
+    <div class="medium-6  large-3  column" data-equalizer-watch>
+      <span class="feature-icon  feature-icon--stat">
+        <span class="icon">
+          <svg class="icon__item--purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M73,41.09a6.43,6.43,0,0,0-2.59-2.77l-0.12-.07h0l-0.14-.09,0.05,0-0.93-.46h0l-0.17-.08h0a22.55,22.55,0,0,0-6.72-1.84l-0.17,0-1.05-.12a35.23,35.23,0,0,0-6.3,0l-1.05.12A22.34,22.34,0,0,0,47,37.63h0l-0.12.06-0.05,0-0.05,0-0.87.44,0.05,0-0.27.17a6.33,6.33,0,0,0-2.5,2.7,3.73,3.73,0,0,0-.22.65h0l0,0.39v0h0v0l-0.05.45h0a4.45,4.45,0,0,0,1.51,3.1H44.35L45,46.25l0,0h0l0.17,0.13h0c0.26,0.19.55,0.38,0.89,0.59a19,19,0,0,0,5.68,2c0.37,0.08.76,0.15,1.14,0.21a32.45,32.45,0,0,0,5.16.4A32.84,32.84,0,0,0,63,49.27l1.16-.2a18.75,18.75,0,0,0,6-2.12,10.15,10.15,0,0,0,1.06-.73,4.75,4.75,0,0,0,2.08-3.66,3,3,0,0,0,0-.39A3.76,3.76,0,0,0,73,41.09Zm-3.46,4a10.07,10.07,0,0,1-1.12.63,19.67,19.67,0,0,1-5.19,1.57c-0.37.07-.74,0.12-1.13,0.17a31.14,31.14,0,0,1-8.23,0c-0.38-.05-0.76-0.11-1.13-0.18a19.67,19.67,0,0,1-4.89-1.49,9.56,9.56,0,0,1-1-.56l-0.2-.13c-0.87-.58-1.87-1.47-1.87-2.56,0,0,0-.06,0-0.09l0.06-.38A2.14,2.14,0,0,1,45,41.53a5.66,5.66,0,0,1,2.28-2c0.36-.19.75-0.38,1.15-0.55l0.05,0a22.2,22.2,0,0,1,5.59-1.41h0l0.63-.08,0.7-.07a32.27,32.27,0,0,1,5.11,0l1,0.1h0a23.21,23.21,0,0,1,5.9,1.39l0.12,0h0a11.76,11.76,0,0,1,1.19.55,5.76,5.76,0,0,1,2.37,2,2.08,2.08,0,0,1,.27.79,1.4,1.4,0,0,1,0,.22C71.44,43.67,70.41,44.57,69.55,45.14Z"/><path d="M99.89,54.31a8.35,8.35,0,0,0-.48-1.77,11.08,11.08,0,0,0-1.67-2.85V42.56a8,8,0,0,0-.11-1.32,8.35,8.35,0,0,0-.48-1.77c-1.08-2.81-3.63-5.38-7.3-7.55-0.67-.39-1.37-0.78-2.11-1.14A59.79,59.79,0,0,0,68.5,25.57c-0.64-.07-1.29-0.14-1.95-0.2C63.84,25.12,61,25,58.1,25s-6,.14-8.83.42c-0.66.06-1.3,0.13-1.94,0.21h0a59.09,59.09,0,0,0-19,5.24c-0.74.37-1.43,0.75-2.1,1.14-3.58,2.14-6.06,4.67-7.14,7.43a8.38,8.38,0,0,0-.48,1.77,7.44,7.44,0,0,0-.12,1.34v8.11a9.55,9.55,0,0,0,2.25,5.93h0v4.26a11.51,11.51,0,0,0-2.11,3.36A8.38,8.38,0,0,0,18.12,66,7.37,7.37,0,0,0,18,67.34v8.11C18,81.63,24.87,87,35.48,90.1c0.64,0.19,1.28.37,1.95,0.54h0q2.34,0.61,4.89,1.06L44.13,92a87.76,87.76,0,0,0,13.52,1,88.37,88.37,0,0,0,12.78-.9C71,92,71.53,92,72.07,91.85q2.84-.47,5.43-1.13c0.67-.17,1.32-0.34,2-0.53h0A43,43,0,0,0,89.5,86c0.36-.22.7-0.43,1-0.66,4.28-2.8,6.76-6.21,6.76-9.93V70.23a9.83,9.83,0,0,0,2.7-6.5V55.62A8,8,0,0,0,99.89,54.31Zm-80,11.8a6.9,6.9,0,0,1,.59-1.77c0.06-.12.13-0.24,0.2-0.35s0-.17,0-0.25a8.42,8.42,0,0,0,.37,2.43Zm24.2,24c-0.6-.1-1.21-0.21-1.8-0.32-1.18-.22-2.33-0.47-3.45-0.75-0.68-.15-1.32-0.33-2-0.51h0a43.26,43.26,0,0,1-10.11-4.1c-0.64-.38-1.24-0.77-1.8-1.17V77.42l0.79,0.5,1,0.57a51.42,51.42,0,0,0,14.8,5l0.74,0.13,1.37,0.23,0.43,0.07v6.24h0ZM27.24,59.67c-0.64-.38-1.24-0.77-1.8-1.17V52.64l0.79,0.5,1,0.57a51.42,51.42,0,0,0,14.8,5l0.74,0.13L44.15,59l0.43,0.07v6.24c-0.6-.1-1.21-0.21-1.8-0.32-1.18-.22-2.33-0.47-3.45-0.75-0.68-.15-1.32-0.33-2-0.51h0A43.19,43.19,0,0,1,27.24,59.67Zm1.24,6.53,1,0.57a51.42,51.42,0,0,0,14.8,5L45,71.88l1.37,0.23,0.43,0.07v6.24c-0.6-.1-1.21-0.21-1.8-0.32-1.18-.22-2.33-0.47-3.45-0.75-0.68-.15-1.32-0.33-2-0.51h0a43.26,43.26,0,0,1-10.11-4.1c-0.64-.38-1.24-0.77-1.8-1.17V65.7ZM46.94,80.31L45.2,82.2c-0.72-.11-1.43-0.23-2.13-0.35h0a53.65,53.65,0,0,1-14.79-4.69c-0.78-.4-1.5-0.81-2.17-1.23l3.41-1a44.34,44.34,0,0,0,8.66,3.49c0.64,0.19,1.28.37,1.95,0.54h0Q42.48,79.53,45,80l1.8,0.31h0.1Zm1-9.83c-0.72-.11-1.43-0.23-2.13-0.35h0A53.65,53.65,0,0,1,31,65.44c-0.78-.4-1.5-0.81-2.17-1.23l2.13-.65a50.18,50.18,0,0,0,5,1.75c0.64,0.19,1.28.37,1.95,0.54h0q2.34,0.61,4.89,1.06l1.8,0.31c1.83,0.29,3.74.5,5.7,0.67ZM68.48,80.93c1.58-.14,3.14-0.31,4.65-0.53,0.55-.08,1.1-0.16,1.64-0.26q2.84-.47,5.43-1.13c0.67-.17,1.32-0.34,2-0.53h0a48,48,0,0,0,7.16-2.65h0c-0.68.42-1.4,0.84-2.16,1.23a53.64,53.64,0,0,1-15.34,4.84c-0.7.13-1.42,0.24-2.14,0.34Zm2.39-13.6c0.55-.08,1.1-0.16,1.64-0.26q2.84-.47,5.43-1.13c0.67-.17,1.32-0.34,2-0.53h0a47.74,47.74,0,0,0,7.35-2.74h0L92,64.12c-0.68.42-1.4,0.84-2.16,1.23a53.64,53.64,0,0,1-15.34,4.84c-0.7.13-1.42,0.24-2.14,0.34l-2.8-3ZM70.71,65.5V59.25l0.95-.14L72.52,59l1.26-.22h0a51.55,51.55,0,0,0,15.4-5.16L90.12,53,91,52.49v5.85c-0.56.41-1.16,0.81-1.8,1.2a43.24,43.24,0,0,1-10.7,4.33c-0.65.18-1.32,0.35-2,.5-1.28.32-2.61,0.59-4,.83C71.92,65.31,71.33,65.41,70.71,65.5ZM90.54,83.11c-0.56.41-1.16,0.81-1.8,1.2A43.24,43.24,0,0,1,78,88.65c-0.65.18-1.32,0.35-2,.5-1.28.32-2.61,0.59-4,.83-0.59.11-1.19,0.21-1.8,0.3V84l0.95-.14,0.86-.14,1.26-.22h0a51.55,51.55,0,0,0,15.4-5.16l0.94-.54,0.86-.56v5.85Zm2.7-11.71c-0.56.41-1.16,0.81-1.8,1.2a43.24,43.24,0,0,1-10.7,4.33c-0.65.18-1.32,0.35-2,.5-1.28.32-2.61,0.59-4,.83-0.59.11-1.19,0.21-1.8,0.3V72.32l0.95-.14L74.77,72,76,71.81h0a51.55,51.55,0,0,0,15.4-5.16l0.94-.54,0.86-.56V71.4h0ZM85.66,41.92a5,5,0,0,1,0,.64c0,2.26-1.29,4.38-3.57,6.18l7.66,2.32c-0.68.42-1.4,0.84-2.16,1.23a53.64,53.64,0,0,1-15.34,4.84c-0.7.13-1.42,0.24-2.14,0.34l-2.94-3.19a60.68,60.68,0,0,1-9.11.67,59.89,59.89,0,0,1-9.51-.73l-2.94,3.2c-0.72-.11-1.43-0.23-2.13-0.35h0a53.65,53.65,0,0,1-14.79-4.69c-0.78-.4-1.5-0.81-2.17-1.23l7.63-2.31c-2.35-1.83-3.69-4-3.69-6.28a5.45,5.45,0,0,1,0-.67l-10.16-.57A6.9,6.9,0,0,1,21,39.56c1.19-2.47,3.83-4.76,7.51-6.69h0c0.71-.38,1.46-0.74,2.25-1.09l6.68,2.49a40.35,40.35,0,0,1,12.74-3.6L48.3,27.35c0.64-.07,1.29-0.14,1.95-0.2h0c2.54-.23,5.16-0.36,7.85-0.36s5.05,0.11,7.48.32c0.66,0.05,1.31.12,2,.19l-1.87,3.32a41,41,0,0,1,12.95,3.56l6.66-2.49q1.19,0.53,2.27,1.08c3.78,2,6.48,4.28,7.69,6.79a7.3,7.3,0,0,1,.59,1.77ZM96.84,54.48a9.24,9.24,0,0,0,.66-1.8,7.29,7.29,0,0,1,.58,1.73Z"/></svg>
+        </span>
+      </span>
+      <span id="number-games" class="stat">0</span>
+      <p>Processing every gaming rating and patron spend for over 100,000 slot and gaming tables while calculating, publishing and redeeming earned rewards in real time.</p>
+    </div>
+    <div class="medium-6  large-3  column" data-equalizer-watch>
+      <span class="feature-icon  feature-icon--stat">
+        <span class="icon">
+          <svg class="icon__item--purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M63.84,79.41L106,58.92V73.39L64.17,94,12,53.78V41.31ZM31.21,52.25L64,76.14l40.7-19.35L71.91,35.64Zm-1.93-1.4,18.81-7.61s-3.4-10.54-14.61-10.54L14.13,39.51Zm20.88-8.47,20.08-8.21S68.17,23.3,56.63,24L36.55,31.57A14.65,14.65,0,0,1,50.16,42.38Z"/></svg>
+        </span>
+      </span>
+      <span id="number-hotels" class="stat">0</span>
+      <p>Tracking and rewarding patron spends at nearly 50,000 hotels for rooms, spas and retail outlets.</p>
+    </div>
+    <div class="medium-6  large-3  column" data-equalizer-watch>
+      <span class="feature-icon  feature-icon--stat">
+        <span class="icon">
+          <svg class="icon__item--purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M29,26.78V94.17a2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84a2.54,2.54,0,0,0,2.36-2.66,2.54,2.54,0,0,0,2.36,2.66h3.84A2.54,2.54,0,0,0,89,94.17V26.78H29ZM87.33,78.11a4.84,4.84,0,0,1-4.83,4.83H35.6a4.84,4.84,0,0,1-4.83-4.83V28.75H87.33V78.11Z"/><path d="M35.6,81H82.5a2.86,2.86,0,0,0,2.86-2.86V58.31H32.65v19.8A3,3,0,0,0,35.6,81Z"/><rect x="40.14" y="21.4" width="3.15" height="56.65" transform="translate(-10 10.5) rotate(-12.83)"/><path d="M36.59,22.35L48.9,76.64l-2.07.49L34.52,22.84l2.07-.49m0.79-1.18-1,.2-2.07.49-1,.2,0.2,1L45.85,77.33l0.2,1,1-.2,2.07-.49,1-.2-0.2-1L37.57,22.15l-0.2-1h0Z"/></svg>
+        </span>
+      </span>
+      <span id="number-food" class="stat">0</span>
+      <p>Integrates over 300 food and beverage operations, allowing patrons to earn and redeem rewards directly through point of sale systems.</p>
+    </div>
+    <p>When your loyalty program is critical for success, trust the expertise and leadership of House Advantage.</p>
+  </div>
+</div>
+
 <section class="[ band  band--special ]">
   <div class="row  column  text-center">
 
-    <h2>Supercharge Your Programs With The Power And Flexibility of HALo.</h2>
+    <h2>Give Your Patrons A More Rewarding Loyalty Experience</h2>
     <p class="subhead">HALo is a comprehensive suite of loyalty solutions that will help you differentiate and extend your offerings to gain competitive advantage in highly dynamic markets.</p>
 
   </div>
@@ -83,7 +127,8 @@ get_header(); ?>
 
     <div class="small-12  medium-4  column">
       <div class="pull-quote  pull-quote--vanilla  text-center">
-        <p>Differentiate your loyalty program with the power and flexibility of HALo, an advanced loyalty solution that can help you boost customer engagement and gain competitive advantage in highly dynamic markets.</p>
+        <p>“House Advantage will differentiate your loyalty program. The HALo solutions they provide can be tailor to fit any need. Customers become more engaged in the program and you gain a competitive advantage.”</p>
+        <p class="pull-quote__source">Senior loyalty marketing executive</p>
       </div>
     </div>
 
@@ -105,66 +150,75 @@ get_header(); ?>
   </div>
 </section>
 
-
-<section class="[ band  band--special-dark  band--large ]  text-center">
+<div id="testimonials" class="[ band  band--gold ] text-center">
+  <div class="row  column">
+    <h2>Don’t take our word for it.</h2>
+    <p class="subhead">Here’s what our customers say about House Advantage.</p>
+  </div>
   <div class="row">
-    <h2>Finally A Loyalty Platform That Works The Way You Do</h2>
-    <p class="subhead">House Advantage offers decades of experience in loyalty programs for the resort, leisure and entertainment markets. We bring proven technology and the strategic expertise needed to enhance your loyalty program. We offer ongoing services support after we implement your solution.</p>
-  </div>
-  <div class="nugget-group  animation-wrapper" data-equalizer  data-equalize-on="medium">
-    <div class="row  small-up-1  medium-up-2  large-up-3">
-        <div class="nugget__item  column">
-          <span class="feature-icon  feature-icon--circle">
-            <span class="icon  icon-1">
-              <svg class="icon__item" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M59.6,35a2,2,0,0,0-1.22,0c-7.28,2.31-15.94,8.25-15.94,23.45,0,10.72,5.47,18.6,15.79,22.81a2,2,0,0,0,.77.15,2,2,0,0,0,.76-0.15C70.09,77,75.54,69.19,75.54,58.47,75.54,43.27,66.87,37.33,59.6,35Zm4,25H61v2.2a2,2,0,0,1-4,0V60H54.32a2,2,0,0,1,0-4H57V52.85a2,2,0,1,1,4,0V56h2.66a2,2,0,0,1,0,4h0Z"/><path d="M76,84.47A47.57,47.57,0,0,1,58.23,81.3a2,2,0,0,1,0-3.74C67,74,71.49,67.54,71.49,58.48c0-10.24-4.41-16.83-13.16-19.59a2,2,0,0,1,0-3.86,33.5,33.5,0,0,1,9.89-1.51c18.22,0,30.7,7.19,33.3,19.23a21.25,21.25,0,0,1-7.08,20.71,16.07,16.07,0,0,0,3.21.32h0q0.69,0,1.39-.06A2,2,0,0,1,100.79,77C97.41,81.39,87.23,84.47,76,84.47Zm-11.77-5.4A47.7,47.7,0,0,0,76,80.47a45.67,45.67,0,0,0,17.29-3,20.1,20.1,0,0,1-4.47-1.61,2,2,0,0,1,0-3.66c6.46-2.92,10.24-11.07,8.63-18.54-1-4.83-5.91-16-29.27-16a23,23,0,0,0-2.77.13c5.38,3.4,10.12,9.57,10.12,20.77C75.54,67.5,71.66,74.52,64.28,79.07Z"/><path d="M41.88,84.47a58.44,58.44,0,0,1-7-.43C26.4,83,19.79,80.38,17.17,77a2,2,0,0,1,1.76-3.25,16.43,16.43,0,0,0,4.6-.27,21.33,21.33,0,0,1-7.18-20.17c1-5.5,6-18.41,29.76-19.65a2,2,0,0,1,.21,4c-20.88,1.09-25.13,11.8-26,16.36-1.41,7.44,2.34,15.24,8.7,18.13a2,2,0,0,1,0,3.66,20,20,0,0,1-4.34,1.54c7.49,3.19,22.14,4.86,33.53.19a2,2,0,1,1,1.54,3.74A48,48,0,0,1,41.88,84.47Z"/></svg>
-            </span>
-          </span>
-          <h3 class="delta  min-height-small">Strategy Services</h3>
-          <p data-equalizer-watch>House Advantage is your “always-on” partner in every aspect of loyalty and customer engagement, applying more than a century of combined experience implementing, managing, and optimizing loyalty solutions to meet your requirements.</p>
-          <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#services">learn more</a>
-        </div>
-
-        <div class="nugget__item  column">
-          <span class="feature-icon  feature-icon--circle">
-            <span class="icon  icon-2">
-              <svg class="icon__item" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><path d="M43.67,42.15a1.41,1.41,0,0,0,2,.16,1.65,1.65,0,0,0,.53-1.24,7,7,0,1,1,7,7A1.65,1.65,0,0,0,52,48.6a1.41,1.41,0,0,0,.16,2l7,7,7-7a3.56,3.56,0,0,1,5.09-.16,3.82,3.82,0,0,1,1.16,2.69v0.05a4.85,4.85,0,1,0,4.82-4.82H77.19a3.81,3.81,0,0,1-2.69-1.16,3.56,3.56,0,0,1,.16-5.09l7.06-7.06L65.19,18.57a8.75,8.75,0,0,0-12.38,0L36.45,34.92Z"/><path d="M76.18,43.68a1.41,1.41,0,0,0-.16,2,1.65,1.65,0,0,0,1.24.53,7,7,0,1,1-7,7A1.65,1.65,0,0,0,69.73,52a1.41,1.41,0,0,0-2,.16l-7,7,3.95,3.95a3.56,3.56,0,0,1,.16,5.09,3.81,3.81,0,0,1-2.69,1.16H62.05a4.84,4.84,0,1,0,4.82,4.82V74.13A3.82,3.82,0,0,1,68,71.44a3.56,3.56,0,0,1,5.09.16l10,10L99.44,65.19a8.75,8.75,0,0,0,0-12.38L83.24,36.62Z"/><path d="M42.36,74.44a1.41,1.41,0,0,0,.16-2,1.65,1.65,0,0,0-1.24-.53,7,7,0,1,1,7-7,1.65,1.65,0,0,0,.53,1.24,1.41,1.41,0,0,0,2-.16l6.79-6.79-7-7a3.56,3.56,0,0,1-.16-5.09,3.81,3.81,0,0,1,2.69-1.16h0.05a4.84,4.84,0,1,0-4.82-4.82v0.06a3.81,3.81,0,0,1-1.16,2.69,3.57,3.57,0,0,1-5.09-.16l-7.22-7.22L18.56,52.81a8.75,8.75,0,0,0,0,12.38L35.09,81.71Z"/><path d="M71.6,73.13a1.41,1.41,0,0,0-2-.16A1.65,1.65,0,0,0,69,74.21a7,7,0,1,1-7-7,1.65,1.65,0,0,0,1.24-.53,1.41,1.41,0,0,0-.16-2l-3.95-3.95-6.79,6.79a3.56,3.56,0,0,1-5.09.16,3.81,3.81,0,0,1-1.16-2.69V64.89a4.85,4.85,0,1,0-4.82,4.82h0.06A3.82,3.82,0,0,1,44,70.87,3.57,3.57,0,0,1,43.89,76l-7.28,7.28L52.81,99.44a8.76,8.76,0,0,0,12.38,0L81.55,83.08Z"/></svg>
-            </span>
-          </span>
-          <h3 class="delta  min-height-small">Integrated Software Solutions</h3>
-          <p data-equalizer-watch>HALo is a suite of centrally managed loyalty solutions. It has the power to integrate your loyalty program across hotel, restaurant, point of sale, food and beverage, spa and entertainment systems in service of a coherent, enterprise-wide customer experience.</p>
-          <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#products">learn more</a>
-        </div>
-
-        <div class="nugget__item  column">
-          <span class="feature-icon  feature-icon--circle">
-            <span class="icon  icon-3">
-              <svg class="icon__item" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 118"><circle cx="60.69" cy="47" r="2.74"/><path d="M89.91,82.24L67.29,39.06V24.31h0.06a4.29,4.29,0,1,0,0-8.58H50.64a4.29,4.29,0,1,0,0,8.58h0.06V39.06L28.09,82.25A18.19,18.19,0,0,0,26,89.85a12.32,12.32,0,0,0,1.79,6.38v0l0,0a12.41,12.41,0,0,0,10.6,6H79.58A12.44,12.44,0,0,0,92,89.84,18.28,18.28,0,0,0,89.91,82.24ZM52.56,57.13a2.74,2.74,0,0,0-2.74,2.74h-7L53.37,39.72V21.64H50.64a1.63,1.63,0,1,1,0-3.25H67.35a1.63,1.63,0,1,1,0,3.25H64.63V39.72L75.18,59.87H55.29A2.74,2.74,0,0,0,52.56,57.13ZM63.43,92.92a7.43,7.43,0,1,1,7.43-7.43A7.43,7.43,0,0,1,63.43,92.92ZM73.85,75a3.62,3.62,0,1,1,3.62-3.62A3.62,3.62,0,0,1,73.85,75Z"/><path d="M68.9,85.48A5.47,5.47,0,1,1,63.43,80,5.47,5.47,0,0,1,68.9,85.48Z"/><circle cx="73.85" cy="71.4" r="1.92"/></svg>
-            </span>
-          </span>
-          <h3 class="delta  min-height-small">System Interface and Integration Technologies</h3>
-          <p data-equalizer-watch>House Advantage offers certified tools for point-to-point and information-bus integrations, with deep expertise deploying HALo on legacy infrastructures to preserve your existing technology investments.</p>
-          <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="solutions#integrations">learn more</a>
-        </div>
+    <div class="column">
+      <div class="orbit" role="region" aria-label="Client Testimonials" data-orbit data-options="timerDelay:10000; animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <ul class="orbit-container">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+          <li class="is-active orbit-slide">
+            <blockquote>
+              <p>After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business!</p>
+              <cite>Senior loyalty marketing executive</cite>
+            </blockquote>
+          </li>
+          <li class="orbit-slide">
+            <blockquote>
+              <p>Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities.</p>
+              <cite>CEO, top US destination resort operator</cite>
+            </blockquote>
+          </li>
+          <li class="orbit-slide">
+            <blockquote>
+              <p>House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands-on approach has been critical to our success.</p>
+              <cite>CIO, international hotel group</cite>
+            </blockquote>
+          </li>
+        </ul>
+        <!-- <nav class="orbit&#45;bullets"> -->
+        <!--   <button class="is&#45;active" data&#45;slide="0"><span class="show&#45;for&#45;sr">First slide details.</span><span class="show&#45;for&#45;sr">Current Slide</span></button> -->
+        <!--   <button data&#45;slide="1"><span class="show&#45;for&#45;sr">Second slide details.</span></button> -->
+        <!--   <button data&#45;slide="2"><span class="show&#45;for&#45;sr">Third slide details.</span></button> -->
+        <!--   <button data&#45;slide="3"><span class="show&#45;for&#45;sr">Fourth slide details.</span></button> -->
+        <!-- </nav> -->
       </div>
+    </div>
   </div>
-</section>
 
-<section class="[ band  band--gold  band--large  triple-border ]  text-center">
-  <div class="row  column">
-    <h2>Client Testimonials</h2>
-    <p class="subhead">Hear from our customers how a <strong>House Advantage</strong> partnership has generated results for some of the most successful brands in the resort and entertainment industry.</p>
-    <a role="button" class="large  button  button--dark  hvr-sweep-to-right  hvr-sweep-to-right--gray" href="the-house-advantage/#testimonials">the house advantage</a>
-  </div>
-</section>
-
-<section class="[ band  band--large ]  text-center">
-  <div class="row  column">
-    <h2>Our Team</h2>
-    <p class="subhead">The <strong>House Advantage</strong> leadership team has decades of senior-level experience operating and managing resort, leisure and entertainment companies and the technologies that serve them.</p>
-    <a role="button" class="large  button  hvr-sweep-to-right  hvr-sweep-to-right--gold" href="meet-the-team">meet the ha team</a>
-  </div>
-</section>
-
+  <!-- <div class="row"> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       After an extensive review of loyalty consulting and solution companies, it was clear that House Advantage offered the most comprehensive set of loyalty solution capabilities.  What also separated House Advantage from the rest is their operational experience. They know our business! -->
+  <!--       <cite>Senior International Loyalty Marketing Executive</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       Our partnership with House Advantage gave us the tools to transform our loyalty marketing programs, increase customer engagement and drive new revenue opportunities. -->
+  <!--       <cite>CEO, top US destination resort operator</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class="row"> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       House Advantage handles HALo deployment and support, which allows my IT teams to focus on other initiatives. Partnering with House Advantage for their deep expertise in customer loyalty and hands&#45;on approach has been critical to our success. -->
+  <!--       <cite>CIO, international hotel group</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!--   <div class="medium&#45;6  columns" data&#45;equalizer&#45;watch> -->
+  <!--     <blockquote> -->
+  <!--       Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. -->
+  <!--       <cite>Venenatis Egestas</cite> -->
+  <!--     </blockquote> -->
+  <!--   </div> -->
+  <!-- </div> -->
+</div>
 
 
 <?php get_footer();

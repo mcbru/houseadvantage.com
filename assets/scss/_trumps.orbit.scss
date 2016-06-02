@@ -9,7 +9,10 @@
 .orbit blockquote {
   border-left: none;
   &, p {
-    font-size: rem-calc(26);
+    font-size: rem-calc(20);
     padding-bottom: $spacing-unit;
+    @include breakpoint(medium) {
+      font-size: rem-calc(26);
+    }
   }
 }

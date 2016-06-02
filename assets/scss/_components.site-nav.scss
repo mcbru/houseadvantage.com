@@ -95,7 +95,7 @@
   // padding-top: rem-calc(36);
   padding-bottom: $spacing-unit;
   text-align: center;
-  @include breakpoint(large) {
+  @include breakpoint(875px) {
     padding-top: rem-calc(58);
   }
 }

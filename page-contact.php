@@ -51,7 +51,7 @@
 <!--   <hr /> -->
 <!-- </div> -->
 
-<section class="band">
+<section class="band  scroll-target">
   <div class="row">
     <div class="large-4  column">
       <ul class="no-marker">

@@ -21,7 +21,17 @@
   }
 }
 
-.title-bar-title {
+.title-bar__logo-container {
+  padding: 0.5rem;
+}
+
+.title-bar__menu {
+  cursor: pointer;
+  @extend .title-bar-title;
+  padding: 1rem;
+  background-color: $color-red;
+  // text-align: center;
+  display: block;
   a {
     font-size: 1rem;
     // color: #B9B9B9;
@@ -94,7 +104,7 @@
   }
   // padding-top: rem-calc(36);
   padding-bottom: $spacing-unit;
-  text-align: center;
+  // text-align: center;
   @include breakpoint(875px) {
     padding-top: rem-calc(58);
   }
@@ -103,4 +113,9 @@
 .site-nav__logo {
   display: block;
   width: 196px;
+}
+
+.site-nav__logo--sm {
+  display: block;
+  width: 200px;
 }

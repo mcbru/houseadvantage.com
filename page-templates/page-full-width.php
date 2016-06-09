@@ -2,33 +2,32 @@
 /*
 Template Name: Full Width
 */
+
 get_header(); ?>
 
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 
-<div id="page-full-width" role="main">
-
-<?php do_action( 'foundationpress_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
-  <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+<div id="page-full-width" class="band  row  column  small-10  large-8  small-centered" role="main">
+  <?php while ( have_posts() ) : the_post(); ?>
+    <article>
       <header>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
+        <h1 class="entry-title"><?php the_title(); ?></h1>
       </header>
-      <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
       <div class="entry-content">
-          <?php the_content(); ?>
-      </div>
-      <footer>
-          <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
-          <p><?php the_tags(); ?></p>
-      </footer>
-      <?php do_action( 'foundationpress_page_before_comments' ); ?>
-      <?php comments_template(); ?>
-      <?php do_action( 'foundationpress_page_after_comments' ); ?>
-  </article>
-<?php endwhile;?>
 
-<?php do_action( 'foundationpress_after_content' ); ?>
+      <?php
+        if ( has_post_thumbnail() ) :
+          the_post_thumbnail();
+        endif;
+      ?>
+
+      <?php the_content(); ?>
+      <?php if ( get_field('post_credit') ) : ?>
+        <p class="post-credit"><?php the_field('post_credit'); ?></p>
+      <?php endif; ?>
+      </div>
+    </article>
+  <?php endwhile;?>
 
 </div>
 

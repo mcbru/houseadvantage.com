@@ -56,7 +56,7 @@ get_header(); ?>
 
 <div id="stat-animate" class="[ band  band--special  band--special-dark ]">
   <div class="row  column  text-center" data-equalizer>
-    <h2>We Put a HALo Over 100 Million Loyal Customers</h2>
+    <h2>The HALo Platform</h2>
     <p class="subhead">Our suite of loyalty software solutions, HALo, is a proven loyalty management platform with over 120 installations across 70 markets worldwide. It supports over 100 million patron profiles. Today, the ever-evolving HALo platform:</p>
     <div class="medium-6  large-3  column" data-equalizer-watch>
       <span class="feature-icon  feature-icon--stat">

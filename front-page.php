@@ -127,7 +127,7 @@ get_header(); ?>
 
     <div class="small-12  medium-4  column">
       <div class="pull-quote  pull-quote--vanilla  text-center">
-        <p>“House Advantage will differentiate your loyalty program. The HALo solutions they provide can be tailor to fit any need. Customers become more engaged in the program and you gain a competitive advantage.”</p>
+        <p>“House Advantage will differentiate your loyalty program. The HALo solutions they provide can be tailored to fit any need. Customers become more engaged in the program and you gain a competitive advantage.”</p>
         <p class="pull-quote__source">Senior loyalty marketing executive</p>
       </div>
     </div>

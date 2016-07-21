@@ -78,7 +78,6 @@ get_header(); ?>
       <li>Have a solid working knowledge of XML and messaging</li>
       <li>Highly familiar with complex database and OO concepts</li>
       <li>Experienced with client/server and IIS architectures</li>
-      <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
     </ul>
     <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
@@ -93,6 +92,32 @@ get_header(); ?>
       <li>Demonstrated ability to train, document, troubleshoot, and describe promotions to customers</li>
       <li>Aptitude and experience with technical concepts involving VPN, CMS connections, certificates, and Microsoft SQL</li>
       <li>Must have a casino marketing application background; or experience working in the slot/gaming industry</li>
+    </ul>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+  </div>
+</div>
+<div class="[ band  band--small  band--tint ]">
+  <div class="row  column">
+    <h3>IT Project Manager</h3>
+    <p>The Project Manager is responsible for planning and executing projects to ensure completion on time and on budget. This will include gathering requirements from the business owners, writing clear and detailed functional specifications, scoping out the necessary work, writing RFPs, tracking the project development, communicating with the team, and effectively prioritizing and executing tasks.</p>
+    <h4>Requirements</h4>
+    <ul>
+      <li>Solid understanding of SDLC</li>
+      <li>Functional and hands-on knowledge of Agile project management. 3-5+ years experience in IT project management, including software development and delivery</li>
+      <li>Exceptional communication skills and the ability to keep the team on track and motivated</li>
+    </ul>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+  </div>
+</div>
+<div class="[ band  band--small ]">
+  <div class="row  column">
+    <h3>IT Systems Applications Analyst</h3>
+    <p>The IT Systems Applications Analyst is responsible for installing, maintaining, and troubleshooting various software applications and related hardware interfaces including PC’s, Mac’s, Network, VPN, Server, Wifi, and phone systems.</p>
+    <h4>Requirements</h4>
+    <ul>
+      <li>3-5+ years hands-on technical experience with installing, configuring, troubleshooting and performing data migration for Mac and PC hardware and multiple software applications</li>
+      <li>Knowledge of network connectivity, VPM, Wireless Networks, Cloud, VMWare, Virtual environments, physical and virtual servers</li>
+      <li>Experience with SQL server/scripts, including database backups and restore</li>
     </ul>
     <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>

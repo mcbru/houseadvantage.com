@@ -127,6 +127,7 @@ get_header(); ?>
     </ul>
   </div>
 </section>
+
 <section class="band  band--tint">
   <div class="row">
     <div class="medium-4  medium-push-8  column">
@@ -139,10 +140,22 @@ get_header(); ?>
     <div class="medium-8  medium-pull-4  column">
       <h2 id="services">Advanced Loyalty Strategy Services</h2>
       <p><strong>House Advantage</strong> is your “always-on” partner for excellence implementing, managing, and optimizing your loyalty program. The breadth of our expertise allows us to deploy and configure the HALo solution to meet specific requirements and goals. Find out how <strong>House Advantage</strong> can address your technical and business needs for loyalty solutions.</p>
-      <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Contact Us</a>
+      <!-- <a href="contact" class="button  hvr&#45;sweep&#45;to&#45;right  hvr&#45;sweep&#45;to&#45;right&#45;&#45;gold">Contact Us</a> -->
     </div>
   </div>
 </section>
+
+<div class="cta">
+  <div class="row  column">
+    <div class="cta__head">
+      Enhance the customer experience
+    </div>
+    <div class="cta__subhead">
+      Provide a consistent member experience across all existing transactional systems.
+    </div>
+    <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Learn More »</a>
+  </div>
+</div>
 
 <section class="band">
   <div class="row  column">
@@ -340,6 +353,18 @@ get_header(); ?>
     </div>
   </div>
 </section>
+
+<div class="cta">
+  <div class="row  column">
+    <div class="cta__head">
+      Engage more customers
+    </div>
+    <div class="cta__subhead">
+      Engage your members across all amenities and touch points, in real time.
+    </div>
+    <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Learn More »</a>
+  </div>
+</div>
 
 <section class="[ band  band--tint ]">
   <div class="row  column">

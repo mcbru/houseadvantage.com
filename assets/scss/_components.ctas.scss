@@ -1,0 +1,37 @@
+///*------------------------------------*\
+//    #CTAs
+//\*------------------------------------*
+
+$cta-color: red !default;
+
+.cta {
+  border-top: 5px solid $color-red-dark;
+  border-bottom: 5px solid $color-red-dark;
+  color: $color-white;
+  font-weight: 600;
+  @if($cta-color == red) {
+    background-color: $color-red;
+    background-image: url('../images/diamond-pattern.png');
+  }
+  text-align: center;
+  padding: $spacing-unit 0;
+  .cta__head {
+    font-family: $header-font-family;
+    margin-bottom: $spacing-unit;
+    @include font-size(40px, 1.2);
+    @include breakpoint(medium) {
+      margin-bottom: halve($spacing-unit);
+    }
+    text-shadow: 0px 1px 1px rgba(55, 38, 0, 0.35);
+  }
+  .cta__subhead {
+    @include font-size(16px, 1.4);
+    text-shadow: 0px 1px 1px rgba(55, 38, 0, 0.35);
+    font-weight: 700;
+    margin-bottom: $spacing-unit;
+  }
+
+  .button {
+    box-shadow: 0px 1px 1px 0px rgba(55, 38, 0, 0.35);
+  }
+}

@@ -5,9 +5,12 @@
 .button {
   border-radius: $global-radius;
   text-transform: uppercase;
+  font-family: Lato;
   position: relative;
   overflow: hidden;
+  font-weight: 900;
 }
+
 
 .button--dark {
   border-color: $color-gray;

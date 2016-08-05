@@ -219,6 +219,17 @@ get_header(); ?>
   <!--   </div> -->
   <!-- </div> -->
 </div>
+<div class="cta">
+  <div class="row  column">
+    <div class="cta__head">
+      Elevate your loyalty programs
+    </div>
+    <div class="cta__subhead">
+      Create new promotions with a suite of advanced loyalty marketing capabilities.
+    </div>
+    <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Learn More »</a>
+  </div>
+</div>
 
 
 <?php get_footer();

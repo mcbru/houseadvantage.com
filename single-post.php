@@ -51,5 +51,16 @@ get_header(); ?>
   <?php do_action( 'foundationpress_after_content' ); ?>
   <?php /* get_sidebar(); */ ?>
 </div>
+<div class="cta">
+  <div class="row  column">
+    <div class="cta__head">
+      Expand the value proposition
+    </div>
+    <div class="cta__subhead">
+      Engage your customers across all amenities and touch points, in real time.
+    </div>
+    <a href="contact" class="button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Learn More »</a>
+  </div>
+</div>
 
 <?php get_footer();

@@ -24,7 +24,7 @@ function initMap() {
   };
   // Remove control on mobile
   // https://premium.wpmudev.org/forums/topic/disable-panning-and-zoom-in-out-of-google-maps
-  if (detectmob() == true) {
+  if (detectmob() === true) {
     mapOptions.zoomControl=false;
     mapOptions.panControl=false;
     mapOptions.draggable=false;

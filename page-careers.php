@@ -70,6 +70,19 @@ get_header(); ?>
 </div>
 <div class="[ band  band--small  band--tint ]">
   <div class="row  column">
+    <h3>Accounting Clerk</h3>
+    <h4>Requirements</h4>
+    <ul>
+      <li>Quick Books - 3–5 years Quick Books experience in AP, Invoicing, Payroll and light journal entires</li>
+      <li>Small office and light transaction load but with fast pace and sense of urgency needed</li>
+      <li>Willing to support in other areas when needed (internal reporting, compliance, expense reports, clerical everything).</li>
+      <li>High level of skill in Excel and Microsoft Office required</li>
+    </ul>
+    <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
+  </div>
+</div>
+<div class="[ band  band--small ]">
+  <div class="row  column">
     <h3>System Engineer</h3>
     <p>The Systems Engineer will support the internal teams and external customers by troubleshooting stored procedures, mine data anomalies, run traces, interfaces and integration.  As the go-to contact, the system engineer will need to understand what the service layers are doing and why our HALo application behaves the way it does.</p>
     <h4>Requirements</h4>
@@ -82,7 +95,7 @@ get_header(); ?>
     <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
-<div class="[ band  band--small ]">
+<div class="[ band  band--small  band--tint ]">
   <div class="row  column">
     <h3>Product Manager</h3>
     <p>The Product Manager is the product expert, knowing the HALo software inside and out in order to best support the customer’s needs. This role will regularly be planning meetings and installations, explaining functionality, managing and being the point of contact for the customer, and is technical enough to troubleshoot the product for QA testing and if something goes wrong.</p>
@@ -96,7 +109,7 @@ get_header(); ?>
     <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
-<div class="[ band  band--small  band--tint ]">
+<div class="[ band  band--small ]">
   <div class="row  column">
     <h3>IT Project Manager</h3>
     <p>The Project Manager is responsible for planning and executing projects to ensure completion on time and on budget. This will include gathering requirements from the business owners, writing clear and detailed functional specifications, scoping out the necessary work, writing RFPs, tracking the project development, communicating with the team, and effectively prioritizing and executing tasks.</p>
@@ -109,7 +122,7 @@ get_header(); ?>
     <a href="mailto:careers@houseadv.com" class="small  button  hvr-sweep-to-right  hvr-sweep-to-right--gold">Submit Resumé</a>
   </div>
 </div>
-<div class="[ band  band--small ]">
+<div class="[ band  band--small  band--tint ]">
   <div class="row  column">
     <h3>IT Systems Applications Analyst</h3>
     <p>The IT Systems Applications Analyst is responsible for installing, maintaining, and troubleshooting various software applications and related hardware interfaces including PC’s, Mac’s, Network, VPN, Server, Wifi, and phone systems.</p>

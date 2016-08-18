@@ -42,7 +42,7 @@ h1.hero__text {
   font-weight: normal;
 
   @include breakpoint(small) {
-    @include font-size(28px, 1.5);
+    @include font-size(25px, 1.5);
   }
 
   @include breakpoint(medium) {
@@ -66,11 +66,11 @@ p.hero__text {
       @include font-size(80px);
     }
   }
-  p {
-    @include breakpoint(medium) {
-      @include font-size(32px, 1.5);
-    }
-  }
+  // p {
+  //   @include breakpoint(medium) {
+  //     @include font-size(32px, 1.5);
+  //   }
+  // }
   // background-color: #c3af59;
   @include breakpoint(medium) {
     // min-height: 598px;
@@ -90,6 +90,15 @@ p.hero__text {
   @include breakpoint(xxlarge) {
     background-position: -500px 0;
   }
+  @include breakpoint(xxxlarge) {
+    background-position: -400px 0;
+  }
+  @include breakpoint(xxxxlarge) {
+    background-position: -100px 0;
+  }
+  @include breakpoint(massive) {
+    background-position: 0 0;
+  }
 }
 
 .diagonals {
@@ -98,14 +107,14 @@ p.hero__text {
       @include font-size(52px);
     }
     p {
-      @include font-size(30px, 1.4);
+      // @include font-size(30px, 1.4);
       padding-left: 50px;
     }
   }
   @include breakpoint(medium) {
     // position: absolute;
     // position: relative;
-    padding: $spacing-unit $spacing-unit quadruple($spacing-unit) rem-calc(200);
+    padding: $spacing-unit $spacing-unit rem-calc(94) rem-calc(200);
     // padding: $spacing-unit 0 85px 340px;
     // background-color: $color-white;
     background-image: url('../images/hero-diagonal-bars-2.png');
@@ -118,6 +127,7 @@ p.hero__text {
     padding: $spacing-unit 0 quadruple($spacing-unit) rem-calc(300);
     background-position: 0 0;
     p {
+      @include font-size(32px, 1.5);
       padding-left: 100px;
     }
     // padding-left: 400px;

@@ -10,3 +10,12 @@
 [data-whatinput="touch"] a:focus, button:focus {
   outline: none;
 }
+
+.link-red {
+  a {
+    color: $color-red-dark;
+    &:hover {
+      color: $color-red;
+    }
+  }
+}

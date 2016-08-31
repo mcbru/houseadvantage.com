@@ -23,57 +23,42 @@ get_header(); ?>
   </div>
 </header>
 
-<section class="[ band  band--special  link-red ]">
+<section class="[ band  band--tint  link-red ]">
   <div class="row  column">
-    <h2 class="text-center">Latest News</h2>
+    <h2 class="text-center  u-mb+">Latest News</h2>
   </div>
   <div class="row">
-    <div class="small-12  medium-4  column">
-      <div class="news-block">
-        <span class="feature-icon  feature-icon--small">
-          <span class="icon">
-            <svg class="icon__item--red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.86,10.11v.83a3,3,0,0,1-2.73,2.84v.84H6v1H3.16v-1H4v-.84a3,3,0,0,1-2.73-2.84v-.83a.53.53,0,0,1,.56-.49.53.53,0,0,1,.56.49v.83a2.05,2.05,0,0,0,2.17,1.91,2.06,2.06,0,0,0,2.18-1.91v-.83a.56.56,0,0,1,1.12,0Z"/><path d="M4.56,5.86A1.58,1.58,0,0,0,2.89,7.33V10.7a1.58,1.58,0,0,0,1.68,1.47A1.58,1.58,0,0,0,6.24,10.7V7.33A1.58,1.58,0,0,0,4.56,5.86Z"/><path d="M6.63,5a.33.33,0,0,0,0-.14,2.23,2.23,0,0,0-2-1.2h0a2.24,2.24,0,0,0-2,1.17.33.33,0,0,0,.21.46.42.42,0,0,0,.52-.18,1.44,1.44,0,0,1,1.31-.75h0a1.44,1.44,0,0,1,1.3.77.41.41,0,0,0,.52.19A.35.35,0,0,0,6.63,5Z"/><path d="M7.53,3.93a.34.34,0,0,0,.19-.29.31.31,0,0,0-.06-.18A3.75,3.75,0,0,0,4.59,1.95h0A3.77,3.77,0,0,0,1.46,3.41a.32.32,0,0,0,.12.48.43.43,0,0,0,.55-.1A3,3,0,0,1,4.55,2.64h0A3,3,0,0,1,7,3.82.43.43,0,0,0,7.53,3.93Z"/><path d="M9.07,2.65A5.38,5.38,0,0,0,4.6.41h0A5.41,5.41,0,0,0,.06,2.6a.33.33,0,0,0,.13.48A.43.43,0,0,0,.74,3,4.59,4.59,0,0,1,4.56,1.1h0A4.58,4.58,0,0,1,8.39,3a.43.43,0,0,0,.54.12.34.34,0,0,0,.19-.3A.31.31,0,0,0,9.07,2.65Z"/></svg>
-          </span>
-        </span>
+    <div class="small-12  large-4  column">
+      <div class="news-block  news-block--news">
         <h3 class="epsilon">News</h3>
         <?php $cat_id = 5; // News has category ID of 5
         $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();
         // $thetitle = the_title();
         echo '<time datetime="' . get_the_time( 'c' ) . '">' . sprintf( __( '%s', 'foundationpress' ), get_the_date(), get_the_time() ) . '</time>'; ?>
-          <p class="lato"><a href="<?php the_permalink(); ?>"><?php echo myTruncateNoLink(get_the_title(),100); ?></a></p>
+          <p class="lato"><a href="<?php the_permalink(); ?>"><?php echo myTruncateNoLink(get_the_title(),110); ?></a></p>
         <?php endwhile; endif; ?>
       </div>
     </div>
-    <div class="small-12  medium-4  column">
-      <div class="news-block">
-        <span class="feature-icon  feature-icon--small">
-          <span class="icon">
-            <svg class="icon__item--red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.74,1.39a.6.6,0,0,1,.52,0l3.67,2a.16.16,0,0,0,.27-.15V2.83a.56.56,0,0,0-.26-.44L8.26.36a.6.6,0,0,0-.52,0l-3.67,2a.56.56,0,0,0-.26.44v.43a.16.16,0,0,0,.26.15Z"/><path d="M3.06,13a1,1,0,0,1,.3.74v2H6.9V11.3a1,1,0,0,0-.3-.74L2.82,7.37l-.08-.1,0-.05A.83.83,0,0,0,1.51,8.4L4,10.91H4a.17.17,0,1,1-.25.25h0L1.26,8.65A1.18,1.18,0,0,1,2.51,6.72V3.35a1,1,0,0,0-2.09,0L.2,9.18a1,1,0,0,0,.3.74Z"/><path d="M12.64,15.7v-2a1,1,0,0,1,.3-.74l2.55-3a1,1,0,0,0,.3-.74l-.21-5.83a1,1,0,0,0-2.09,0V6.72a1.17,1.17,0,0,1,1.25,1.93l-2.5,2.5h0A.17.17,0,0,1,12,10.9h0l2.5-2.5a.83.83,0,1,0-1.17-1.17l0,.05-.08.1L9.41,10.57a1,1,0,0,0-.3.73v4.4h3.53Z"/><path d="M7,8.1V4.45H9V8.1h2.47V3.87a.56.56,0,0,0-.26-.44l-3-1.63a.6.6,0,0,0-.52,0l-3,1.63a.56.56,0,0,0-.26.44V8.1Z"/></svg>
-          </span>
-        </span>
+    <div class="small-12  large-4  column">
+      <div class="news-block  news-block--community">
         <h3 class="epsilon">Community</h3>
         <?php $cat_id = 4; // Community has category ID of 4
         $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();
         echo '<time datetime="' . get_the_time( 'c' ) . '">' . sprintf( __( '%s', 'foundationpress' ), get_the_date(), get_the_time() ) . '</time>'; ?>
-          <p class="lato"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+          <p class="lato"><a href="<?php the_permalink(); ?>"><?php echo myTruncateNoLink(get_the_title(),110); ?></a></p>
         <?php endwhile; endif; ?>
       </div>
     </div>
-    <div class="small-12  medium-4  column">
-      <div class="news-block">
-        <span class="feature-icon  feature-icon--small">
-          <span class="icon">
-            <svg class="icon__item--red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M15.9,6.7a.85.85,0,0,0,0-.7l-.7-.7c-.1-.1-.2-.1-.4-.1a.6.6,0,0,0-.4.1L9,10.6V12h1.6Z"/><rect x="3" y="3" width="10" height="1"/><polygon points="3 6 12.3 6 13 5.3 13 5 3 5 3 6"/><rect x="3" y="11" width="5" height="1"/><polygon points="3 8 10.3 8 11.3 7 3 7 3 8"/><path d="M15,9v4a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V3A2,2,0,0,1,3,1H13a2,2,0,0,1,2,2V4.2a1.8,1.8,0,0,1,.9.4l.1.1V3a3,3,0,0,0-3-3H3A3,3,0,0,0,0,3V13a3,3,0,0,0,3,3H13a3,3,0,0,0,3-3V8Z"/><polygon points="3 10 8.3 10 8.4 9.9 9.3 9 3 9 3 10"/></svg>
-          </span>
-        </span>
+    <div class="small-12  large-4  column">
+      <div class="news-block  news-block--blog">
         <h3 class="epsilon">Blog</h3>
         <?php $cat_id = 6; // Blog has category ID of 6
         $latest_cat_post = new WP_Query( array('posts_per_page' => 1, 'category__in' => array($cat_id)));
         if( $latest_cat_post->have_posts() ) : while( $latest_cat_post->have_posts() ) : $latest_cat_post->the_post();
         echo '<time datetime="' . get_the_time( 'c' ) . '">' . sprintf( __( '%s', 'foundationpress' ), get_the_date(), get_the_time() ) . '</time>'; ?>
-          <p class="lato"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+          <p class="lato"><a href="<?php the_permalink(); ?>"><?php echo myTruncateNoLink(get_the_title(),110); ?></a></p>
         <?php endwhile; endif; ?>
       </div>
     </div>

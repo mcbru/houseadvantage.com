@@ -8,10 +8,12 @@ get_header(); ?>
 
 <header class="hero  hero__image  hero__image--red-1  text-center  u-pt++" role="banner">
   <div class="row  column">
-      <?php foundationpress_entry_meta(); ?>
-    <h1>
-      <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-    </h1>
+      <div class="entry-meta-container">
+        <?php foundationpress_entry_meta(); ?>
+      </div>
+      <h1>
+        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+      </h1>
   </div>
 </header>
 
@@ -34,7 +36,11 @@ get_header(); ?>
           <!-- <article class="main&#45;content"> -->
           <div class="post-list" data-equalizer-watch>
             <div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry, post-list__item'); ?>>
-                <?php foundationpress_entry_meta(); ?>
+                <div class="entry-meta-container">
+                  <div class="entry-meta">
+                    <?php foundationpress_entry_meta(); ?>
+                  </div>
+                </div>
                 <h2>
                   <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h2>

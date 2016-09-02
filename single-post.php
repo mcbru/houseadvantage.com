@@ -10,7 +10,9 @@ get_header(); ?>
 
 <header class="hero  hero__image  hero__image--red-1  text-center  u-pt++" role="banner">
   <div class="row  column">
-    <?php foundationpress_entry_meta(); ?>
+    <div class="entry-meta-container">
+      <?php foundationpress_entry_meta(); ?>
+    </div>
     <h1 class="hero__text"><?php the_title(); ?></h1>
   </div>
 </header>

@@ -63,7 +63,7 @@ $(function(){
       var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
       $('#number-games').animateNumber(
       {
-        number: 100000,
+        number: 150000,
         // 'font-size': '40px',
         // easing: 'easeOutExpo',
         color: 'white',
@@ -75,7 +75,7 @@ $(function(){
     setTimeout(function() {
       $('#number-hotels').animateNumber(
       {
-        number: 50000,
+        number: 70000,
         // 'font-size': '40px',
         color: 'white',
         easing: 'easeOutExpo',
@@ -87,7 +87,7 @@ $(function(){
     setTimeout(function() {
       $('#number-food').animateNumber(
       {
-        number: 300,
+        number: 600,
         // 'font-size': '40px',
         color: 'white',
         easing: 'easeOutExpo',

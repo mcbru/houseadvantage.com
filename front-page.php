@@ -114,7 +114,7 @@ get_header(); ?>
         </span>
       </span>
       <span id="number-games" class="stat">0</span>
-      <p>Processing every gaming rating and patron spend for over 100,000 slot and gaming tables while calculating, publishing and redeeming earned rewards in real time.</p>
+      <p>Processing every gaming rating and patron spend for over 150,000 slot and gaming tables while calculating, publishing and redeeming earned rewards in real time.</p>
     </div>
     <div class="medium-6  large-3  column" data-equalizer-watch>
       <span class="feature-icon  feature-icon--stat">
@@ -123,7 +123,7 @@ get_header(); ?>
         </span>
       </span>
       <span id="number-hotels" class="stat">0</span>
-      <p>Tracking and rewarding patron spends at nearly 50,000 hotels for rooms, spas and retail outlets.</p>
+      <p>Tracking and rewarding patron spend at nearly 70,000 hotels for rooms, spas and retail outlets.</p>
     </div>
     <div class="medium-6  large-3  column" data-equalizer-watch>
       <span class="feature-icon  feature-icon--stat">
@@ -132,7 +132,7 @@ get_header(); ?>
         </span>
       </span>
       <span id="number-food" class="stat">0</span>
-      <p>Integrates over 300 food and beverage operations, allowing patrons to earn and redeem rewards directly through point of sale systems.</p>
+      <p>Integrates over 600 food and beverage operations, allowing patrons to earn and redeem rewards directly through point of sale systems.</p>
     </div>
     <p>When your loyalty program is critical for success, trust the expertise and leadership of House Advantage.</p>
   </div>

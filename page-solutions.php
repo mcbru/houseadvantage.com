@@ -140,7 +140,111 @@ get_header(); ?>
     <div class="medium-8  medium-pull-4  column">
       <h2 id="services">Advanced Loyalty Strategy Services</h2>
       <p><strong>House Advantage</strong> is your “always-on” partner for excellence implementing, managing, and optimizing your loyalty program. The breadth of our expertise allows us to deploy and configure the HALo solution to meet specific requirements and goals. Find out how <strong>House Advantage</strong> can address your technical and business needs for loyalty solutions.</p>
-      <!-- <a href="contact" class="button  hvr&#45;sweep&#45;to&#45;right  hvr&#45;sweep&#45;to&#45;right&#45;&#45;gold">Contact Us</a> -->
+    </div>
+  </div>
+  <div class="[ band  band--small ]">
+    <div class="nugget-group">
+      <div class="row  small-up-1  medium-up-2">
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-new-product-development.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">New Product Development</h3>
+              <p>For brands looking to expand their loyalty marketing footprint with the development of a customized product, House Advantage brings a wealth of expertise in product design and development. From product strategy to real-world design and production of cards or currency, House Advantage has you covered.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-loyalty-program-design.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Loyalty Program Design</h3>
+              <p>Starting with strategy and an unmatched understanding of the customer data infrastructure, organizational resources and proven best practices that deliver loyalty success, House Advantage builds loyalty programs to best fit your loyalty strategy objectives.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-loyalty-strategy-enhancements.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Loyalty Strategy Enhancements</h3>
+              <p>With House Advantage, you gain an objective partner and an expert resource to analyze and prioritize opportunities for refining or expanding your loyalty program and customer engagement approach.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-database-diagnostics-audience-analysis.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Audience Analysis and Optimization</h3>
+              <p>We bring deep experience in the optimization of critical databases. From issue diagnosis to data collection strategies, patron segmentation to data hygiene, House Advantage brings clarity and structure to your data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-location-based-marketing.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Location-Based Marketing</h3>
+              <p>House Advantage is an expert in strategy and integration to tap new technologies for location-based services into your customer engagement efforts, from location detection software to physical infrastructure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-merge-detection-data-hygiene.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Merge Detection and Data Hygiene</h3>
+              <p>Avoid duplicate records, incomplete or duplicate data with our holistic process to ensure data cleanliness and consistency from database schema to individual records.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-predictive-marketing-tools.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Predictive Marketing Tools</h3>
+              <p>We pair proven strategies with innovative software tools to support customer interest sensing and deliver marketing offers that anticipate patron rewards based on customer behavior, location and other factors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-program-management-execution.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Program Management and Execution</h3>
+              <p>House Advantage has a staff of seasoned loyalty marketing professionals ready to partner with you and manage and execute any aspect of your program to your exacting standards.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" data-equalizer-watch>
+          <div class="media-object">
+            <div class="media-object-section">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-program-performance-evaluation.png">
+            </div>
+            <div class="media-object-section">
+              <h3 class="delta  red">Program Performance Evaluation</h3>
+              <p>We offer a fresh perspective and an unmatched track record in loyalty program optimization as we holistically assess your program from strategy to execution and give you recommendations with instant impact and long-term value.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

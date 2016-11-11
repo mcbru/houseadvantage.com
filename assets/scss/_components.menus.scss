@@ -14,6 +14,14 @@
   }
 }
 
+.menu {
+  > li.no-link {
+    padding: 0.7rem 1rem 0.7rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
 .product-menu {
   .menu-text {
     padding: 0;

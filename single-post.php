@@ -48,6 +48,30 @@ get_header(); ?>
       <?php comments_template(); ?>
       <?php do_action( 'foundationpress_post_after_comments' ); ?>
     </article>
+
+    <ul class="menu">
+      <?php
+        $nam = $post->post_title;
+        $erl = get_permalink($post->ID);
+      ?>
+      <li class="no-link">Share this</li>
+      <li>
+        <a href="https://twitter.com/share?text=<?php echo $nam; ?>&url=<?php echo $erl; ?>" target="_blank" title='Share "<?php echo $nam; ?>" on Twitter'>
+          <i class="fa  fa-twitter  fa-lg"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $erl; ?>" target="_blank">
+          <i class="fa  fa-facebook  fa-lg" title='Share "<?php echo $nam; ?>" on Facebook'></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $erl; ?>&title=<?php echo $nam; ?>" target="_blank" title='Share "<?php echo $nam; ?>" on LinkedIn'>
+          <i class="fa  fa-linkedin  fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+
   <?php endwhile;?>
 
   <?php do_action( 'foundationpress_after_content' ); ?>

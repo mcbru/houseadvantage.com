@@ -51,22 +51,22 @@ get_header(); ?>
 
     <ul class="menu">
       <?php
-        $nam = $post->post_title;
-        $erl = get_permalink($post->ID);
+        $post_title = $post->post_title;
+        $post_link = get_permalink($post->ID);
       ?>
       <li class="no-link">Share this</li>
       <li>
-        <a href="https://twitter.com/share?text=<?php echo $nam; ?>&url=<?php echo $erl; ?>" target="_blank" title='Share "<?php echo $nam; ?>" on Twitter'>
+        <a href="https://twitter.com/share?text=<?php echo $post_title; ?>&url=<?php echo $post_link; ?>" target="_blank" title='Share "<?php echo $post_title; ?>" on Twitter'>
           <i class="fa  fa-twitter  fa-lg"></i>
         </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $erl; ?>" target="_blank">
-          <i class="fa  fa-facebook  fa-lg" title='Share "<?php echo $nam; ?>" on Facebook'></i>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $post_link; ?>" target="_blank">
+          <i class="fa  fa-facebook  fa-lg" title='Share "<?php echo $post_title; ?>" on Facebook'></i>
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $erl; ?>&title=<?php echo $nam; ?>" target="_blank" title='Share "<?php echo $nam; ?>" on LinkedIn'>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $post_link; ?>&title=<?php echo $post_title; ?>" target="_blank" title='Share "<?php echo $post_title; ?>" on LinkedIn'>
           <i class="fa  fa-linkedin  fa-lg"></i>
         </a>
       </li>

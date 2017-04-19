@@ -6,14 +6,16 @@
 
 get_header(); ?>
 
-<header class="hero  hero__image  hero__image--red-1  text-center  u-pt++" role="banner">
+<header class="hero" role="banner">
   <div class="row  column">
-      <div class="entry-meta-container">
-        <?php foundationpress_entry_meta(); ?>
-      </div>
-      <h1>
-        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-      </h1>
+    <?php if ( get_field('hero_head', get_option('page_for_posts')) ) : ?>
+      <h1><?php the_field('hero_head', get_option('page_for_posts')); ?></h1>
+    <?php endif; ?>
+    <?php if ( get_field('hero_subhead', get_option('page_for_posts')) ) : ?>
+      <p><?php the_field('hero_subhead', get_option('page_for_posts')); ?></p>
+    <?php endif; ?>
+  </div>
+  <div class="hero__image  hero__image--red-1">
   </div>
 </header>
 
@@ -22,15 +24,12 @@ get_header(); ?>
     <!-- <div class="medium&#45;9  column"> -->
       <!-- <article class="main&#45;content"> -->
       <?php
-        $loop = new WP_Query(array(
-          'offset' => 1,
-        ));
-      if ( $loop->have_posts() ) : ?>
+      if ( have_posts() ) : ?>
 
       <div class="row  small-up-1  medium-up-2" data-equalizer data-equalize-by-row="true">
 
         <?php /* Start the Loop */ ?>
-        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 
         <div class="column">
           <!-- <article class="main&#45;content"> -->
